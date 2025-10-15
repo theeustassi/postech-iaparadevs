@@ -4,3 +4,6 @@ env/
 
 # Aulas
 Aulas/
+
+# Misc
+setup_conda.ps1
