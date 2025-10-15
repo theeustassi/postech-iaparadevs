@@ -1,0 +1,4 @@
+Modelo,Accuracy,Precision,Recall,F1-Score,AUC-ROC
+CNN Simples,79.17%,75.29%,99.23%,85.62%,0.9538
+VGG16,62.50%,62.50%,100.00%,76.92%,0.6141
+ResNet50,87.82%,88.67%,92.31%,90.45%,0.9296

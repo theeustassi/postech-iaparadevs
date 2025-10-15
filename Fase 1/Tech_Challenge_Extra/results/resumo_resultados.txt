@@ -1,0 +1,25 @@
+======================================================================
+RESUMO DOS RESULTADOS - DETECÇÃO DE PNEUMONIA
+======================================================================
+
+MODELOS TREINADOS:
+1. CNN Simples (Baseline)
+2. VGG16 Transfer Learning
+3. ResNet50 Transfer Learning
+
+======================================================================
+MELHORES MODELOS:
+======================================================================
+Melhor Accuracy:  ResNet50 (87.82%)
+Melhor F1-Score:  ResNet50 (0.9045)
+Melhor AUC-ROC:   CNN Simples (0.9538)
+======================================================================
+
+COMPARAÇÃO COMPLETA:
+
+     Modelo Accuracy Precision  Recall F1-Score AUC-ROC
+CNN Simples   79.17%    75.29%  99.23%   85.62%  0.9538
+      VGG16   62.50%    62.50% 100.00%   76.92%  0.6141
+   ResNet50   87.82%    88.67%  92.31%   90.45%  0.9296
+
+======================================================================

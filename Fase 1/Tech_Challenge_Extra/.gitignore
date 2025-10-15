@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dataset (muito grande para versionar)
+data/chest_xray/
+*.jpeg
+*.jpg
+*.png
+
+# Modelos treinados (muito grandes)
+results/modelos/*.h5
+results/modelos/*.hdf5
+results/modelos/*.keras
+
+# Logs
+*.log
+logs/
+
+# Kaggle
+.kaggle/
+kaggle.json
+
+# TensorFlow
+*.tfevents.*
+*.pb
+
+# Temporary files
+*.tmp
+*.bak
+*.swp

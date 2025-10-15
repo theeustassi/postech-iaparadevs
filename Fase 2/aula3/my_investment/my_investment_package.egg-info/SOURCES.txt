@@ -1,9 +1,0 @@
-README.md
-setup.py
-my_investment/__init__.py
-my_investment/core.py
-my_investment_package.egg-info/PKG-INFO
-my_investment_package.egg-info/SOURCES.txt
-my_investment_package.egg-info/dependency_links.txt
-my_investment_package.egg-info/top_level.txt
-tests/test_core.py
