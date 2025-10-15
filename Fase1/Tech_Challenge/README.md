@@ -47,7 +47,7 @@ Tech/
 **Windows (PowerShell)**:
 ```powershell
 # Clone o repositório
-git clone <seu-repositorio>
+git clone https://github.com/theeustassi/postech-iaparadevs.git
 cd Tech
 
 # Crie um ambiente virtual
@@ -70,7 +70,7 @@ pip install -r requirements.txt
 **Linux/Mac**:
 ```bash
 # Clone o repositório
-git clone <seu-repositorio>
+git clone https://github.com/theeustassi/postech-iaparadevs.git
 cd Tech
 
 # Crie um ambiente virtual

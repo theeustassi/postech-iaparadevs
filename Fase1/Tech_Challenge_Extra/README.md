@@ -75,7 +75,7 @@ Tech_Challenge_Extra/
 
 #### 1. Clone o repositório
 ```powershell
-git clone <seu-repositorio>
+git clone https://github.com/theeustassi/postech-iaparadevs.git
 cd Tech_Challenge_Extra
 ```
 

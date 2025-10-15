@@ -875,8 +875,8 @@ python src/main.py
 ### Apêndice C: Contato e Suporte
 
 Para questões, sugestões ou colaborações relacionadas a este projeto:
-- **Email**: [seu-email]
-- **GitHub**: [seu-repositorio]
+- **Email**: 
+- **GitHub**: [@theeustassi](https://github.com/theeustassi/postech-iaparadevs.git)
 - **Instituição**: FIAP - Pós-Tech IA para Devs
 
 ---
