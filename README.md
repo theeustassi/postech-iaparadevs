@@ -255,7 +255,7 @@ pip install -r requirements.txt
 
 ## 👤 Autor
 
-**Estudante:** Matheus Tassi 
+**Estudante:** Matheus Tassi Souza
 **Turma:** 7IADT  
 **LinkedIn:**  
 **GitHub:** [@theeustassi](https://github.com/theeustassi)
