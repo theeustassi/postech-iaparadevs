@@ -1,16 +1,17 @@
-# 🎓 Pós-Graduação IA para Devs - FIAP
+# Pós-Graduação IA para Devs - FIAP
 
 **Turma:** 7IADT  
 **Instituição:** FIAP - Faculdade de Informática e Administração Paulista  
 **Programa:** Pós Tech - Inteligência Artificial para Desenvolvedores
+**Aluno:** Matheus Tassi Souza - RM367424
 
 ---
 
-## 📖 Sobre este Repositório
+## Sobre este Repositório
 
 Este repositório contém todos os exercícios, projetos e atividades desenvolvidos durante a pós-graduação em **Inteligência Artificial para Desenvolvedores** da FIAP. O programa tem como objetivo capacitar desenvolvedores a aplicar técnicas de IA e Machine Learning em projetos reais, com foco prático e hands-on.
 
-## 🎯 Objetivos do Curso
+## Objetivos do Curso
 
 - Dominar fundamentos de Machine Learning e Deep Learning
 - Aplicar técnicas de IA em problemas reais de negócio
@@ -18,14 +19,14 @@ Este repositório contém todos os exercícios, projetos e atividades desenvolvi
 - Implementar pipelines completos de ML (da coleta de dados ao deploy)
 - Compreender ética e boas práticas em IA
 
-## 📂 Estrutura do Repositório
+## Estrutura do Repositório
 
 ```
 postech-iaparadevs/
 │
 ├── Fase 1/                          # Fundamentos de IA e ML
 │   │
-│   ├── Tech_Challenge/              # 🏥 Projeto: Diagnóstico de Câncer de Mama
+│   ├── Tech_Challenge/              # Projeto: Diagnóstico de Câncer de Mama
 │   │   ├── notebooks/
 │   │   │   └── diagnostico_cancer_mama.ipynb
 │   │   ├── src/
@@ -43,7 +44,7 @@ postech-iaparadevs/
 │   │   ├── INSTRUCOES_ENTREGA.md
 │   │   └── requirements.txt
 │   │
-│   └── Tech_Challenge_Extra/        # 🫁 Projeto Extra: Detecção de Pneumonia
+│   └── Tech_Challenge_Extra/        # Projeto Extra: Detecção de Pneumonia
 │       ├── notebooks/
 │       │   ├── 01_exploracao_dados.ipynb
 │       │   └── 02_treinamento_modelo.ipynb
@@ -67,23 +68,23 @@ postech-iaparadevs/
 │       ├── INSTRUCOES_EXECUCAO.md
 │       └── requirements.txt
 │
-└── README.md                        # 📖 Este arquivo (documentação principal)
+└── README.md                        # Este arquivo (documentação principal)
 ```
 
-### 📊 Resumo Rápido
+### Resumo Rápido
 
 | Projeto | Tipo | Tecnologia Principal | Notebooks | Status |
 |---------|------|---------------------|-----------|---------|
-| **Tech Challenge** | Machine Learning | Scikit-learn | 1 | ✅ Concluído |
-| **Tech Challenge Extra** | Deep Learning | TensorFlow/Keras | 2 | ✅ Concluído |
+| **Tech Challenge** | Machine Learning | Scikit-learn | 1 | Concluído |
+| **Tech Challenge Extra** | Deep Learning | TensorFlow/Keras | 2 | Concluído |
 
 **Observação:** A pasta `data/` não está versionada (incluída no `.gitignore`) devido ao tamanho dos datasets.
 
 ---
 
-## 🚀 Projetos em Destaque
+## Projetos em Destaque
 
-### 🏥 Tech Challenge - Diagnóstico de Câncer de Mama
+### Tech Challenge - Diagnóstico de Câncer de Mama
 **Tecnologias:** Python, Scikit-learn, Pandas, Matplotlib  
 **Descrição:** Sistema de Machine Learning para auxiliar no diagnóstico de câncer de mama usando o dataset Wisconsin Breast Cancer.
 
@@ -97,7 +98,7 @@ postech-iaparadevs/
 
 ---
 
-### 🫁 Tech Challenge EXTRA - Detecção de Pneumonia por Visão Computacional
+### Tech Challenge EXTRA - Detecção de Pneumonia por Visão Computacional
 **Tecnologias:** Python, TensorFlow, Keras, CNN, Transfer Learning  
 **Descrição:** Sistema de Deep Learning para detectar pneumonia em radiografias de tórax usando Redes Neurais Convolucionais.
 
@@ -113,17 +114,17 @@ postech-iaparadevs/
 | ResNet50 | **87.82%** | **88.67%** | 92.31% | **0.9045** | 0.9296 |
 
 **Destaques:**
-- ✅ Melhor modelo: ResNet50 com 87.82% de accuracy
-- ✅ CNN Simples com recall de 99.23% (excelente para triagem)
-- ✅ Pipeline completo de pré-processamento
-- ✅ Data augmentation para robustez
-- ✅ Avaliação com métricas médicas apropriadas
+- Melhor modelo: ResNet50 com 87.82% de accuracy
+- CNN Simples com recall de 99.23% (excelente para triagem)
+- Pipeline completo de pré-processamento
+- Data augmentation para robustez
+- Avaliação com métricas médicas apropriadas
 
 📂 [Ver projeto completo](./Fase%201/Tech_Challenge_Extra/)
 
 ---
 
-## 🛠️ Tecnologias e Ferramentas
+## Tecnologias e Ferramentas
 
 ### Linguagens
 - Python 3.9+
@@ -154,7 +155,7 @@ postech-iaparadevs/
 
 ---
 
-## 🎓 Habilidades Desenvolvidas
+## Habilidades Desenvolvidas
 
 ### Machine Learning
 - [x] Análise Exploratória de Dados (EDA)
@@ -193,7 +194,7 @@ postech-iaparadevs/
 
 ---
 
-## 🚀 Como Usar Este Repositório
+## Como Usar Este Repositório
 
 ### Pré-requisitos
 ```bash
@@ -236,14 +237,14 @@ pip install -r requirements.txt
 
 ---
 
-## 📝 Convenções do Repositório
+## Convenções do Repositório
 
 ### Documentação
-- ✅ Cada projeto tem README próprio com instruções completas
-- ✅ Relatórios técnicos detalhados em Markdown
-- ✅ Código bem comentado e organizado
-- ✅ Docstrings em todas as funções importantes
-- ✅ Notebooks com células markdown explicativas
+- Cada projeto tem README próprio com instruções completas
+- Relatórios técnicos detalhados em Markdown
+- Código bem comentado e organizado
+- Docstrings em todas as funções importantes
+- Notebooks com células markdown explicativas
 
 ### Commits
 - Commits em português
@@ -262,7 +263,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📄 Licença
+## Licença
 
 Este repositório é para fins educacionais como parte da pós-graduação da FIAP.
 
@@ -275,7 +276,7 @@ Este repositório é para fins educacionais como parte da pós-graduação da FI
 
 <div align="center">
 
-### 🌟 Se este repositório foi útil, considere dar uma estrela! ⭐
+### Se este repositório foi útil, considere dar uma estrela!
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-2.10-orange.svg)

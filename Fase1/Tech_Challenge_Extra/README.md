@@ -1,12 +1,12 @@
-# 🫁 Sistema de Detecção de Pneumonia em Raios-X
+# Sistema de Detecção de Pneumonia em Raios-X
 
 ## Tech Challenge EXTRA - Fase 1 | FIAP Pós-Tech IA para Devs
 
-Bem-vindo ao projeto extra do Tech Challenge! 🎉
+Bem-vindo ao projeto extra do Tech Challenge!
 
 Este projeto usa **Visão Computacional** e **Redes Neurais Convolucionais (CNN)** para detectar pneumonia em imagens de raios-X do tórax. É um exemplo prático de como a inteligência artificial pode ajudar profissionais da saúde na análise de exames médicos.
 
-## 🎯 O que esse projeto faz?
+## O que esse projeto faz?
 
 O sistema analisa imagens de radiografias de tórax e classifica em duas categorias:
 - **NORMAL**: Pulmões saudáveis
@@ -16,13 +16,13 @@ Nós usamos redes neurais profundas que "aprendem" a reconhecer padrões nas ima
 
 ### Como funciona?
 
-1. 📸 **Recebe**: Uma imagem de raio-X do tórax
-2. 🧠 **Processa**: A CNN analisa a imagem em várias camadas, detectando características
-3. ✅ **Classifica**: Retorna se é NORMAL ou PNEUMONIA com um nível de confiança
+1. Recebe: Uma imagem de raio-X do tórax
+2. Processa: A CNN analisa a imagem em várias camadas, detectando características
+3. Classifica: Retorna se é NORMAL ou PNEUMONIA com um nível de confiança
 
-> ⚕️ **IMPORTANTE**: Este é um projeto acadêmico para fins educacionais. Na prática médica real, diagnósticos devem sempre ser realizados por profissionais qualificados. Este sistema serve apenas como ferramenta de apoio à decisão!
+> **IMPORTANTE**: Este é um projeto acadêmico para fins educacionais. Na prática médica real, diagnósticos devem sempre ser realizados por profissionais qualificados. Este sistema serve apenas como ferramenta de apoio à decisão!
 
-## 📊 Dataset
+## Dataset
 
 Utilizamos o dataset **Chest X-Ray Images (Pneumonia)** do Kaggle:
 - 5,863 imagens de raios-X em formato JPEG
@@ -35,7 +35,7 @@ Utilizamos o dataset **Chest X-Ray Images (Pneumonia)** do Kaggle:
 - Validation: ~16 imagens  
 - Test: ~624 imagens
 
-## 🏗️ Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 Tech_Challenge_Extra/
@@ -64,7 +64,7 @@ Tech_Challenge_Extra/
 └── README.md
 ```
 
-## 🚀 Como usar
+## Como usar
 
 ### Pré-requisitos
 - Python 3.9 ou superior
@@ -133,7 +133,7 @@ docker run -p 8888:8888 -v ${PWD}:/workspace pneumonia-detector
 - Excelente para datasets médicos
 - Alto desempenho
 
-## 📈 Métricas de Avaliação
+## Métricas de Avaliação
 
 Avaliamos os modelos usando:
 - **Accuracy**: Precisão geral
@@ -143,36 +143,36 @@ Avaliamos os modelos usando:
 - **Confusion Matrix**: Visualização de acertos e erros
 - **ROC Curve & AUC**: Capacidade de discriminação do modelo
 
-> 💡 No contexto médico, o **Recall** é crítico! É melhor ter alguns falsos positivos (dizer que tem pneumonia quando não tem) do que falsos negativos (não detectar uma pneumonia real).
+> No contexto médico, o **Recall** é crítico! É melhor ter alguns falsos positivos (dizer que tem pneumonia quando não tem) do que falsos negativos (não detectar uma pneumonia real).
 
-## 📊 Resultados Obtidos
+## Resultados Obtidos
 
 Treinamos 3 modelos diferentes e obtivemos os seguintes resultados:
 
 | Modelo | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |--------|----------|-----------|--------|----------|---------|
-| **CNN Simples** | 79.17% | 75.29% | **99.23%** ⭐ | 85.62% | **0.9538** ⭐ |
+| **CNN Simples** | 79.17% | 75.29% | **99.23%** | 85.62% | **0.9538** |
 | **VGG16** | 62.50% | 62.50% | 100.00% | 76.92% | 0.6141 |
-| **ResNet50** | **87.82%** ⭐ | **88.67%** ⭐ | 92.31% | **90.45%** ⭐ | 0.9296 |
+| **ResNet50** | **87.82%** | **88.67%** | 92.31% | **90.45%** | 0.9296 |
 
-### 🏆 Modelo Recomendado: **ResNet50**
+### Modelo Recomendado: **ResNet50**
 
 **Por quê?**
-- ✅ **Melhor accuracy geral**: 87.82%
-- ✅ **Melhor precision**: 88.67% (menos falsos positivos)
-- ✅ **Excelente recall**: 92.31% (detecta 92% dos casos de pneumonia)
-- ✅ **Melhor F1-Score**: 90.45% (melhor equilíbrio)
+- Melhor accuracy geral: 87.82%
+- Melhor precision: 88.67% (menos falsos positivos)
+- Excelente recall: 92.31% (detecta 92% dos casos de pneumonia)
+- Melhor F1-Score: 90.45% (melhor equilíbrio)
 
 **CNN Simples também é excelente para:**
-- 🎯 **Triagem inicial**: Recall de 99.23% (quase não perde nenhum caso!)
-- 🎯 **Melhor AUC-ROC**: 0.9538 (excelente capacidade discriminativa)
+- Triagem inicial: Recall de 99.23% (quase não perde nenhum caso!)
+- Melhor AUC-ROC: 0.9538 (excelente capacidade discriminativa)
 
 **VGG16 teve problemas:**
-- ⚠️ Classificou quase tudo como PNEUMONIA
-- ⚠️ Precision para NORMAL = 0%
-- ⚠️ Necessita ajustes e retreinamento
+- Classificou quase tudo como PNEUMONIA
+- Precision para NORMAL = 0%
+- Necessita ajustes e retreinamento
 
-### 💡 Insights Importantes
+### Insights Importantes
 
 1. **Transfer Learning funcionou!** ResNet50 (87.82%) >> CNN Simples (79.17%)
 2. **Trade-off Precision vs Recall**: CNN tem recall altíssimo mas mais falsos positivos
@@ -182,18 +182,18 @@ Treinamos 3 modelos diferentes e obtivemos os seguintes resultados:
 
 Veja análise completa no [RELATORIO_TECNICO.md](RELATORIO_TECNICO.md)!
 
-## 🎓 Conceitos Aprendidos
+## Conceitos Aprendidos
 
 Este projeto aborda:
-- ✅ Processamento de imagens médicas
-- ✅ Redes Neurais Convolucionais (CNN)
-- ✅ Transfer Learning
-- ✅ Data Augmentation
-- ✅ Overfitting e técnicas de regularização
-- ✅ Métricas para problemas de classificação desbalanceados
-- ✅ Visualização de resultados com Grad-CAM
+- Processamento de imagens médicas
+- Redes Neurais Convolucionais (CNN)
+- Transfer Learning
+- Data Augmentation
+- Overfitting e técnicas de regularização
+- Métricas para problemas de classificação desbalanceados
+- Visualização de resultados com Grad-CAM
 
-## 📚 Próximos Passos
+## Próximos Passos
 
 Ideias para melhorar o projeto:
 - [ ] Implementar ensemble de modelos
@@ -202,15 +202,15 @@ Ideias para melhorar o projeto:
 - [ ] Criar API REST para fazer predições
 - [ ] Deploy em serviço cloud
 
-## 👥 Contribuidores
+## Contribuidores
 
 [Seu nome aqui]
 
-## 📄 Licença
+## Licença
 
 Este projeto é para fins educacionais - FIAP Pós-Tech IA para Devs
 
-## 🙏 Agradecimentos
+## Agradecimentos
 
 - Dataset: Dr. Paul Mooney & Kaggle
 - FIAP pela oportunidade de aprendizado

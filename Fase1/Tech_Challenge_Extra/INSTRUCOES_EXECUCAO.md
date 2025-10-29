@@ -1,24 +1,24 @@
-# 📋 Instruções de Execução - Tech Challenge EXTRA
+# Instruções de Execução - Tech Challenge EXTRA
 
-## 🚀 Guia Passo a Passo para Executar o Projeto
+## Guia Passo a Passo para Executar o Projeto
 
 Este guia detalha todos os passos necessários para executar o projeto de detecção de pneumonia em raios-X.
 
 ---
 
-## ✅ Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter:
 
-- ✅ Python 3.9 ou superior instalado
-- ✅ Git instalado
-- ✅ Conta no Kaggle (para baixar o dataset)
-- ✅ Pelo menos 10 GB de espaço livre em disco
-- ✅ (Opcional) GPU com suporte CUDA para treinamento mais rápido
+- Python 3.9 ou superior instalado
+- Git instalado
+- Conta no Kaggle (para baixar o dataset)
+- Pelo menos 10 GB de espaço livre em disco
+- (Opcional) GPU com suporte CUDA para treinamento mais rápido
 
 ---
 
-## 📥 Passo 1: Clonar o Repositório
+## Passo 1: Clonar o Repositório
 
 ```powershell
 # Clone o repositório
@@ -30,7 +30,7 @@ cd postech-iaparadevs/Tech_Challenge_Extra
 
 ---
 
-## 🐍 Passo 2: Configurar Ambiente Python
+## Passo 2: Configurar Ambiente Python
 
 ### Opção A: Ambiente Virtual (Recomendado)
 
@@ -98,7 +98,7 @@ chmod 600 ~/.kaggle/kaggle.json
 
 ---
 
-## 📦 Passo 4: Baixar o Dataset
+## Passo 4: Baixar o Dataset
 
 ```powershell
 # Executar script de download
@@ -113,14 +113,14 @@ python src/download_dataset.py
 
 **Saída esperada:**
 ```
-🫁 Sistema de Detecção de Pneumonia - Download do Dataset
+Sistema de Detecção de Pneumonia - Download do Dataset
 ============================================================
-📥 Baixando dataset do Kaggle...
-⏳ Isso pode levar alguns minutos dependendo da sua conexão...
-📦 Baixando paultimothymooney/chest-xray-pneumonia...
-✅ Download concluído!
+Baixando dataset do Kaggle...
+Isso pode levar alguns minutos dependendo da sua conexão...
+Baixando paultimothymooney/chest-xray-pneumonia...
+Download concluído!
 
-📊 Estrutura do dataset:
+Estrutura do dataset:
   TRAIN:
     - NORMAL: 1341 imagens
     - PNEUMONIA: 3875 imagens
@@ -131,14 +131,14 @@ python src/download_dataset.py
     - NORMAL: 8 imagens
     - PNEUMONIA: 8 imagens
 
-✨ Dataset pronto para uso em: data/chest_xray
+Dataset pronto para uso em: data/chest_xray
 ============================================================
-✅ Processo finalizado!
+Processo finalizado!
 ```
 
 ---
 
-## 📊 Passo 5: Executar Análise Exploratória
+## Passo 5: Executar Análise Exploratória
 
 ```powershell
 # Iniciar Jupyter Notebook
@@ -152,17 +152,17 @@ jupyter notebook notebooks/
 3. Ou execute todas: **Cell > Run All**
 
 **O que você verá:**
-- ✅ Distribuição das classes
-- ✅ Gráficos de barras e pizza
-- ✅ Amostras de imagens
-- ✅ Análise de dimensões
-- ✅ Distribuição de intensidade dos pixels
+- Distribuição das classes
+- Gráficos de barras e pizza
+- Amostras de imagens
+- Análise de dimensões
+- Distribuição de intensidade dos pixels
 
 **Tempo estimado:** 5-10 minutos
 
 ---
 
-## 🧠 Passo 6: Treinar os Modelos
+## Passo 6: Treinar os Modelos
 
 ### 6.1 Abrir Notebook de Treinamento
 
@@ -176,7 +176,7 @@ No Jupyter Notebook, abra: `02_treinamento_modelo.ipynb`
 Cell > Run All
 ```
 
-⏱️ **Tempo estimado:**
+Tempo estimado:
 - Com GPU: 30-60 minutos
 - Com CPU: 2-4 horas
 
@@ -207,7 +207,7 @@ Execute as células sequencialmente:
 
 ---
 
-## 📈 Passo 7: Analisar Resultados
+## Passo 7: Analisar Resultados
 
 Após o treinamento, você terá:
 

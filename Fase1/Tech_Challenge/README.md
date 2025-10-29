@@ -1,4 +1,4 @@
-# 🏥 Sistema de Apoio ao Diagnóstico de Câncer de Mama
+# Sistema de Apoio ao Diagnóstico de Câncer de Mama
 
 ## Tech Challenge - Fase 1 | FIAP Pós-Tech IA para Devs
 
@@ -8,7 +8,7 @@ Desenvolvemos este sistema como parte do Tech Challenge da FIAP. A ideia aqui é
 
 Basicamente treinamos alguns modelos para analisar dados de células e tentar prever se um tumor é perigoso ou não. É tipo ter um assistente inteligente que olha os dados e dá uma opinião baseada em padrões que aprendeu de casos anteriores.
 
-## 🎯 O que fizemos aqui?
+## O que fizemos aqui?
 
 Nosso sistema:
 - Analisa 30 características diferentes das células (tamanho, textura, formato, etc.)
@@ -16,7 +16,7 @@ Nosso sistema:
 - Explica as decisões usando SHAP (pra gente entender o "porquê" por trás das previsões)
 - Gera gráficos e visualizações bem legais dos resultados
 
-> ⚕️ **Obs importante**: Isso é um trabalho acadêmico! Na vida real, a decisão final sempre tem que ser de um médico de verdade. Nosso modelo é só uma ferramenta de apoio mesmo.
+> **Obs importante**: Isso é um trabalho acadêmico! Na vida real, a decisão final sempre tem que ser de um médico de verdade. Nosso modelo é só uma ferramenta de apoio mesmo.
 
 ### Estrutura do Projeto
 ```
@@ -102,7 +102,7 @@ jupyter notebook notebooks/diagnostico_cancer_mama.ipynb
 python src/main.py
 ```
 
-### 📊 Sobre os Dados
+### Sobre os Dados
 
 Usamos o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área:
 - **Fonte**: [Kaggle/UCI](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
@@ -110,7 +110,7 @@ Usamos o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área
 - **Características**: Coisas como raio médio, textura, perímetro, área, suavidade... tudo extraído de imagens de biópsias
 - **Objetivo**: Classificar se é maligno (M) ou benigno (B)
 
-### 🛠️ Ferramentas que Usamos
+### Ferramentas que Usamos
 
 Trabalhamos com Python e várias bibliotecas:
 - **Pandas** e **NumPy** → para manipular os dados
@@ -119,7 +119,7 @@ Trabalhamos com Python e várias bibliotecas:
 - **SHAP** → entender o que o modelo está "pensando"
 - **Jupyter Notebook** → onde fizemos tudo de forma interativa
 
-### 🤖 Modelos que Testamos
+### Modelos que Testamos
 
 Rodamos 5 algoritmos diferentes pra ver qual seria melhor:
 1. Regressão Logística (o mais simples)
@@ -128,7 +128,7 @@ Rodamos 5 algoritmos diferentes pra ver qual seria melhor:
 4. K-Nearest Neighbors (KNN)
 5. SVM - Support Vector Machine
 
-### 📈 Como Avaliamos
+### Como Avaliamos
 
 Não dá pra confiar só na "acurácia", né? Logo, usamos várias métricas:
 - **Accuracy** → quantos acertamos no geral
@@ -139,7 +139,7 @@ Não dá pra confiar só na "acurácia", né? Logo, usamos várias métricas:
 
 **Recall é a mais importante aqui!** Porque é melhor ter um "alarme falso" do que deixar passar um caso de câncer...
 
-### 🎯 Resultados
+### Resultados
 
 Nosso melhor modelo (SVM) conseguiu:
 - **97.37%** de acurácia
@@ -149,7 +149,7 @@ Nosso melhor modelo (SVM) conseguiu:
 Mais detalhes no notebook e no relatório técnico que fizemos.
 
 ### Autores
-Grupo Tech Challenge - Fase 1
+Matheus Tassi Souza - RM367424
 
 ### Licença
 Este projeto é parte do Tech Challenge da Pós-Tech FIAP.

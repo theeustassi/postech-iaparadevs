@@ -30,7 +30,7 @@ def main():
     df['diagnosis'] = data.target
     df['diagnosis_label'] = df['diagnosis'].map({0: 'M', 1: 'B'})
     
-    print(f"   ✓ Dataset carregado: {df.shape[0]} amostras")
+    print(f"   Dataset carregado: {df.shape[0]} amostras")
     
     # 2. Pré-processamento
     print("\n2. Pré-processamento dos dados...")
@@ -48,14 +48,14 @@ def main():
     X_train_scaled, X_val_scaled = preprocessor.scale_features(X_train, X_val)
     X_train_scaled, X_test_scaled = preprocessor.scale_features(X_train, X_test)
     
-    print("   ✓ Pré-processamento concluído")
+    print("   Pré-processamento concluído")
     
     # 3. Treinamento dos modelos
     print("\n3. Treinamento dos modelos...")
     trainer = ModelTrainer()
     trainer.initialize_models()
     models = trainer.train_all_models(X_train_scaled, y_train, tune_hyperparameters=False)
-    print("   ✓ Modelos treinados")
+    print("   Modelos treinados")
     
     # 4. Avaliação
     print("\n4. Avaliação dos modelos...")
@@ -73,7 +73,7 @@ def main():
     print(comparison_df.to_string(index=False))
     
     best_model_name = comparison_df.iloc[0]['Modelo']
-    print(f"\n🏆 Melhor modelo: {best_model_name}")
+    print(f"\nMelhor modelo: {best_model_name}")
     print(f"   F1-Score: {comparison_df.iloc[0]['F1-Score']:.4f}")
     
     # 6. Salvar modelo
@@ -82,7 +82,7 @@ def main():
     model = trainer.best_models[best_model_name]
     joblib.dump(model, f'../results/{best_model_name.replace(" ", "_").lower()}_model.pkl')
     joblib.dump(preprocessor.scaler, '../results/scaler.pkl')
-    print("   ✓ Modelo salvo")
+    print("   Modelo salvo")
     
     print("\n" + "="*70)
     print("PIPELINE CONCLUÍDO COM SUCESSO!")
