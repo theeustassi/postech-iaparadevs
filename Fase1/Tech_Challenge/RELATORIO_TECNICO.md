@@ -11,8 +11,11 @@ Este projeto desenvolveu um sistema de Machine Learning para auxiliar no diagnó
 ### Resultados Principais
 - **Dataset**: 569 amostras com 30 features numéricas
 - **Modelos avaliados**: 5 algoritmos diferentes
-- **Melhor modelo**: SVM (Support Vector Machine)
-- **Performance**: F1-Score de 96.55% no conjunto de teste
+- **Melhor modelo**: SVM e Logistic Regression (empate técnico)
+- **Accuracy**: 97.37% no conjunto de teste
+- **Recall**: 95.24% (métrica crítica - detecta casos malignos)
+- **F1-Score**: 96.39% no conjunto de teste
+- **ROC-AUC**: 99.54% (excelente capacidade de discriminação)
 - **Interpretabilidade**: Análise SHAP e feature importance implementadas
 
 ---
@@ -409,71 +412,86 @@ No diagnóstico de câncer, os erros têm impactos diferentes:
 
 | Modelo | Accuracy | Precision | Recall | F1-Score | ROC-AUC |
 |--------|----------|-----------|--------|----------|---------|
-| Random Forest | 0.9735 | 0.9565 | 0.9778 | 0.9670 | 0.9954 |
-| Logistic Regression | 0.9735 | 0.9565 | 0.9778 | 0.9670 | 0.9965 |
-| SVM | 0.9645 | 0.9565 | 0.9556 | 0.9560 | 0.9932 |
-| Decision Tree | 0.9469 | 0.9130 | 0.9556 | 0.9339 | 0.9421 |
-| KNN | 0.9557 | 0.9348 | 0.9556 | 0.9451 | 0.9876 |
+| Logistic Regression | 0.9737 | 0.9756 | 0.9524 | 0.9639 | 0.9954 |
+| SVM | 0.9737 | 0.9756 | 0.9524 | 0.9639 | 0.9940 |
+| Random Forest | 0.9561 | 0.9744 | 0.9048 | 0.9383 | 0.9980 |
+| KNN | 0.9474 | 0.9737 | 0.8810 | 0.9250 | 0.9823 |
+| Decision Tree | 0.9035 | 0.8974 | 0.8333 | 0.8642 | 0.8889 |
 
 #### Análise dos Resultados
 
-**🏆 Melhor Modelo: Random Forest / Logistic Regression** (empate técnico)
+**🏆 Melhor Modelo: SVM**
 
 **Destaques**:
-- **Recall**: 97.78% - Identifica quase todos os casos malignos
-- **Precision**: 95.65% - Alta confiabilidade nas predições positivas
-- **F1-Score**: 96.70% - Excelente balanço
-- **ROC-AUC**: 99.54% - Excelente capacidade de discriminação
+- **Accuracy**: 97.37% - Excelente taxa de acerto geral
+- **Recall**: 95.24% - Identifica corretamente 95.24% dos casos malignos
+- **Precision**: 97.56% - Alta confiabilidade nas predições positivas
+- **F1-Score**: 96.39% - Excelente balanço entre precision e recall
+- **ROC-AUC**: 99.54% - Excelente capacidade de discriminação entre classes
 
-**Matriz de Confusão (Random Forest)**:
+**Matriz de Confusão (SVM)**:
 ```
               Predito
            Benigno  Maligno
 Real ┌─────────────────────┐
-Ben. │   70    │    1      │
-Mal. │    1    │   41      │
+Ben. │   71    │    1      │
+Mal. │    2    │   40      │
      └─────────────────────┘
 ```
 
 **Análise de Erros**:
-- **1 Falso Negativo**: Caso maligno classificado como benigno (0.88%)
-- **1 Falso Positivo**: Caso benigno classificado como maligno (1.4%)
-- **Taxa de erro total**: 1.77%
+- **2 Falsos Negativos**: Casos malignos classificados como benignos (4.76%)
+- **1 Falso Positivo**: Caso benigno classificado como maligno (1.39%)
+- **Taxa de erro total**: 2.65%
+
+**Observações Críticas**:
+- O modelo consegue detectar 95.24% dos casos malignos (40 de 42)
+- Apenas 2 casos malignos foram perdidos (falsos negativos)
+- Apenas 1 caso benigno foi classificado incorretamente (falso positivo)
+- A métrica **Recall** de 95.24% é excelente para diagnóstico médico
 
 ---
 
 ## 7. Interpretação dos Resultados
 
-### 7.1 Feature Importance (Random Forest)
+### 7.1 Feature Importance
 
-**Top 10 Features Mais Importantes**:
+#### 7.1.1 Importância por SHAP (SVM)
 
-1. **worst perimeter** (12.3%)
-2. **worst concave points** (11.8%)
-3. **worst radius** (10.5%)
-4. **mean concave points** (9.7%)
-5. **worst area** (8.9%)
-6. **mean perimeter** (7.2%)
-7. **mean radius** (6.8%)
-8. **mean area** (5.4%)
-9. **worst texture** (4.6%)
-10. **worst concavity** (4.1%)
+**Top 10 Features Mais Importantes (SHAP)**:
+
+1. **mean concave points** (0.0416) - Pontos côncavos médios
+2. **worst radius** (0.0394) - Raio máximo
+3. **worst texture** (0.0377) - Textura máxima
+4. **worst perimeter** (0.0339) - Perímetro máximo
+5. **worst area** (0.0329) - Área máxima
+6. **mean concavity** (0.0307) - Concavidade média
+7. **worst concavity** (0.0257) - Concavidade máxima
+8. **mean perimeter** (0.0243) - Perímetro médio
+9. **mean radius** (0.0238) - Raio médio
+10. **worst concave points** (0.0231) - Pontos côncavos máximos
 
 **Insights**:
-- Features relacionadas ao **tamanho** (radius, perimeter, area) são mais importantes
-- **Pontos côncavos** (concave points) são altamente discriminativos
-- Medidas **worst** (piores valores) são mais informativas que médias
-- Tumores malignos tendem a ser maiores e mais irregulares
+- **SHAP vs Correlação Simples**: SHAP captura interações não-lineares do modelo
+- Features relacionadas ao **tamanho** (radius, perimeter, area) são importantes
+- **Pontos côncavos** (concave points) têm impacto significativo nas predições
+- O modelo SVM usa transformações não-lineares que diferenciam a importância
+- Tumores malignos tendem a ser maiores com bordas irregulares
 
-### 7.2 Análise SHAP
+#### 7.1.2 Importância por Correlação com Target
 
-**SHAP (SHapley Additive exPlanations)** fornece explicações locais e globais:
+**Top 5 Features por Correlação**:
 
-#### 7.2.1 Importância Global
-- Confirma resultados da feature importance nativa
-- Mostra direção do impacto (positivo/negativo)
+1. **worst concave points** (0.7936)
+2. **worst perimeter** (0.7829)
+3. **mean concave points** (0.7766)
+4. **worst radius** (0.7765)
+5. **mean perimeter** (0.7426)
 
-#### 7.2.2 Explicações Locais
+**Nota Importante**: SHAP e correlação diferem porque:
+- **SHAP**: Mede impacto nas **predições específicas do modelo SVM** (não-linear)
+- **Correlação**: Mede relação **linear simples** com o diagnóstico
+- A divergência reflete a complexidade e efetividade do modelo
 - Para cada predição, identifica quais features contribuíram
 - Permite entender decisões individuais do modelo
 - Crucial para confiança médica no sistema
@@ -560,8 +578,8 @@ Contribuições negativas (pró-benigno):
 - **Risco à vida**
 
 **Mitigação no Modelo**:
-- Recall de 97.78% minimiza FN
-- Apenas 1 FN em 113 casos de teste
+- Recall de 95.24% minimiza FN
+- Apenas 2 FN em 113 casos de teste (4.76% dos casos malignos)
 - Pode-se ajustar threshold para aumentar sensibilidade
 
 **Procedimento Clínico**:
@@ -578,7 +596,8 @@ Contribuições negativas (pró-benigno):
 - **Não representa risco de vida direto**
 
 **Mitigação**:
-- Precision de 95.65% mantém FP baixos
+- Precision de 97.56% mantém FP baixos
+- Apenas 1 FP em 113 casos de teste
 - Comunicação adequada: "resultado preliminar"
 - Confirmação sempre necessária
 
@@ -586,13 +605,13 @@ Contribuições negativas (pró-benigno):
 
 **Estudos Similares** (Wisconsin Breast Cancer Dataset):
 - Accuracy reportada: 94-98%
-- Meus resultados: 97.35% accuracy
-- **Desempenho comparável ou superior à literatura**
+- Meus resultados: 97.37% accuracy
+- **Desempenho no topo da faixa reportada**
 
 **Deep Learning com Imagens**:
 - CNNs em mamografias: ~95-98% accuracy
-- Meu modelo com features extraídas: ~97% accuracy
-- Trade-off: complexidade vs. interpretabilidade
+- Meu modelo com features extraídas: 97.37% accuracy
+- Trade-off: complexidade vs. interpretabilidade (SHAP)
 
 ### 8.4 Impacto Potencial
 
@@ -618,8 +637,8 @@ Contribuições negativas (pró-benigno):
 **Estimativa de Impacto**:
 - Se aplicado a 10.000 exames/ano
 - Com 37% de casos malignos (3.700 casos)
-- Recall de 97.78%: identificaria 3.618 casos
-- FN de 2.22%: 82 casos não identificados inicialmente
+- Recall de 95.24%: identificaria 3.524 casos
+- FN de 4.76%: 176 casos não identificados inicialmente
 - **Crucial**: Sistema de revisão dupla minimizaria FN
 
 ---

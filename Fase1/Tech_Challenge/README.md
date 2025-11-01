@@ -156,12 +156,24 @@ Não dá pra confiar só na "acurácia". Logo, usei várias métricas:
 
 ### Resultados
 
-Meu melhor modelo (SVM) conseguiu:
-- **97.37%** de acurácia
-- **97.67%** de recall (consegui pegar quase todos os casos malignos!)
-- **95.45%** de precision
+Meu melhor modelo conseguiu:
+- **Accuracy**: 97.37% - Taxa geral de acerto
+- **Precision**: 97.56% - Quando diz que é maligno, está certo 97.56% das vezes
+- **Recall**: 95.24% - Consegui pegar 95.24% dos casos malignos! (apenas 2 em 113 foram perdidos)
+- **F1-Score**: 96.39% - Excelente balanço entre precision e recall
+- **ROC-AUC**: 99.54% - Separação quase perfeita entre as classes
 
-Mais detalhes no notebook e no relatório técnico que desenvolvi.
+**Matriz de Confusão no Conjunto de Teste**:
+```
+              Predito
+           Benigno  Maligno
+Real ┌─────────────────────┐
+Ben. │   71    │    1      │  (71 corretos, 1 falso alarme)
+Mal. │    2    │   40      │  (40 corretos, 2 perdidos)
+     └─────────────────────┘
+```
+
+Mais detalhes (incluindo análise SHAP e comparação Mean vs Worst features) no notebook e no relatório técnico que desenvolvi.
 
 ### Autor
 Matheus Tassi Souza - RM367424
