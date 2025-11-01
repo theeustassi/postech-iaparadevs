@@ -46,7 +46,6 @@ Thumbs.db
 !data/.gitkeep
 
 # Model files (can be large)
-*.pkl
 *.h5
 *.hdf5
 *.pt
