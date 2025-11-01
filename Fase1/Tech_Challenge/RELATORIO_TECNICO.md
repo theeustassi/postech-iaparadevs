@@ -300,12 +300,8 @@ Onde:
 #### Fase 1: Treinamento Base
 - Todos os modelos treinados com parâmetros padrão
 - Avaliação no conjunto de validação
-- Identificação do melhor modelo
-
-#### Fase 2: Otimização de Hiperparâmetros
-- GridSearchCV no melhor modelo
-- Validação cruzada (5-fold)
-- Métrica de otimização: F1-Score
+- Seleção do melhor modelo baseado em **Recall** (métrica mais importante para evitar falsos negativos)
+- Desempate por F1-Score quando houver modelos com Recall idêntico
 - Avaliação final no conjunto de teste
 
 ### 5.3 Justificativa das Escolhas

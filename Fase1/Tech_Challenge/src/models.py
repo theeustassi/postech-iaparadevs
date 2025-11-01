@@ -9,6 +9,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.model_selection import GridSearchCV
+from sklearn.inspection import permutation_importance
 import numpy as np
 
 
@@ -194,9 +195,43 @@ class ModelTrainer:
         """
         model = self.best_models[model_name]
         
+        # Para modelos com feature_importances_ (Random Forest, Decision Tree)
         if hasattr(model, 'feature_importances_'):
             return model.feature_importances_
+        
+        # Para modelos com coeficientes (Logistic Regression, SVM Linear)
         elif hasattr(model, 'coef_'):
-            return np.abs(model.coef_[0])
+            # Retorna o valor absoluto dos coeficientes
+            if len(model.coef_.shape) > 1:
+                return np.abs(model.coef_[0])
+            else:
+                return np.abs(model.coef_)
+        
+        # Se nenhum dos anteriores, retorna None (ex: SVM RBF, KNN)
         else:
             return None
+    
+    def get_permutation_importance(self, model_name, X_test, y_test, n_repeats=10):
+        """
+        Calcula Permutation Importance (funciona com QUALQUER modelo)
+        Ideal para SVM, KNN e outros que não têm feature importance nativa
+        
+        Args:
+            model_name (str): Nome do modelo
+            X_test: Features de teste
+            y_test: Target de teste
+            n_repeats (int): Número de repetições (padrão: 10)
+            
+        Returns:
+            np.array: Importância das features por permutação
+        """
+        model = self.best_models[model_name]
+        
+        perm_importance = permutation_importance(
+            model, X_test, y_test, 
+            n_repeats=n_repeats, 
+            random_state=42,
+            n_jobs=-1
+        )
+        
+        return perm_importance.importances_mean
