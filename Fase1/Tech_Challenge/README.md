@@ -20,19 +20,22 @@ Este sistema:
 
 ### Estrutura do Projeto
 ```
-Tech/
-├── data/
-│   └── breast_cancer_data.csv
+Tech_Challenge/
 ├── notebooks/
 │   └── diagnostico_cancer_mama.ipynb
 ├── src/
+│   ├── __init__.py
 │   ├── preprocessing.py
 │   ├── models.py
-│   └── evaluation.py
+│   ├── evaluation.py
+│   ├── main.py
+│   └── __pycache__/
 ├── results/
-│   └── graficos/
+│   ├── graficos/
+│   └── modelos treinados (.pkl)
 ├── Dockerfile
 ├── requirements.txt
+├── RELATORIO_TECNICO.md
 └── README.md
 ```
 
@@ -105,9 +108,11 @@ python src/main.py
 ### Sobre os Dados
 
 Usamos o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área:
-- **Fonte**: [Kaggle/UCI](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
-- **O que esse dataset contem?**: 569 casos com 30 características numéricas de cada tumor
-- **Características**: Coisas como raio médio, textura, perímetro, área, suavidade... tudo extraído de imagens de biópsias
+- **Fonte**: Vem direto da biblioteca **scikit-learn** (integrado no pacote)
+- **Origem Original**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29) / [Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
+- **Como acessar**: Usa a função `load_breast_cancer()` do sklearn - não requer download de arquivo
+- **Conteúdo**: 569 casos com 30 características numéricas de cada tumor
+- **Características**: Raio médio, textura, perímetro, área, suavidade, compacidade... tudo extraído de imagens de biópsias
 - **Objetivo**: Classificar se é maligno (M) ou benigno (B)
 
 ### Ferramentas que Usei
@@ -148,8 +153,5 @@ Meu melhor modelo (SVM) conseguiu:
 
 Mais detalhes no notebook e no relatório técnico que desenvolvi.
 
-### Autores
+### Autor
 Matheus Tassi Souza - RM367424
-
-### Licença
-Este projeto é parte do Tech Challenge da Pós-Tech FIAP.

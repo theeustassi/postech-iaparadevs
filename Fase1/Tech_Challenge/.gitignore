@@ -53,11 +53,6 @@ Thumbs.db
 *.pth
 *.onnx
 
-# Results
-results/graficos/*.png
-results/graficos/*.jpg
-results/*.pkl
-
 # Logs
 *.log
 logs/

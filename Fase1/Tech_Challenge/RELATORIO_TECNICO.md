@@ -675,81 +675,9 @@ Contribuições negativas (pró-benigno):
 
 ---
 
-## 10. Trabalhos Futuros
+## 10. Conclusões
 
-### 10.1 Melhorias no Modelo
-
-1. **Ensemble Avançado**
-   - Stacking de múltiplos modelos
-   - Weighted voting
-   - Calibração de probabilidades
-
-2. **Deep Learning**
-   - Redes neurais para features tabulares
-   - Integração com CNN para imagens
-   - Transfer learning de modelos pré-treinados
-
-3. **Otimização de Threshold**
-   - Ajustar para maximizar Recall
-   - Análise custo-benefício de FP vs. FN
-   - Diferentes thresholds por contexto clínico
-
-### 10.2 Expansão dos Dados
-
-1. **Mais Dados**
-   - Coletar dados de múltiplas instituições
-   - Aumentar diversidade demográfica
-   - Incluir casos raros e atípicos
-
-2. **Features Adicionais**
-   - Dados clínicos: idade, histórico, sintomas
-   - Resultados de outros exames
-   - Biomarcadores genéticos
-
-3. **Imagens Diretas**
-   - Implementar CNN para análise de imagens de FNA
-   - Processar mamografias, ultrassom, ressonância
-   - Fusão multimodal (imagem + tabular)
-
-### 10.3 Validação e Deploy
-
-1. **Validação Externa**
-   - Testar em dados de hospitais brasileiros
-   - Avaliar em diferentes populações
-   - Estudos prospectivos com acompanhamento
-
-2. **Interface de Usuário**
-   - Aplicação web para médicos
-   - Dashboard com explicações visuais
-   - Integração com sistemas hospitalares (PACS, HIS)
-
-3. **Monitoramento Contínuo**
-   - Tracking de performance em produção
-   - Detecção de drift de dados
-   - Retreinamento automático
-
-### 10.4 Pesquisa Adicional
-
-1. **Interpretabilidade Avançada**
-   - Contrastive explanations
-   - Counterfactual examples
-   - Uncertainty quantification
-
-2. **Fairness e Bias**
-   - Análise de equidade entre grupos demográficos
-   - Mitigação de viés algorítmico
-   - Garantir performance uniforme
-
-3. **Integração Multimodal**
-   - Combinar dados tabulares, imagens e texto
-   - Modelos de atenção para fusão
-   - Explicações integradas
-
----
-
-## 11. Conclusões
-
-### 11.1 Síntese dos Resultados
+### 10.1 Síntese dos Resultados
 
 Este projeto desenvolveu com sucesso um sistema de Machine Learning para classificação de tumores de mama, alcançando:
 
@@ -759,7 +687,7 @@ Este projeto desenvolveu com sucesso um sistema de Machine Learning para classif
 - ✅ **Robustez**: Validado em múltiplos modelos com resultados consistentes
 - ✅ **Reprodutibilidade**: Código modular, documentado e dockerizado
 
-### 11.2 Viabilidade Prática
+### 10.2 Viabilidade Prática
 
 **O modelo PODE ser utilizado na prática, MAS com ressalvas importantes**:
 
@@ -782,7 +710,7 @@ Este projeto desenvolveu com sucesso um sistema de Machine Learning para classif
 - Operar sem revisão humana em casos positivos
 - Ser implementado sem validação local
 
-### 11.3 Mensagem Final
+### 10.3 Mensagem Final
 
 O desenvolvimento de IA para saúde é promissor, mas requer **responsabilidade e rigor**. Este projeto demonstra que:
 
@@ -799,7 +727,7 @@ Com desenvolvimento contínuo, validação rigorosa e implementação responsáv
 
 ---
 
-## 12. Referências
+## 11. Referências
 
 ### Dataset
 - **Wisconsin Breast Cancer Dataset**  
@@ -826,7 +754,7 @@ Com desenvolvimento contínuo, validação rigorosa e implementação responsáv
 
 ---
 
-## 13. Apêndices
+## 12. Apêndices
 
 ### Apêndice A: Estrutura do Projeto
 
@@ -881,6 +809,6 @@ Para questões, sugestões ou colaborações relacionadas a este projeto:
 
 ---
 
-**Data do Relatório**: Outubro de 2025  
+**Data do Relatório**: Novembro de 2025  
 **Versão**: 1.0  
 **Tech Challenge**: Fase 1 - Sistema de Diagnóstico de Câncer de Mama
