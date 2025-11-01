@@ -12,7 +12,7 @@ O sistema analisa imagens de radiografias de tórax e classifica em duas categor
 - **NORMAL**: Pulmões saudáveis
 - **PNEUMONIA**: Presença de pneumonia
 
-Nós usamos redes neurais profundas que "aprendem" a reconhecer padrões nas imagens, similar a como um radiologista aprende durante anos de prática - mas de forma automatizada!
+Eu usei redes neurais profundas que "aprendem" a reconhecer padrões nas imagens, similar a como um radiologista aprende durante anos de prática - mas de forma automatizada!
 
 ### Como funciona?
 
@@ -24,11 +24,12 @@ Nós usamos redes neurais profundas que "aprendem" a reconhecer padrões nas ima
 
 ## Dataset
 
-Utilizamos o dataset **Chest X-Ray Images (Pneumonia)** do Kaggle:
-- 5,863 imagens de raios-X em formato JPEG
-- Divididas em 3 pastas: train, test, val
-- Cada pasta contém subpastas NORMAL e PNEUMONIA
-- Dataset: https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+Utilizei o dataset **Chest X-Ray Images (Pneumonia)** do Kaggle:
+- **Fonte**: [Kaggle - Paul Mooney](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- **Como obter**: Executar `python src/download_dataset.py` (requer credenciais Kaggle API)
+- **Formato**: 5,863 imagens de raios-X em JPEG
+- **Organização**: Divididas em 3 pastas: train, test, val
+- **Classes**: Cada pasta contém subpastas NORMAL e PNEUMONIA
 
 **Distribuição dos dados:**
 - Training: ~5,200 imagens
@@ -40,29 +41,43 @@ Utilizamos o dataset **Chest X-Ray Images (Pneumonia)** do Kaggle:
 ```
 Tech_Challenge_Extra/
 ├── data/
-│   └── chest_xray/           # Dataset (baixado via script)
+│   └── chest_xray/                   # Dataset (baixado via script)
 │       ├── train/
 │       │   ├── NORMAL/
 │       │   └── PNEUMONIA/
 │       ├── test/
+│       │   ├── NORMAL/
+│       │   └── PNEUMONIA/
 │       └── val/
+│           ├── NORMAL/
+│           └── PNEUMONIA/
 ├── notebooks/
-│   ├── 01_exploracao_dados.ipynb      # Análise exploratória
-│   └── 02_treinamento_modelo.ipynb    # Treinamento e avaliação
+│   ├── 01_exploracao_dados.ipynb     # Análise exploratória
+│   └── 02_treinamento_modelo.ipynb   # Treinamento e avaliação
 ├── src/
 │   ├── __init__.py
-│   ├── preprocessing.py      # Pré-processamento de imagens
-│   ├── models.py             # Arquiteturas CNN
-│   ├── evaluation.py         # Métricas e avaliação
-│   └── download_dataset.py   # Script para baixar dados
+│   ├── preprocessing.py              # Pré-processamento de imagens
+│   ├── models.py                     # Arquiteturas CNN
+│   ├── evaluation.py                 # Métricas e avaliação
+│   ├── download_dataset.py           # Script para baixar dados do Kaggle
+│   └── __pycache__/
 ├── results/
-│   ├── graficos/            # Visualizações e gráficos
-│   └── modelos/             # Modelos treinados salvos
+│   ├── graficos/                     # Visualizações e gráficos
+│   ├── modelos/                      # Modelos treinados (.h5)
+│   ├── comparacao_modelos.csv        # Resultados consolidados
+│   └── resumo_resultados.txt
 ├── Dockerfile
 ├── requirements.txt
 ├── RELATORIO_TECNICO.md
 └── README.md
 ```
+
+### Importante sobre o Dataset
+
+⚠️ **O dataset NÃO vem incluído no repositório** por ser muito grande (~2 GB)
+- Use o script `python src/download_dataset.py` para baixar
+- Requer credenciais do Kaggle API configuradas
+- Veja a seção "Como usar" → "Configure o Kaggle API" para instruções
 
 ## Como usar
 
@@ -147,7 +162,7 @@ Avaliamos os modelos usando:
 
 ## Resultados Obtidos
 
-Treinamos 3 modelos diferentes e obtivemos os seguintes resultados:
+Treinei 3 modelos diferentes e obtive os seguintes resultados:
 
 | Modelo | Accuracy | Precision | Recall | F1-Score | AUC-ROC |
 |--------|----------|-----------|--------|----------|---------|
@@ -193,26 +208,5 @@ Este projeto aborda:
 - Métricas para problemas de classificação desbalanceados
 - Visualização de resultados com Grad-CAM
 
-## Próximos Passos
-
-Ideias para melhorar o projeto:
-- [ ] Implementar ensemble de modelos
-- [ ] Adicionar explicabilidade com Grad-CAM
-- [ ] Testar outras arquiteturas (EfficientNet, DenseNet)
-- [ ] Criar API REST para fazer predições
-- [ ] Deploy em serviço cloud
-
-## Contribuidores
-
-[Seu nome aqui]
-
-## Licença
-
-Este projeto é para fins educacionais - FIAP Pós-Tech IA para Devs
-
-## Agradecimentos
-
-- Dataset: Dr. Paul Mooney & Kaggle
-- FIAP pela oportunidade de aprendizado
-- Comunidade open-source de ML
-
+### Autor
+Matheus Tassi Souza - RM367424

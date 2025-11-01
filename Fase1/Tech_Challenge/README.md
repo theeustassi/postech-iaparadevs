@@ -107,7 +107,7 @@ python src/main.py
 
 ### Sobre os Dados
 
-Usamos o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área:
+Usei o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área:
 - **Fonte**: Vem direto da biblioteca **scikit-learn** (integrado no pacote)
 - **Origem Original**: [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/breast+cancer+wisconsin+%28diagnostic%29) / [Kaggle](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data)
 - **Como acessar**: Usa a função `load_breast_cancer()` do sklearn - não requer download de arquivo

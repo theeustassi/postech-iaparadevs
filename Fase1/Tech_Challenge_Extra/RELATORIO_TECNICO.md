@@ -709,7 +709,4 @@ docker run -p 8888:8888 pneumonia-detector
 - **Dropout**: Técnica de regularização que desliga neurônios aleatoriamente
 - **Fine-tuning**: Ajuste fino de modelo pré-treinado
 
----
-
-**Fim do Relatório Técnico**
 
