@@ -585,12 +585,12 @@ Contribuições negativas (pró-benigno):
 
 **Estudos Similares** (Wisconsin Breast Cancer Dataset):
 - Accuracy reportada: 94-98%
-- Nossos resultados: 97.35% accuracy
+- Meus resultados: 97.35% accuracy
 - **Desempenho comparável ou superior à literatura**
 
 **Deep Learning com Imagens**:
 - CNNs em mamografias: ~95-98% accuracy
-- Nosso modelo com features extraídas: ~97% accuracy
+- Meu modelo com features extraídas: ~97% accuracy
 - Trade-off: complexidade vs. interpretabilidade
 
 ### 8.4 Impacto Potencial

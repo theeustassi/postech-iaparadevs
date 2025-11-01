@@ -2,21 +2,21 @@
 
 ## Tech Challenge - Fase 1 | FIAP Pós-Tech IA para Devs
 
-Olá! Bem-vindo ao nosso projeto :)
+Olá! Bem-vindo ao meu projeto!
 
-Desenvolvemos este sistema como parte do Tech Challenge da FIAP. A ideia aqui é usar Machine Learning para ajudar no diagnóstico de câncer de mama - classificando tumores como benignos ou malignos com base em características extraídas de exames de biópsia.
+Desenvolvi este sistema como parte do Tech Challenge da FIAP. A ideia aqui é usar Machine Learning para ajudar no diagnóstico de câncer de mama - classificando tumores como benignos ou malignos com base em características extraídas de exames de biópsia.
 
-Basicamente treinamos alguns modelos para analisar dados de células e tentar prever se um tumor é perigoso ou não. É tipo ter um assistente inteligente que olha os dados e dá uma opinião baseada em padrões que aprendeu de casos anteriores.
+Basicamente treinei alguns modelos para analisar dados de células e tentar prever se um tumor é perigoso ou não. É tipo ter um assistente inteligente que olha os dados e dá uma opinião baseada em padrões que aprendeu de casos anteriores.
 
-## O que fizemos aqui?
+## O que foi feito aqui?
 
-Nosso sistema:
+Este sistema:
 - Analisa 30 características diferentes das células (tamanho, textura, formato, etc.)
 - Testa 5 algoritmos diferentes de ML para ver qual funciona melhor
-- Explica as decisões usando SHAP (pra gente entender o "porquê" por trás das previsões)
-- Gera gráficos e visualizações bem legais dos resultados
+- Explica as decisões usando SHAP (para entender o "porquê" por trás das previsões)
+- Gera gráficos e visualizações dos resultados
 
-> **Obs importante**: Isso é um trabalho acadêmico! Na vida real, a decisão final sempre tem que ser de um médico de verdade. Nosso modelo é só uma ferramenta de apoio mesmo.
+> **Obs importante**: Isso é um trabalho acadêmico! Na vida real, a decisão final sempre tem que ser de um médico de verdade. Este modelo é apenas uma ferramenta de apoio mesmo.
 
 ### Estrutura do Projeto
 ```
@@ -110,30 +110,30 @@ Usamos o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área
 - **Características**: Coisas como raio médio, textura, perímetro, área, suavidade... tudo extraído de imagens de biópsias
 - **Objetivo**: Classificar se é maligno (M) ou benigno (B)
 
-### Ferramentas que Usamos
+### Ferramentas que Usei
 
-Trabalhamos com Python e várias bibliotecas:
+Trabalhei com Python e várias bibliotecas:
 - **Pandas** e **NumPy** → para manipular os dados
 - **Scikit-learn** → para os algoritmos de ML
 - **Matplotlib/Seaborn** → gerar os gráficos
 - **SHAP** → entender o que o modelo está "pensando"
-- **Jupyter Notebook** → onde fizemos tudo de forma interativa
+- **Jupyter Notebook** → onde fiz tudo de forma interativa
 
-### Modelos que Testamos
+### Modelos que Testei
 
-Rodamos 5 algoritmos diferentes pra ver qual seria melhor:
+Rodei 5 algoritmos diferentes pra ver qual seria melhor:
 1. Regressão Logística (o mais simples)
 2. Árvore de Decisão
 3. Random Forest
 4. K-Nearest Neighbors (KNN)
 5. SVM - Support Vector Machine
 
-### Como Avaliamos
+### Como Avaliei
 
-Não dá pra confiar só na "acurácia", né? Logo, usamos várias métricas:
+Não dá pra confiar só na "acurácia". Logo, usei várias métricas:
 - **Accuracy** → quantos acertamos no geral
 - **Precision** → quando dizemos que é maligno, quantos realmente são?
-- **Recall** → de todos os casos malignos, quantos conseguimos pegar?
+- **Recall** → de todos os casos malignos, quantos consegui pegar?
 - **F1-Score** → um balanço entre precision e recall
 - **ROC-AUC** → quão bem o modelo separa as classes
 
@@ -141,12 +141,12 @@ Não dá pra confiar só na "acurácia", né? Logo, usamos várias métricas:
 
 ### Resultados
 
-Nosso melhor modelo (SVM) conseguiu:
+Meu melhor modelo (SVM) conseguiu:
 - **97.37%** de acurácia
-- **97.67%** de recall (pegou quase todos os casos malignos!)
+- **97.67%** de recall (consegui pegar quase todos os casos malignos!)
 - **95.45%** de precision
 
-Mais detalhes no notebook e no relatório técnico que fizemos.
+Mais detalhes no notebook e no relatório técnico que desenvolvi.
 
 ### Autores
 Matheus Tassi Souza - RM367424
