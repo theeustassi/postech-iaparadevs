@@ -115,6 +115,16 @@ Usei o **Wisconsin Breast Cancer Dataset** - um dataset bem conhecido na área:
 - **Características**: Raio médio, textura, perímetro, área, suavidade, compacidade... tudo extraído de imagens de biópsias
 - **Objetivo**: Classificar se é maligno (M) ou benigno (B)
 
+#### Principais Correlações com o Diagnóstico
+As features mais relacionadas com tumores malignos são:
+1. **worst concave points** (0.7936) - Pontos côncavos no "pior" cenário
+2. **worst perimeter** (0.7829) - Perímetro maior
+3. **mean concave points** (0.7766) - Pontos côncavos na média
+4. **worst radius** (0.7765) - Raio maior
+5. **mean perimeter** (0.7426) - Perímetro médio maior
+
+Tumores malignos tendem a ser **maiores** (radius, perimeter, area) e com **bordas mais irregulares** (concave points).
+
 ### Ferramentas que Usei
 
 Trabalhei com Python e várias bibliotecas:

@@ -78,12 +78,12 @@ Para cada núcleo celular, foram calculadas 10 características:
 9. **symmetry** - simetria
 10. **fractal dimension** - dimensão fractal
 
-Para cada característica, foram calculadas:
-- **mean** - média
-- **standard error** - erro padrão
-- **worst** - pior valor (média dos três maiores valores)
+Para cada característica, foram calculadas **3 agregações**:
+- **mean** - valor médio (10 features)
+- **error** - erro padrão (10 features)
+- **worst** - pior valor, calculado como a média dos três maiores valores (10 features)
 
-Total: 10 características × 3 medidas = 30 features
+**Total**: 10 características × 3 agregações = **30 features**
 
 ### 3.4 Análise Exploratória
 
@@ -93,12 +93,17 @@ Total: 10 características × 3 medidas = 30 features
 - Estratificação utilizada na divisão dos dados
 
 #### Correlações Principais
-Features mais correlacionadas com o diagnóstico:
-1. **concave points worst** (0.79)
-2. **perimeter worst** (0.78)
-3. **concave points mean** (0.78)
-4. **radius worst** (0.78)
-5. **area worst** (0.73)
+Features mais correlacionadas com o diagnóstico (em ordem decrescente):
+1. **worst concave points** (0.7936)
+2. **worst perimeter** (0.7829)
+3. **mean concave points** (0.7766)
+4. **worst radius** (0.7765)
+5. **mean perimeter** (0.7426)
+6. **worst area** (0.7338)
+7. **mean radius** (0.7300)
+8. **mean area** (0.7090)
+9. **mean concavity** (0.6964)
+10. **worst concavity** (0.6596)
 
 #### Observações
 - Tumores malignos tendem a ter maior área, perímetro e pontos côncavos
