@@ -1,0 +1,27 @@
+# Core dependencies
+numpy==1.24.3
+pandas==2.0.3
+matplotlib==3.7.2
+seaborn==0.12.2
+
+# Genetic Algorithm & Optimization
+deap==1.4.1
+
+# Visualization
+folium==0.14.0
+plotly==5.17.0
+
+# LLM Integration
+google-generativeai>=0.3.0
+python-dotenv==1.0.0
+
+# Utilities
+tqdm==4.66.1
+
+# Jupyter
+jupyter==1.0.0
+notebook==7.0.6
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0

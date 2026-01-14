@@ -1,0 +1,32 @@
+id,name,lat,lon,demand,priority,service_time
+0,Hospital Central (Depósito),-23.5505,-46.6333,0,CRITICAL,0
+1,UBS Vila Mariana,-23.5880,-46.6380,15,CRITICAL,20
+2,UBS Mooca,-23.5500,-46.5950,10,HIGH,15
+3,UBS Pinheiros,-23.5640,-46.6820,12,HIGH,15
+4,UBS Tatuapé,-23.5400,-46.5750,8,MEDIUM,15
+5,Atendimento Domiciliar Sr. Silva,-23.5650,-46.6450,5,CRITICAL,30
+6,Atendimento Domiciliar Sra. Santos,-23.5750,-46.6150,3,HIGH,25
+7,UBS Ipiranga,-23.5920,-46.6100,10,MEDIUM,15
+8,UBS Santana,-23.5150,-46.6250,7,LOW,15
+9,Clínica Butantã,-23.5690,-46.7230,12,MEDIUM,20
+10,Atendimento Domiciliar Sr. Oliveira,-23.5450,-46.6550,4,HIGH,30
+11,UBS Consolação,-23.5545,-46.6605,14,CRITICAL,20
+12,UBS Lapa,-23.5280,-46.7050,9,HIGH,15
+13,Hospital São Paulo,-23.5988,-46.6422,18,CRITICAL,25
+14,UBS Jabaquara,-23.6140,-46.6420,11,MEDIUM,15
+15,Clínica Vila Madalena,-23.5465,-46.6892,8,HIGH,20
+16,Atendimento Domiciliar Sra. Costa,-23.5320,-46.6780,6,CRITICAL,30
+17,UBS Itaim Bibi,-23.5887,-46.6772,10,HIGH,15
+18,Casa de Repouso Morumbi,-23.6145,-46.7125,16,MEDIUM,25
+19,UBS Penha,-23.5270,-46.5420,7,LOW,15
+20,Atendimento Domiciliar Sr. Pereira,-23.5558,-46.6028,4,HIGH,30
+21,UBS Vila Prudente,-23.5880,-46.5820,9,MEDIUM,15
+22,Clínica Perdizes,-23.5382,-46.6745,12,HIGH,20
+23,UBS Freguesia do Ó,-23.4970,-46.6940,8,LOW,15
+24,Hospital Albert Einstein,-23.5988,-46.7158,20,CRITICAL,30
+25,UBS Cambuci,-23.5658,-46.6185,11,MEDIUM,15
+26,Atendimento Domiciliar Sra. Almeida,-23.5425,-46.7018,5,HIGH,30
+27,UBS Casa Verde,-23.5080,-46.6580,10,LOW,15
+28,Clínica Higienópolis,-23.5450,-46.6588,13,HIGH,20
+29,UBS Saúde,-23.5735,-46.6028,9,MEDIUM,15
+30,Centro de Saúde Bela Vista,-23.5598,-46.6420,11,HIGH,15

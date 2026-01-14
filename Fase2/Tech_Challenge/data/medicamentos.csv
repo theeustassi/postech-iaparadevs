@@ -1,0 +1,31 @@
+id,name,type,priority,typical_demand
+1,Insulina,Medicamento,CRITICAL,2.0
+2,Antibióticos,Medicamento,HIGH,3.0
+3,Analgésicos,Medicamento,MEDIUM,5.0
+4,Luvas Cirúrgicas,Insumo,MEDIUM,10.0
+5,Seringas,Insumo,HIGH,8.0
+6,Máscaras N95,EPI,HIGH,5.0
+7,Álcool em Gel,Insumo,LOW,15.0
+8,Gazes Estéreis,Insumo,MEDIUM,7.0
+9,Medicação Oncológica,Medicamento,CRITICAL,1.5
+10,Vacinas,Medicamento,CRITICAL,3.0
+11,Soro Fisiológico,Medicamento,HIGH,6.0
+12,Anti-hipertensivos,Medicamento,HIGH,4.0
+13,Anticoagulantes,Medicamento,CRITICAL,2.5
+14,Termômetros Digitais,Equipamento,MEDIUM,3.0
+15,Oxímetro de Pulso,Equipamento,HIGH,2.0
+16,Curativos Especiais,Insumo,HIGH,5.0
+17,Luvas de Procedimento,Insumo,LOW,20.0
+18,Avental Descartável,EPI,MEDIUM,8.0
+19,Medicação Cardíaca,Medicamento,CRITICAL,2.0
+20,Antialérgicos,Medicamento,MEDIUM,4.0
+21,Medicação Respiratória,Medicamento,HIGH,3.5
+22,Esparadrapo,Insumo,LOW,10.0
+23,Ataduras,Insumo,MEDIUM,12.0
+24,Agulhas Hipodérmicas,Insumo,HIGH,7.0
+25,Cateter,Insumo,HIGH,4.0
+26,Sonda Nasogástrica,Insumo,MEDIUM,3.0
+27,Medicação Psiquiátrica,Medicamento,HIGH,2.5
+28,Vitaminas Injetáveis,Medicamento,MEDIUM,3.0
+29,Medicação Pediátrica,Medicamento,CRITICAL,3.5
+30,Oxigênio Portátil,Equipamento,CRITICAL,1.0
