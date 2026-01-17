@@ -148,24 +148,25 @@ class RouteOptimizer:
         Usa distância euclidiana simplificada
         
         Returns:
-            Matriz NxN de distâncias
+            Matriz NxN de distâncias (simétrica)
         """
         n = len(self.delivery_points)
         matrix = np.zeros((n, n))
         
+        # Calcular apenas triângulo superior para garantir simetria
         for i in range(n):
-            for j in range(n):
-                if i != j:
-                    p1 = self.delivery_points[i]
-                    p2 = self.delivery_points[j]
-                    
-                    # Distância euclidiana em coordenadas geográficas
-                    # Aproximação: 1 grau ≈ 111 km
-                    lat_diff = (p1.lat - p2.lat) * 111
-                    lon_diff = (p1.lon - p2.lon) * 111 * np.cos(np.radians(p1.lat))
-                    
-                    distance = np.sqrt(lat_diff**2 + lon_diff**2)
-                    matrix[i][j] = distance
+            for j in range(i + 1, n):
+                p1 = self.delivery_points[i]
+                p2 = self.delivery_points[j]
+                
+                # Distância euclidiana em coordenadas geográficas
+                # Aproximação: 1 grau ≈ 111 km
+                lat_diff = (p1.lat - p2.lat) * 111
+                lon_diff = (p1.lon - p2.lon) * 111 * np.cos(np.radians(p1.lat))
+                
+                distance = np.sqrt(lat_diff**2 + lon_diff**2)
+                matrix[i][j] = distance
+                matrix[j][i] = distance  # Garantir simetria
         
         return matrix
     

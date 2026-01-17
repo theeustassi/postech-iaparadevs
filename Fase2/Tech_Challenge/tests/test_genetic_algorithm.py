@@ -19,9 +19,9 @@ class TestGeneticAlgorithm:
     def test_create_individual(self):
         """Testa criação de indivíduo"""
         ga = GeneticAlgorithm(random_seed=42)
-        individual = ga.create_individual(num_points=10, depot=0)
+        individual = ga.create_individual(num_points=11, depot=0)
         
-        assert len(individual.genes) == 12  # 10 pontos + depósito no início e fim
+        assert len(individual.genes) == 12  # 11 pontos totais (10 entregas + 1 depósito) -> depósito no início e fim = 12 genes
         assert individual.genes[0] == 0  # Depósito no início
         assert individual.genes[-1] == 0  # Depósito no fim
         assert individual.fitness == float('inf')  # Não avaliado ainda
@@ -29,7 +29,7 @@ class TestGeneticAlgorithm:
     def test_create_population(self):
         """Testa criação de população"""
         ga = GeneticAlgorithm(population_size=50, random_seed=42)
-        population = ga.create_population(num_points=10, depot=0)
+        population = ga.create_population(num_points=11, depot=0)
         
         assert len(population) == 50
         assert all(isinstance(ind, Individual) for ind in population)
