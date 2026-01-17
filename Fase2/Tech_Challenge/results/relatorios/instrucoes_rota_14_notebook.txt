@@ -1,13 +1,13 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:47
         Veículo: Van 002
         ════════════════════════════════════════════════════════════
         
-        ## Instruções para Motorista de Entrega Médica - Rota UBS Vila Mariana e UBS Penha
+        ## Instruções de Entrega Médica - Motorista Van 002
 
-**Data:** [Inserir Data]
+**Data:** [Inserir Data Atual]
 **Motorista:** [Nome do Motorista]
 **Veículo:** Van 002
 
@@ -17,15 +17,9 @@
 
 Prezado(a) motorista,
 
-Sua missão é realizar a entrega de materiais médicos essenciais para duas Unidades Básicas de Saúde (UBS) em São Paulo. A rota foi otimizada para garantir eficiência e segurança.
+Sua missão hoje é realizar uma entrega médica prioritária para o **Atendimento Domiciliar Sr. Oliveira**. A rota planejada é curta, com uma distância total de **4.58 km** e um tempo estimado de **0.6 horas**. A carga atual representa **55.7%** da capacidade do veículo, indicando espaço para futuras coletas ou entregas, se necessário.
 
-*   **Veículo:** Van 002
-*   **Distância Total:** 25.72 km
-*   **Tempo Estimado:** 1.3 horas
-*   **Número de Entregas:** 2
-*   **Capacidade Utilizada:** 54.2% (Verifique se a carga está bem acomodada e segura)
-
-**Prioridade Geral:** Média. É fundamental cumprir os horários estimados, mas a segurança e a integridade dos materiais são primordiais.
+O foco principal é a entrega eficiente e segura do material médico, garantindo a integridade dos produtos e o cumprimento do tempo de serviço estimado de **30 minutos** no local de entrega.
 
 ---
 
@@ -33,88 +27,75 @@ Sua missão é realizar a entrega de materiais médicos essenciais para duas Uni
 
 Antes de iniciar sua rota, por favor, complete os seguintes itens:
 
-*   [ ] **Veículo:**
-    *   Verificar níveis de óleo, água e combustível.
-    *   Checar a pressão dos pneus e o estado geral dos mesmos.
-    *   Confirmar o funcionamento de luzes, setas, freios e buzina.
-    *   Certificar-se de que os equipamentos de segurança (triângulo, extintor) estão em ordem e acessíveis.
-    *   Verificar se o sistema de refrigeração (se aplicável) está funcionando corretamente.
-*   [ ] **Carga:**
-    *   Confirmar que todos os itens a serem entregues estão presentes e devidamente etiquetados.
-    *   Verificar se os materiais estão acondicionados de forma segura para evitar danos durante o transporte.
-    *   Confirmar a ausência de vazamentos ou danos nas embalagens.
-*   [ ] **Documentação:**
-    *   Portar a documentação do veículo (CRLV) e sua CNH.
-    *   Levar a lista de entregas e os comprovantes de recebimento.
-*   [ ] **Equipamentos:**
-    *   Ter um telefone celular carregado e com acesso à internet.
-    *   Disponibilizar um carregador para o celular.
-    *   Portar álcool em gel e máscaras de proteção.
+*   **Veículo:**
+    *   [ ] Verificação geral do veículo (pneus, freios, fluidos, luzes).
+    *   [ ] Limpeza e organização do compartimento de carga.
+    *   [ ] Equipamentos de segurança (extintor, triângulo, kit de primeiros socorros) em ordem.
+    *   [ ] Documentação do veículo (licença, seguro) em dia e acessível.
+*   **Carga:**
+    *   [ ] Conferência da lista de materiais a serem entregues para o Sr. Oliveira.
+    *   [ ] Verificação da integridade e embalagem dos materiais.
+    *   [ ] Garantia de que os materiais estão devidamente acondicionados para evitar danos durante o transporte.
+*   **Equipamentos:**
+    *   [ ] Carregador de celular e dispositivo de navegação (GPS/Smartphone) com bateria carregada.
+    *   [ ] Formulários de entrega e comprovantes de recebimento.
+*   **Informações:**
+    *   [ ] Revisão completa destas instruções de rota.
+    *   [ ] Confirmação dos contatos de emergência.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-**Ponto de Partida:** [Inserir Endereço de Partida - Ex: Central de Distribuição Logística]
-
-**Entrega 1:**
+**Ponto de Entrega 1:**
 
 *   **Ordem:** 1
-*   **Nome:** UBS Vila Mariana
-*   **Endereço:** Lat: -23.588, Lon: -46.638
-*   **Demanda:** 17.37 kg (aproximadamente)
-*   **Prioridade:** Média
-*   **Tempo Estimado de Serviço:** 20 minutos
-*   **Instruções Adicionais:**
-    *   Ao chegar, apresente-se na recepção e informe que se trata de uma entrega de materiais médicos da [Nome da Instituição].
-    *   Aguarde a conferência dos materiais pela equipe da UBS.
-    *   Obtenha a assinatura no comprovante de entrega.
+*   **Nome:** Atendimento Domiciliar Sr. Oliveira
+*   **Endereço:** Lat: -23.545, Lon: -46.655
+*   **Prioridade:** HIGH
+*   **Tempo de Serviço Estimado:** 30 minutos
 
-**Entrega 2:**
+**Instruções de Rota:**
 
-*   **Ordem:** 2
-*   **Nome:** UBS Penha
-*   **Endereço:** Lat: -23.527, Lon: -46.542
-*   **Demanda:** 9.70 kg (aproximadamente)
-*   **Prioridade:** Média
-*   **Tempo Estimado de Serviço:** 15 minutos
-*   **Instruções Adicionais:**
-    *   Ao chegar, apresente-se na recepção e informe que se trata de uma entrega de materiais médicos da [Nome da Instituição].
-    *   Aguarde a conferência dos materiais pela equipe da UBS.
-    *   Obtenha a assinatura no comprovante de entrega.
+1.  **Saída:** Inicie a rota a partir do seu local de partida atual.
+2.  **Navegação:** Utilize o dispositivo de navegação para o endereço fornecido: Lat: -23.545, Lon: -46.655.
+3.  **Chegada:** Ao chegar ao local de entrega, estacione o veículo de forma segura e acessível.
+4.  **Entrega:**
+    *   Apresente-se ao Sr. Oliveira (ou responsável autorizado) com profissionalismo.
+    *   Confirme a identidade do receptor com base nas informações da entrega.
+    *   Entregue os materiais médicos com cuidado, garantindo que não sejam danificados.
+    *   Solicite a assinatura no comprovante de recebimento.
+5.  **Finalização:** Após a confirmação da entrega e recebimento da assinatura, retorne ao seu ponto de partida ou siga para a próxima instrução, caso haja.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e as leis de trânsito.
-*   **Condições Climáticas:** Adapte sua condução às condições do tempo. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
-*   **Acesso às UBS:** Ao chegar às UBS, estacione o veículo em local seguro e apropriado para carga e descarga, sem obstruir o tráfego.
-*   **Manuseio de Materiais:** Manuseie os materiais com cuidado, evitando quedas ou impactos.
-*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao sair para realizar a entrega. Esteja atento ao seu entorno.
-*   **Não Aceite:** Não aceite pagamentos ou qualquer tipo de gratificação. Sua função é estritamente a entrega dos materiais.
+*   **Direção Defensiva:** Dirija sempre com atenção e respeite as leis de trânsito. Mantenha uma distância segura dos outros veículos.
+*   **Condições Climáticas:** Adapte sua direção às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a cautela.
+*   **Carga Segura:** Certifique-se de que a carga esteja sempre bem fixada e organizada para evitar deslocamentos durante o trajeto.
+*   **Comunicação:** Mantenha-se em contato com a central em caso de qualquer imprevisto ou atraso.
+*   **Segurança Pessoal:** Ao realizar entregas em áreas desconhecidas, esteja atento ao seu redor. Evite deixar o veículo destrancado e sem supervisão.
+*   **Manuseio de Materiais:** Manuseie os materiais médicos com o máximo cuidado, respeitando quaisquer instruções de manuseio especial indicadas nas embalagens.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer imprevisto, acidente ou necessidade de suporte, entre em contato imediatamente:
+Em caso de qualquer emergência, acidente, problema com a carga ou necessidade de assistência, entre em contato imediatamente com:
 
-*   **Coordenador de Logística:**
-    *   Nome: [Nome do Coordenador]
-    *   Telefone: [Número de Telefone do Coordenador]
-*   **Central de Atendimento:**
-    *   Telefone: [Número da Central de Atendimento]
-*   **Serviços de Emergência:**
-    *   Polícia: 190
-    *   Ambulância: 192
-    *   Bombeiros: 193
+*   **Central de Logística:**
+    *   **Telefone:** [Inserir número da Central de Logística]
+    *   **Nome do Contato:** [Inserir nome do responsável na Central]
+*   **Emergência Médica / Bombeiros:**
+    *   **Telefone:** 192 (SAMU) / 193 (Corpo de Bombeiros)
+*   **Polícia:**
+    *   **Telefone:** 190
 
 ---
 
-Agradecemos seu profissionalismo e dedicação em garantir que esses materiais cheguem a quem mais precisa.
+Agradecemos seu compromisso e profissionalismo na execução desta importante missão. Sua dedicação garante a continuidade do cuidado aos pacientes.
 
 Atenciosamente,
 
-**[Nome do Departamento Responsável]**
-**[Nome da Instituição]**
+**Equipe de Logística Hospitalar**

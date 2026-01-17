@@ -1,109 +1,126 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:47
         Veículo: Van 002
         ════════════════════════════════════════════════════════════
         
-        ## Instruções para Motorista de Entrega Médica - Rota 002
+        ## Instruções de Entrega Médica - Van 002
 
-**Data:** [Inserir Data]
-**Motorista:** [Nome do Motorista]
-**Veículo:** Van 002
+**Para:** Motorista Responsável pela Van 002
+**De:** Departamento de Logística Hospitalar
+**Data:** [Inserir Data Atual]
+**Assunto:** Instruções de Entrega Médica - Rota Atualizada
 
 Prezado(a) Motorista,
 
-Este documento contém as instruções detalhadas para a sua missão de entrega médica. Sua responsabilidade é garantir que os materiais sejam transportados com segurança e cheguem aos destinos conforme planejado.
+Este documento contém as instruções detalhadas para a sua rota de entrega médica. A precisão e a pontualidade são cruciais para garantir que os suprimentos cheguem aos seus destinos a tempo. Por favor, leia atentamente e siga todas as orientações.
 
 ---
 
 ### 1. Resumo da Missão
 
-Você é responsável por realizar três entregas de suprimentos médicos utilizando a Van 002. A rota totaliza 15.12 km e tem um tempo estimado de 1.5 horas. A capacidade do veículo está quase totalmente utilizada (99.8%), o que exige atenção especial ao manuseio e organização da carga. Todas as entregas são de prioridade crítica ou alta, exigindo pontualidade e cuidado.
+*   **Veículo:** Van 002
+*   **Distância Total Estimada:** 24.71 km
+*   **Tempo Total Estimado:** 1.5 horas
+*   **Número de Entregas:** 3
+*   **Capacidade Utilizada:** 87.7%
+*   **Objetivo:** Realizar a entrega de suprimentos médicos essenciais às Unidades Básicas de Saúde (UBS) designadas, seguindo a ordem de prioridade e o trajeto otimizado.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+Antes de iniciar a rota, por favor, execute o seguinte checklist:
 
-*   **Veículo:**
-    *   [ ] Verificação geral do estado da Van 002 (pneus, freios, luzes, fluidos).
-    *   [ ] Documentação do veículo em ordem e acessível.
-    *   [ ] Equipamentos de segurança (extintor, triângulo, kit de primeiros socorros) presentes e em bom estado.
-    *   [ ] Sistema de refrigeração (se aplicável para a carga) funcionando corretamente.
-*   **Carga:**
-    *   [ ] Conferência da carga com a lista de remessa.
-    *   [ ] Verificação da integridade das embalagens.
-    *   [ ] Organização da carga na Van 002, garantindo estabilidade e acesso fácil às entregas na ordem correta.
-    *   [ ] Confirmação de que todos os itens de alta prioridade estão devidamente identificados e acessíveis.
-*   **Equipamentos:**
-    *   [ ] Celular carregado e com acesso à internet.
-    *   [ ] GPS ou aplicativo de navegação configurado com a rota.
-    *   [ ] Documentos de identificação pessoal e profissional.
-    *   [ ] Equipamentos de proteção individual (EPIs) necessários (máscara, luvas, etc.), se aplicável.
+*   [ ] **Verificação do Veículo:**
+    *   Nível de combustível adequado para toda a rota.
+    *   Pneus calibrados e em bom estado.
+    *   Luzes (faróis, setas, freios) funcionando corretamente.
+    *   Freios em perfeito estado de funcionamento.
+    *   Limpeza interna e externa da van.
+    *   Sistema de refrigeração (se aplicável) em funcionamento.
+*   [ ] **Verificação da Carga:**
+    *   Confirmar que toda a carga está devidamente acondicionada e segura.
+    *   Verificar se os itens correspondem à lista de despacho.
+    *   Garantir que os itens de alta prioridade ("CRITICAL") estão acessíveis.
+*   [ ] **Documentação:**
+    *   Carteira de Habilitação válida.
+    *   Documento do veículo (CRLV) em dia.
+    *   Lista de entrega/rota atualizada.
+    *   Telefone celular carregado e com acesso à internet.
+*   [ ] **Equipamentos de Segurança:**
+    *   Máscara de proteção (se exigido pela unidade de destino).
+    *   Álcool em gel.
+    *   Luvas descartáveis (se necessário para manuseio).
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-Siga rigorosamente a ordem de entregas abaixo:
+A rota foi otimizada para eficiência. Siga rigorosamente a ordem abaixo:
 
-**Ponto de Partida:** [Inserir Local de Partida - Ex: Central de Distribuição Hospitalar]
+**Ponto de Partida:** [Informar o local de partida, ex: Depósito Central]
 
 **Entrega 1:**
+
 *   **Ordem:** 1
-*   **Nome do Local:** UBS Consolação
-*   **Endereço:** Lat: -23.5545, Lon: -46.6605
+*   **Nome da Unidade:** UBS Mooca
+*   **Endereço:** Lat: -23.55, Lon: -46.595
 *   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 20 minutos
-*   **Instruções Adicionais:** Ao chegar, apresente-se na recepção e solicite a pessoa responsável pelo recebimento de materiais. Confirme a entrega no seu dispositivo móvel.
+*   **Tempo Estimado de Serviço:** 15 minutos
+*   **Instruções Adicionais:** Ao chegar, apresente-se na recepção e informe que se trata de uma entrega do Departamento de Logística Hospitalar. Siga as orientações do pessoal local para o descarregamento.
 
 **Entrega 2:**
+
 *   **Ordem:** 2
-*   **Nome do Local:** Atendimento Domiciliar Sr. Silva
-*   **Endereço:** Lat: -23.565, Lon: -46.645
+*   **Nome da Unidade:** UBS Santana
+*   **Endereço:** Lat: -23.515, Lon: -46.625
 *   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 30 minutos
-*   **Instruções Adicionais:** Ao chegar no endereço, entre em contato com o Sr. Silva no número [Inserir Telefone do Sr. Silva] para confirmar sua chegada e instruções de acesso. Entregue os materiais diretamente a ele ou a um responsável autorizado. Confirme a entrega no seu dispositivo móvel.
+*   **Tempo Estimado de Serviço:** 15 minutos
+*   **Instruções Adicionais:** Similar à primeira entrega, informe a natureza da sua visita na recepção e siga os procedimentos de recebimento.
 
 **Entrega 3:**
+
 *   **Ordem:** 3
-*   **Nome do Local:** UBS Itaim Bibi
-*   **Endereço:** Lat: -23.5887, Lon: -46.6772
-*   **Prioridade:** HIGH
+*   **Nome da Unidade:** UBS Freguesia do Ó
+*   **Endereço:** Lat: -23.497, Lon: -46.694
+*   **Prioridade:** CRITICAL
 *   **Tempo Estimado de Serviço:** 15 minutos
-*   **Instruções Adicionais:** Dirija-se à área de recebimento de suprimentos. Apresente sua identificação e a documentação da entrega. Confirme a entrega no seu dispositivo móvel.
+*   **Instruções Adicionais:** Esta é a última entrega da rota. Certifique-se de que todos os itens foram descarregados corretamente. Confirme o recebimento com o responsável na unidade, se aplicável.
+
+**Ponto de Retorno:** [Informar o local de retorno, ex: Depósito Central ou próxima tarefa]
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Direção:** Respeite os limites de velocidade e as leis de trânsito. Adapte sua velocidade às condições da via e do clima.
-*   **Manuseio da Carga:** Ao descarregar e carregar, utilize técnicas adequadas para evitar lesões e danos aos materiais. Se a carga for pesada, solicite ajuda se disponível.
-*   **Segurança Pessoal:** Mantenha-se atento ao seu redor em todos os momentos, especialmente ao sair do veículo em locais desconhecidos. Tranque sempre o veículo ao se ausentar.
-*   **Comunicação:** Mantenha contato com a central em caso de imprevistos ou atrasos. Informe sobre qualquer situação que possa comprometer a segurança ou a pontualidade da entrega.
-*   **Condições Climáticas:** Esteja preparado para condições climáticas adversas. Redobre a atenção e a cautela ao dirigir sob chuva, neblina ou calor excessivo.
+*   **Dirija com Atenção:** Respeite os limites de velocidade e as leis de trânsito. Mantenha uma distância segura dos outros veículos.
+*   **Condições Climáticas:** Esteja atento às condições do tempo. Se houver chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a cautela.
+*   **Manuseio de Carga:** Ao descarregar, utilize técnicas adequadas para evitar lesões. Se a carga for pesada, solicite ajuda se necessário.
+*   **Segurança Pessoal:** Mantenha os vidros da van fechados ao se deslocar em áreas desconhecidas. Evite parar em locais isolados, a menos que seja estritamente necessário.
+*   **Comunicação:** Mantenha o celular acessível para comunicação com a central logística. Evite o uso do celular enquanto dirige.
+*   **Procedimentos de Entrega:** Siga sempre os protocolos de segurança e higiene estabelecidos por cada unidade de saúde.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência, acidente ou imprevisto, entre em contato imediatamente com:
+Em caso de qualquer emergência, acidente ou imprevisto, entre em contato imediatamente com os seguintes números:
 
-*   **Coordenação de Logística:** [Inserir Nome do Coordenador]
-    *   **Telefone:** [Inserir Telefone da Coordenação]
-    *   **E-mail:** [Inserir E-mail da Coordenação]
-
-*   **Serviços de Emergência:**
-    *   **Polícia Militar:** 190
-    *   **Corpo de Bombeiros:** 193
-    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
+*   **Central de Logística Hospitalar:**
+    *   **Telefone:** [Inserir número de telefone da Central de Logística]
+    *   **Nome do Contato:** [Inserir nome do responsável na Central de Logística]
+*   **Serviços de Emergência (Polícia, Bombeiros, SAMU):**
+    *   **Telefone:** 190 (Polícia Militar)
+    *   **Telefone:** 193 (Corpo de Bombeiros)
+    *   **Telefone:** 192 (SAMU - Serviço de Atendimento Móvel de Urgência)
 
 ---
 
-Agradecemos sua dedicação e profissionalismo. Sua atuação é fundamental para o bom funcionamento dos nossos serviços de saúde.
+Agradecemos sua dedicação e profissionalismo em garantir a eficiência e a segurança das nossas entregas médicas.
 
 Atenciosamente,
 
-**[Nome da Instituição/Departamento de Logística Hospitalar]**
+Departamento de Logística Hospitalar
+[Nome do Hospital/Instituição]

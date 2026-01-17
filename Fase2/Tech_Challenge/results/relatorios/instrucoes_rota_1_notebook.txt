@@ -1,26 +1,39 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:23
+        Data: 17/01/2026 14:46
         Veículo: Van 001
         ════════════════════════════════════════════════════════════
         
-        ## Instruções para Motorista de Entrega Médica - Rota UBS Mooca / Atendimento Domiciliar Sra. Santos
+        ## Instruções para Motorista de Entrega Médica - Van 001
 
-**Prezado(a) Motorista,**
-
-Este documento contém as instruções detalhadas para a sua próxima missão de entrega médica. Sua responsabilidade é garantir a entrega segura e pontual de materiais essenciais para a saúde.
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Van 001
 
 ---
 
 ### 1. Resumo da Missão
 
+Prezado(a) motorista,
+
+Você está encarregado(a) da entrega de suprimentos médicos essenciais. Esta missão é de **CRITICAL** importância para garantir a continuidade dos cuidados de saúde. Sua responsabilidade é realizar a entrega com eficiência, segurança e pontualidade.
+
+**Detalhes da Rota:**
+
 *   **Veículo:** Van 001
-*   **Distância Total Estimada:** 10.63 km
-*   **Tempo Estimado da Rota:** 1.0 hora
-*   **Número de Entregas:** 2
-*   **Capacidade Utilizada:** 64.0%
-*   **Objetivo:** Realizar a entrega de suprimentos médicos em duas localidades prioritárias (CRITICAL).
+*   **Distância Total:** 5.33 km
+*   **Tempo Estimado:** 0.5 horas
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 54.4% (Carga parcial)
+
+**Ponto de Entrega:**
+
+1.  **Clínica Higienópolis**
+    *   **Endereço:** Lat: -23.545, Lon: -46.6588
+    *   **Demanda:** 27.204444037397653 (Unidades/Volume - a ser detalhado no item de carga)
+    *   **Prioridade:** CRITICAL
+    *   **Tempo de Serviço Estimado:** 20 minutos
 
 ---
 
@@ -28,83 +41,73 @@ Este documento contém as instruções detalhadas para a sua próxima missão de
 
 Antes de iniciar sua rota, por favor, complete os seguintes itens:
 
-*   **Veículo:**
-    *   [ ] Verificação geral do veículo (pneus, freios, fluidos, luzes).
-    *   [ ] Limpeza e organização do compartimento de carga.
-    *   [ ] Equipamentos de segurança (extintor, triângulo, kit de primeiros socorros) em ordem.
-*   **Carga:**
-    *   [ ] Conferência da carga com a lista de materiais a serem transportados.
-    *   [ ] Verificação da integridade das embalagens (ausência de vazamentos, danos).
-    *   [ ] Assegurar que os materiais estejam devidamente acondicionados para evitar movimentação durante o trajeto.
 *   **Documentação:**
-    *   [ ] Carteira de Habilitação válida.
-    *   [ ] Documento do veículo em dia.
-    *   [ ] Roteiro impresso ou acesso ao sistema de navegação com a rota carregada.
-    *   [ ] Lista de contatos de emergência (conforme item 5).
-*   **Equipamentos Pessoais:**
-    *   [ ] Uniforme completo e identificação.
-    *   [ ] Equipamento de proteção individual (EPI) necessário (se aplicável).
-    *   [ ] Celular carregado e com acesso à internet.
+    *   [ ] Verifique se todos os documentos do veículo (licença, seguro, etc.) estão em dia e no local correto.
+    *   [ ] Confirme se possui a Ordem de Serviço e a lista de carga detalhada.
+*   **Veículo:**
+    *   [ ] Inspeção visual externa: pneus, luzes, retrovisores, carroceria.
+    *   [ ] Verificação dos níveis de óleo, água e combustível.
+    *   [ ] Teste dos freios e buzina.
+    *   [ ] Verificação do funcionamento do ar condicionado/aquecimento.
+*   **Carga:**
+    *   [ ] Confirme se a carga a ser transportada corresponde à lista de carga e à capacidade utilizada (54.4%).
+    *   [ ] Certifique-se de que todos os itens estão devidamente acondicionados, seguros e organizados na Van 001, seguindo as orientações de manuseio específico para materiais médicos.
+    *   [ ] Verifique se a temperatura de armazenamento (se aplicável) está sendo mantida.
+*   **Equipamentos de Segurança:**
+    *   [ ] Verifique a presença e validade do kit de primeiros socorros.
+    *   [ ] Confirme a disponibilidade de extintor de incêndio.
+    *   [ ] Garanta que o celular esteja carregado e com acesso aos contatos de emergência.
+*   **Navegação:**
+    *   [ ] Configure o GPS com o endereço do primeiro ponto de entrega.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-**Atenção:** As entregas devem ser realizadas na ordem especificada.
+A rota foi otimizada para uma única entrega. Siga a ordem abaixo:
 
 **Entrega 1:**
 
-*   **Ordem:** 1
-*   **Local:** UBS Mooca
-*   **Endereço:** Lat: -23.55, Lon: -46.595
-*   **Prioridade:** CRITICAL
-*   **Tempo de Serviço Estimado:** 15.0 minutos
-*   **Instruções:**
-    *   Dirija-se à UBS Mooca.
-    *   Ao chegar, identifique-se como motorista de entrega médica.
-    *   Aguarde as instruções do pessoal responsável para a descarga.
-    *   Confirme a entrega com a assinatura ou registro apropriado.
-
-**Entrega 2:**
-
-*   **Ordem:** 2
-*   **Local:** Atendimento Domiciliar Sra. Santos
-*   **Endereço:** Lat: -23.575, Lon: -46.615
-*   **Prioridade:** CRITICAL
-*   **Tempo de Serviço Estimado:** 25.0 minutos
-*   **Instruções:**
-    *   Após concluir a entrega na UBS Mooca, navegue até o endereço do Atendimento Domiciliar da Sra. Santos.
-    *   Ao chegar, toque a campainha e identifique-se.
-    *   Aguarde a Sra. Santos ou um responsável autorizado para receber a entrega.
-    *   Entregue os materiais com cuidado e confirme o recebimento.
+*   **Local:** Clínica Higienópolis
+*   **Endereço:** Lat: -23.545, Lon: -46.6588
+*   **Instruções de Acesso:**
+    *   Ao chegar, procure a área de recebimento de suprimentos médicos.
+    *   Apresente a Ordem de Serviço ao responsável.
+    *   Aguarde a conferência da carga e a assinatura do comprovante de entrega.
+    *   **Tempo de Serviço Estimado:** 20 minutos. Planeje seu tempo considerando este período.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos e respeite os limites de velocidade.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas (chuva, neblina, etc.).
-*   **Trânsito:** Esteja atento ao trânsito, especialmente em áreas de grande movimento.
-*   **Estacionamento:** Estacione o veículo de forma segura e legal, minimizando o tempo de parada em locais de risco.
-*   **Manuseio de Carga:** Ao manusear os materiais, utilize técnicas adequadas para evitar lesões. Se necessário, solicite auxílio.
-*   **Segurança Pessoal:** Mantenha as portas do veículo trancadas ao se ausentar. Evite exibir objetos de valor.
-*   **Comunicação:** Mantenha contato com a central em caso de imprevistos ou atrasos.
+Sua segurança e a integridade da carga são prioridades máximas.
+
+*   **Direção Defensiva:** Dirija com atenção redobrada, respeitando os limites de velocidade e a sinalização de trânsito. Antecipe as ações de outros motoristas e pedestres.
+*   **Manuseio da Carga:**
+    *   Ao descarregar, manuseie os materiais com cuidado para evitar quedas ou danos.
+    *   Se houver itens frágeis ou que exijam condições especiais (temperatura, umidade), redobre a atenção.
+    *   Não deixe a carga desacompanhada em hipótese alguma.
+*   **Comunicação:** Mantenha seu celular acessível e com bateria. Em caso de imprevistos, comunique-se imediatamente com a central.
+*   **Estacionamento:** Estacione o veículo em locais seguros e permitidos, preferencialmente próximos à entrada para otimizar o tempo de entrega.
+*   **Documentação:** Mantenha sempre a Ordem de Serviço e o comprovante de entrega consigo.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência (acidente, problema com a carga, indisposição pessoal, etc.), entre em contato imediatamente com os seguintes números:
+Em caso de qualquer emergência (acidente, problema mecânico, roubo, ou qualquer situação que impeça a conclusão da entrega), entre em contato imediatamente:
 
-*   **Coordenador de Logística:** [Inserir Nome e Telefone do Coordenador]
-*   **Central de Emergência Hospitalar:** [Inserir Telefone da Central de Emergência]
+*   **Central de Logística Hospitalar:**
+    *   **Telefone:** [Inserir Número de Telefone da Central]
+    *   **Ramal/WhatsApp:** [Inserir Ramal/WhatsApp da Central, se aplicável]
+*   **Emergência Médica (SAMU):** 192
 *   **Polícia Militar:** 190
-*   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
+*   **Bombeiros:** 193
 
 ---
 
-Agradecemos sua dedicação e profissionalismo. Sua atuação é fundamental para o bom funcionamento dos serviços de saúde.
+Agradecemos seu profissionalismo e dedicação. Sua atuação é fundamental para o bom funcionamento dos serviços de saúde.
 
 Atenciosamente,
 
-**[Seu Nome/Departamento de Logística Hospitalar]**
+**Equipe de Logística Hospitalar**

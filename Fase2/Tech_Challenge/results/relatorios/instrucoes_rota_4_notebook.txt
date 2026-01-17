@@ -1,90 +1,124 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:23
+        Data: 17/01/2026 14:46
         Veículo: Van 001
         ════════════════════════════════════════════════════════════
         
         ## Instruções de Entrega Médica - Motorista Van 001
 
-**Prezado(a) motorista,**
+**Data:** [Inserir Data Atual]
 
-Você foi designado(a) para uma missão de entrega médica de alta importância. A precisão e a pontualidade são cruciais para garantir o bem-estar dos pacientes. Siga atentamente as instruções abaixo para o cumprimento eficiente e seguro desta rota.
+**Motorista:** [Nome do Motorista]
+
+**Veículo:** Van 001
 
 ---
 
 ### 1. Resumo da Missão
 
-*   **Veículo:** Van 001
-*   **Distância Total Estimada:** 25.02 km
-*   **Tempo Total Estimado da Rota:** 1.4 horas
+Prezado(a) motorista,
+
+Sua missão é realizar duas entregas de suprimentos médicos essenciais com prioridade **CRITICAL**. A rota foi otimizada para garantir eficiência e segurança. A capacidade do veículo está quase total, exigindo atenção especial ao manuseio da carga.
+
+**Informações da Rota:**
+
+*   **Distância Total:** 11.2 km
+*   **Tempo Estimado:** 1.2 horas (incluindo tempo de serviço)
 *   **Número de Entregas:** 2
-*   **Capacidade Utilizada:** 98.3% (Veículo está quase totalmente carregado, manobre com cuidado)
-*   **Objetivo:** Entregar suprimentos médicos críticos para duas unidades de saúde, seguindo a ordem estabelecida.
+*   **Capacidade Utilizada:** 95.9%
+
+**Prioridade Máxima:** Todas as entregas são de caráter **CRITICAL**, o que significa que devem ser realizadas com a máxima urgência e cuidado.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar a rota, certifique-se de que os seguintes itens estão em ordem:
+Antes de iniciar sua rota, por favor, complete os seguintes itens:
 
-*   [ ] **Veículo:** Van 001 devidamente inspecionado (pneus, freios, fluidos, luzes).
-*   [ ] **Carga:** Conferência completa dos itens a serem entregues com a lista de despacho. Certifique-se de que todos os materiais estão devidamente acondicionados e seguros.
-*   [ ] **Documentação:** Roteiro impresso ou digital, lista de despacho, documentos do veículo e sua identificação.
-*   [ ] **Equipamentos de Segurança:** Kit de primeiros socorros, extintor de incêndio, triângulo de sinalização.
-*   [ ] **Comunicação:** Celular carregado e com sinal.
-*   [ ] **Navegação:** GPS ou aplicativo de mapas configurado com o primeiro ponto de entrega.
-*   [ ] **Higiene:** Máscara e álcool em gel disponíveis para uso.
+*   **Documentação:**
+    *   [ ] Verifique se possui a ordem de serviço e a lista de entregas atualizadas.
+    *   [ ] Certifique-se de que sua CNH e a documentação do veículo estão em dia e acessíveis.
+*   **Veículo:**
+    *   [ ] Inspeção visual completa: pneus, freios, luzes, limpadores de para-brisa.
+    *   [ ] Verifique os níveis de óleo, água e combustível.
+    *   [ ] Confirme o funcionamento do sistema de refrigeração (se aplicável para os materiais transportados).
+    *   [ ] Garanta que o sistema de rastreamento do veículo está ativo e funcionando.
+*   **Carga:**
+    *   [ ] Confirme se todos os itens listados para entrega estão devidamente acomodados e seguros dentro da van.
+    *   [ ] Verifique se a carga está distribuída de forma equilibrada para garantir a estabilidade do veículo.
+    *   [ ] Confirme a integridade das embalagens, especialmente para itens frágeis ou sensíveis.
+*   **Equipamentos de Segurança:**
+    *   [ ] Verifique a disponibilidade e validade do kit de primeiros socorros.
+    *   [ ] Confirme a presença do extintor de incêndio e seu prazo de validade.
+    *   [ ] Certifique-se de ter um telefone celular carregado e com acesso à internet.
+*   **Navegação:**
+    *   [ ] Carregue o GPS ou aplicativo de navegação com a rota otimizada.
+    *   [ ] Familiarize-se com os endereços e a sequência das entregas.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-**Ponto de Partida:** [Inserir endereço de partida aqui, se aplicável]
+**Ponto de Partida:** [Inserir Local de Partida da Van 001]
 
 **Entrega 1:**
 
 *   **Ordem:** 1
-*   **Nome do Local:** Casa de Repouso Morumbi
-*   **Endereço:** Lat: -23.6145, Lon: -46.7125
+*   **Nome do Destinatário:** Atendimento Domiciliar Sr. Silva
+*   **Endereço:** Lat: -23.565, Lon: -46.645
 *   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 25.0 minutos
-*   **Instruções Adicionais:** Ao chegar, informe o recepcionista sobre a entrega de suprimentos médicos urgentes. Siga as orientações internas para o local de descarga.
+*   **Tempo Estimado de Serviço:** 30.0 minutos
+*   **Instruções Específicas:**
+    *   Ao chegar, apresente-se como motorista da logística hospitalar.
+    *   Siga os protocolos de segurança e higiene para acesso ao domicílio.
+    *   Confirme a identidade do Sr. Silva ou do responsável autorizado antes de realizar a entrega.
+    *   Obtenha a assinatura de recebimento em sua ordem de serviço.
+    *   **Atenção:** A demanda deste ponto é significativa, manuseie com cuidado.
 
 **Entrega 2:**
 
 *   **Ordem:** 2
-*   **Nome do Local:** UBS Jabaquara
-*   **Endereço:** Lat: -23.614, Lon: -46.642
+*   **Nome do Destinatário:** Hospital São Paulo
+*   **Endereço:** Lat: -23.5988, Lon: -46.6422
 *   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 15.0 minutos
-*   **Instruções Adicionais:** Ao chegar, dirija-se à área de recebimento de materiais. Apresente os documentos de entrega e aguarde a conferência.
+*   **Tempo Estimado de Serviço:** 25.0 minutos
+*   **Instruções Específicas:**
+    *   Dirija-se à área designada para recebimento de suprimentos hospitalares.
+    *   Apresente sua ordem de serviço e identifique-se.
+    *   Siga as instruções da equipe hospitalar para a descarga dos materiais.
+    *   Obtenha a assinatura de recebimento em sua ordem de serviço.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos. Respeite os limites de velocidade e a sinalização de trânsito.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
-*   **Manuseio da Carga:** Ao descarregar, certifique-se de que a carga está segura e que você está em uma posição estável. Evite movimentos bruscos.
-*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao se ausentar. Esteja atento ao seu entorno em todos os momentos.
-*   **Trânsito:** Utilize aplicativos de trânsito para monitorar congestionamentos e planejar desvios, se necessário. Informe a central sobre quaisquer atrasos significativos.
+*   **Direção Defensiva:** Dirija com atenção redobrada, respeitando todos os limites de velocidade e sinalizações de trânsito. Antecipe as ações de outros motoristas e pedestres.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Chuva, neblina ou outras adversidades exigem maior cautela.
+*   **Manuseio da Carga:** Devido à alta capacidade utilizada, evite acelerações e frenagens bruscas. Certifique-se de que a carga esteja sempre segura.
+*   **Acesso aos Locais de Entrega:** Ao chegar aos pontos de entrega, observe o ambiente e priorize sua segurança pessoal e a do veículo.
+*   **Comunicação:** Mantenha contato com a central de logística em caso de imprevistos, atrasos significativos ou qualquer situação que possa comprometer a entrega.
+*   **Descanso:** Se sentir fadiga, procure um local seguro para descansar antes de continuar a rota. Sua segurança e a integridade da carga são primordiais.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer imprevisto, acidente ou necessidade de assistência, entre em contato imediatamente com:
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, etc.), entre em contato imediatamente com:
 
-*   **Coordenador de Logística:** [Nome do Coordenador] - Telefone: [Número de Telefone do Coordenador]
-*   **Emergência Médica (SAMU):** 192
-*   **Polícia Militar:** 190
-*   **Corpo de Bombeiros:** 193
+*   **Central de Logística Hospitalar:**
+    *   **Telefone:** [Inserir Número de Telefone da Central de Logística]
+    *   **Ramal (se aplicável):** [Inserir Ramal]
+*   **Serviços de Emergência:**
+    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
+    *   **Polícia Militar:** 190
+    *   **Corpo de Bombeiros:** 193
+*   **Contato de Suporte Técnico (Veículo):** [Inserir Número de Telefone do Suporte Técnico do Veículo, se houver]
 
 ---
 
-**Agradecemos sua dedicação e profissionalismo em cumprir esta missão vital. Sua atenção aos detalhes garante que os suprimentos médicos cheguem a quem mais precisa.**
+Agradecemos seu profissionalismo e dedicação em garantir que estes suprimentos médicos cheguem a seus destinos com segurança e pontualidade.
 
-**Atenciosamente,**
+Atenciosamente,
 
 **Equipe de Logística Hospitalar**

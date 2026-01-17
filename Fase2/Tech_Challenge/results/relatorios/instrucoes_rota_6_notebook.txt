@@ -1,65 +1,54 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:46
         Veículo: Moto 001
         ════════════════════════════════════════════════════════════
         
-        ## Instruções de Entrega Médica - Moto 001
+        ## Instruções para Motorista de Entrega Médica - Rota Crítica
 
-**Para:** Motorista da Moto 001
-**Data:** [Inserir Data Atual]
-**Assunto:** Rota de Entrega Médica - Atendimento Domiciliar Sra. Costa
+**Missão:** Realizar entrega de suprimentos médicos com prioridade CRÍTICA para a UBS Vila Prudente.
 
-Prezado(a) motorista,
-
-Este documento contém as instruções detalhadas para a sua próxima missão de entrega médica. Sua pontualidade e atenção são cruciais para garantir o bem-estar dos pacientes.
+**Veículo:** Moto 001
+**Distância Total:** 13.35 km
+**Tempo Estimado:** 0.6 horas (36 minutos)
+**Número de Entregas:** 1
+**Capacidade Utilizada:** 267.1% (Atenção: Esta informação indica que a carga é significativamente maior que a capacidade nominal da moto. Certifique-se de que a carga esteja bem distribuída e segura para evitar acidentes.)
 
 ---
 
 ### 1. Resumo da Missão
 
-Você é responsável pela entrega de materiais médicos essenciais para o **Atendimento Domiciliar Sra. Costa**. A rota é de curta distância, mas a criticidade da carga exige máxima atenção e cuidado.
-
-*   **Veículo:** Moto 001
-*   **Distância Total:** 9.98 km
-*   **Tempo Estimado:** 0.7 horas (aproximadamente 42 minutos)
-*   **Número de Entregas:** 1
-*   **Capacidade Utilizada:** 223.6% (Indica alta densidade ou volume de itens; manuseie com extremo cuidado para evitar danos)
-*   **Prioridade da Entrega:** CRITICAL
+Prezado(a) motorista, sua missão é realizar uma entrega de **prioridade CRÍTICA** de suprimentos médicos para a **UBS Vila Prudente**. A rota é curta, mas a urgência da carga exige atenção redobrada e cumprimento rigoroso dos prazos. A capacidade utilizada de 267.1% requer cuidado extra no manuseio e transporte da carga.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+Antes de iniciar a rota, por favor, verifique os seguintes itens:
 
 *   **Veículo:**
     *   [ ] Pneus calibrados e em bom estado.
-    *   [ ] Freios funcionando corretamente.
+    *   [ ] Freios funcionando perfeitamente.
+    *   [ ] Luzes (farol, lanterna, setas, freio) em pleno funcionamento.
     *   [ ] Nível de óleo e combustível adequados.
-    *   [ ] Luzes (farol, lanterna, setas) funcionando.
-    *   [ ] Buzina em perfeito estado.
-    *   [ ] Limpador de para-brisa (se aplicável) e água no reservatório.
-*   **Equipamentos de Segurança:**
-    *   [ ] Capacete homologado e em bom estado.
-    *   [ ] Luvas de proteção.
-    *   [ ] Jaqueta com proteções e refletivos.
-    *   [ ] Calçados fechados e resistentes.
-    *   [ ] Óculos de proteção (recomendado).
+    *   [ ] Buzina funcionando.
+    *   [ ] Documentação do veículo e da carga em ordem (nota fiscal, manifesto de transporte, etc.).
 *   **Carga:**
-    *   [ ] Conferir se a carga está completa e em conformidade com a lista de remessa.
-    *   [ ] Verificar se a embalagem está intacta e sem sinais de violação.
-    *   [ ] Assegurar que a carga está devidamente acondicionada e segura para o transporte, minimizando movimentos e riscos de queda ou dano.
-    *   [ ] Confirmar se os itens são sensíveis à temperatura (se aplicável) e se estão sendo transportados nas condições adequadas.
-*   **Documentação:**
-    *   [ ] Carteira Nacional de Habilitação (CNH) válida.
-    *   [ ] Documento do veículo (CRLV) em dia.
-    *   [ ] Roteiro impresso ou digital acessível.
-    *   [ ] Lista de remessa/documentos de entrega.
-*   **Comunicação:**
+    *   [ ] Conferir se todos os itens da nota fiscal estão presentes.
+    *   [ ] Verificar se a carga está devidamente embalada e protegida.
+    *   [ ] **Garantir que a carga esteja firmemente fixada e distribuída de forma equilibrada na moto.** Dada a alta capacidade utilizada, este é um ponto crucial para a segurança.
+    *   [ ] Confirmar a integridade da embalagem, especialmente se houver produtos sensíveis à temperatura ou frágeis.
+*   **Equipamentos de Segurança:**
+    *   [ ] Capacete com viseira limpa e em bom estado.
+    *   [ ] Luvas de proteção.
+    *   [ ] Jaqueta e calça de proteção (preferencialmente com elementos refletivos).
+    *   [ ] Calçados fechados e resistentes.
     *   [ ] Celular carregado e com sinal.
-    *   [ ] Contatos de emergência salvos.
+    *   [ ] Kit básico de ferramentas para a moto.
+*   **Navegação:**
+    *   [ ] Confirmar o endereço de destino e o trajeto no GPS/aplicativo de navegação.
+    *   [ ] Ter em mãos os contatos de emergência (seção 5).
 
 ---
 
@@ -68,54 +57,56 @@ Antes de iniciar sua rota, por favor, verifique os seguintes itens:
 **Ponto de Entrega 1:**
 
 *   **Ordem:** 1
-*   **Nome do Destinatário:** Atendimento Domiciliar Sra. Costa
-*   **Endereço:** Lat: -23.532, Lon: -46.678
-*   **Tempo Estimado de Serviço:** 30.0 minutos
-*   **Instruções Específicas:**
-    *   Ao chegar ao local, identifique-se como motorista da entrega médica.
-    *   Procure o responsável pelo recebimento (familiares ou cuidador da Sra. Costa).
-    *   Confira a identidade do recebedor, se necessário.
-    *   Apresente a documentação para assinatura do comprovante de entrega.
-    *   Entregue os materiais médicos com o máximo cuidado, garantindo que não haja danos.
-    *   Caso haja qualquer dificuldade na entrega ou no contato com o destinatário, entre em contato imediatamente com a central.
+*   **Nome:** UBS Vila Prudente
+*   **Endereço:** Lat: -23.588, Lon: -46.582
+*   **Demanda:** 53.41666474574294 (Valor a ser entregue)
+*   **Prioridade:** CRITICAL
+*   **Tempo de Serviço Estimado:** 15.0 minutos (Tempo para realizar a entrega no local)
+
+**Instruções para o Ponto de Entrega:**
+
+1.  **Navegação:** Siga o trajeto indicado pelo seu dispositivo de navegação até a UBS Vila Prudente.
+2.  **Chegada:** Ao chegar, identifique-se como motorista de entrega médica da [Nome da sua empresa/instituição].
+3.  **Entrega:**
+    *   Apresente a documentação da carga para conferência.
+    *   Entregue a demanda especificada (53.41666474574294 unidades) conforme as instruções no local.
+    *   Obtenha a assinatura de recebimento do responsável na documentação.
+4.  **Confirmação:** Confirme a conclusão da entrega com o seu supervisor/central de logística assim que possível.
 
 ---
 
 ### 4. Orientações de Segurança
 
-Sua segurança é nossa prioridade. Siga rigorosamente estas orientações:
-
-*   **No Trânsito:**
-    *   Respeite todas as leis de trânsito e os limites de velocidade.
-    *   Mantenha distância segura dos outros veículos.
-    *   Esteja sempre atento ao seu redor, especialmente em cruzamentos e áreas de grande movimento.
-    *   Evite distrações, como o uso do celular enquanto dirige.
-    *   Em caso de chuva ou condições climáticas adversas, reduza a velocidade e aumente a atenção.
-    *   Utilize os faróis acesos durante todo o percurso, mesmo durante o dia.
-*   **Ao Chegar aos Locais de Entrega:**
-    *   Estacione a moto em local seguro e permitido, sem obstruir o tráfego ou o acesso de pedestres.
-    *   Ao descer do veículo, certifique-se de que ele está devidamente travado.
-    *   Mantenha a calma e a cortesia em todas as interações com os destinatários.
-*   **Manuseio da Carga:**
-    *   Devido à alta capacidade utilizada, manuseie a carga com extremo cuidado. Evite impactos, quedas ou manobras bruscas que possam danificar os materiais.
-    *   Se houver itens frágeis ou sensíveis, redobre a atenção.
+*   **Prioridade Máxima:** Sua segurança e a integridade da carga são primordiais.
+*   **Trânsito:** Respeite rigorosamente as leis de trânsito. Mantenha distância segura dos outros veículos.
+*   **Velocidade:** Adapte sua velocidade às condições do trânsito e da via. Evite acelerações e frenagens bruscas, especialmente com a carga pesada.
+*   **Visibilidade:** Certifique-se de que você seja visível para os outros motoristas. Utilize os faróis mesmo durante o dia.
+*   **Condições Climáticas:** Em caso de chuva, neblina ou outras condições adversas, redobre a atenção e reduza a velocidade. Se as condições forem perigosas, comunique à central antes de prosseguir.
+*   **Carga:** **Reforçamos a importância de garantir que a carga esteja 100% segura e bem distribuída.** Uma carga mal fixada pode causar desequilíbrio e acidentes graves.
+*   **Distrações:** Evite o uso do celular enquanto estiver pilotando. Pare em local seguro se precisar fazer ou receber chamadas.
+*   **Atenção ao Local de Entrega:** Ao chegar na UBS, procure um local seguro e designado para estacionar a moto. Evite bloquear acessos ou áreas de circulação.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência, acidente, problema com a carga ou dificuldade na entrega, entre em contato imediatamente com os seguintes números:
+Em caso de qualquer emergência (acidente, problema com a carga, roubo, etc.), entre em contato imediatamente com os seguintes números:
 
-*   **Central de Logística:** [Inserir Número da Central de Logística]
-*   **Supervisor de Rota:** [Inserir Número do Supervisor de Rota]
-*   **Emergência Médica (SAMU):** 192
-*   **Polícia Militar:** 190
-*   **Bombeiros:** 193
+*   **Central de Logística/Supervisor:**
+    *   Nome: [Nome do Supervisor]
+    *   Telefone: [Número de Telefone do Supervisor]
+*   **Emergência Médica:**
+    *   SAMU: 192
+*   **Polícia Militar:**
+    *   190
+*   **Bombeiros:**
+    *   193
 
-**Lembre-se:** Sua responsabilidade é garantir que a entrega seja realizada de forma segura, eficiente e com a máxima integridade dos materiais.
+---
 
-Agradecemos seu empenho e dedicação.
+**Agradecemos seu compromisso e profissionalismo em realizar esta entrega crítica.** Sua dedicação é fundamental para o bom funcionamento dos serviços de saúde.
 
 Atenciosamente,
 
-[Seu Nome/Nome do Departamento de Logística Hospitalar]
+[Nome da sua empresa/instituição]
+Departamento de Logística Hospitalar

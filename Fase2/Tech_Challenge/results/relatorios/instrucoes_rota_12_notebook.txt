@@ -1,120 +1,120 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:47
         Veículo: Moto 001
         ════════════════════════════════════════════════════════════
         
-        ## Instruções de Entrega Médica - Moto 001
+        ## Instruções de Entrega Médica - Motorista da Moto 001
 
 **Data:** [Inserir Data Atual]
-**Motorista:** [Nome do Motorista]
+
+**Para:** Motorista da Moto 001
+
+**Assunto:** Instruções de Entrega Médica - Rota Crítica
+
+Prezado(a) Motorista,
+
+Este documento contém as instruções detalhadas para sua próxima missão de entrega médica. Sua atenção a cada item é fundamental para garantir a segurança, eficiência e integridade dos materiais transportados.
 
 ---
 
 ### 1. Resumo da Missão
 
-Prezado(a) motorista,
-
-Sua missão é realizar a entrega de materiais médicos urgentes para três estabelecimentos de saúde. A rota foi otimizada para garantir a eficiência e a segurança das entregas.
-
 *   **Veículo:** Moto 001
-*   **Distância Total Estimada:** 21.97 km
-*   **Tempo Estimado Total:** 1.4 horas
-*   **Número de Entregas:** 3
-*   **Capacidade Utilizada:** 197.7% (ATENÇÃO: Este valor indica que a carga é volumosa ou pesada. Certifique-se de que a moto está devidamente equipada e que a carga está segura e distribuída de forma equilibrada para evitar acidentes.)
+*   **Distância Total:** 12.32 km
+*   **Tempo Estimado:** 0.5 horas
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 99.2% (Carga de alta prioridade)
+*   **Prioridade Geral da Rota:** CRITICAL
 
-**Prioridade Geral:** Alta. Todas as entregas são consideradas de alta prioridade.
+Você é responsável pela entrega de materiais médicos de **prioridade CRÍTICA** para a **UBS Itaim Bibi**. A carga está praticamente completa, exigindo manuseio cuidadoso e atenção especial durante todo o percurso. O tempo de serviço estimado no local de entrega é de 15 minutos.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+Antes de iniciar sua rota, por favor, complete rigorosamente os seguintes itens:
 
-*   [ ] **Documentação do Veículo:** Documento do veículo (CRLV) e sua CNH válidos e em posse.
-*   [ ] **Equipamentos de Segurança:**
-    *   Capacete com viseira em bom estado.
-    *   Luvas de proteção.
-    *   Jaqueta e calça de material resistente.
-    *   Calçados fechados e resistentes.
-    *   Protetores de joelho e cotovelo (recomendado).
-*   [ ] **Condições da Moto:**
-    *   Pneus calibrados e em bom estado.
-    *   Freios funcionando perfeitamente.
-    *   Faróis e lanternas funcionando.
-    *   Nível de óleo e combustível adequados.
-    *   Carga devidamente acondicionada e segura (verificar estabilidade e amarração).
-*   [ ] **Materiais de Entrega:** Confirmar que todos os volumes a serem entregues estão a bordo e identificados corretamente.
-*   [ ] **Equipamentos de Comunicação:** Celular carregado e com sinal.
-*   [ ] **Navegação:** GPS ou aplicativo de mapas configurado com a rota.
-*   [ ] **Hidratação e Alimentação:** Levar água e um lanche rápido para manter a energia.
+*   **Veículo:**
+    *   [ ] Verificação geral da moto (pneus, freios, luzes, óleo).
+    *   [ ] Combustível suficiente para a rota e imprevistos.
+    *   [ ] Documentação da moto em dia e acessível.
+*   **Carga:**
+    *   [ ] Confirmar que a carga está devidamente acondicionada e segura no baú/compartimento.
+    *   [ ] Verificar se a temperatura de conservação (se aplicável) está adequada.
+    *   [ ] Certificar-se de que todos os lacres de segurança estão intactos e registrados.
+    *   [ ] Conferir a lista de materiais a serem entregues (se fornecida separadamente).
+*   **Equipamentos:**
+    *   [ ] Capacete em bom estado e devidamente afivelado.
+    *   [ ] Luvas de proteção.
+    *   [ ] Colete refletivo de alta visibilidade.
+    *   [ ] Telefone celular carregado e com acesso aos contatos de emergência.
+    *   [ ] GPS ou aplicativo de navegação configurado com o destino.
+*   **Documentação Pessoal:**
+    *   [ ] Carteira de Habilitação (CNH) válida.
+    *   [ ] Documento de identificação (RG).
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-A rota foi planejada na seguinte ordem para otimizar seu tempo:
+A rota consiste em uma única entrega, com alta prioridade.
 
-**Ponto de Partida:** [Inserir Endereço de Partida - Ex: Central de Logística Hospitalar]
+*   **Ponto de Entrega 1:**
+    *   **Nome:** UBS Itaim Bibi
+    *   **Coordenadas:** Lat: -23.5887, Lon: -46.6772
+    *   **Ordem:** 1
+    *   **Prioridade:** CRITICAL
+    *   **Tempo Estimado de Serviço:** 15 minutos
 
-**Entrega 1:**
+**Instruções de Navegação:**
+Utilize seu dispositivo de navegação para chegar ao endereço da UBS Itaim Bibi. O trajeto estimado é de aproximadamente 12.32 km e deve ser concluído em cerca de 30 minutos.
 
-*   **Ordem:** 1
-*   **Estabelecimento:** Clínica Perdizes
-*   **Endereço:** Lat: -23.5382, Lon: -46.6745
-*   **Demanda Estimada:** 8.96 (unidades/peso - verificar descrição do material)
-*   **Prioridade:** HIGH
-*   **Tempo de Serviço Estimado:** 20 minutos
-*   **Instruções:** Ao chegar, procure o responsável pela recepção ou almoxarifado. Apresente o comprovante de entrega para assinatura.
-
-**Entrega 2:**
-
-*   **Ordem:** 2
-*   **Estabelecimento:** UBS Lapa
-*   **Endereço:** Lat: -23.528, Lon: -46.705
-*   **Demanda Estimada:** 14.30 (unidades/peso - verificar descrição do material)
-*   **Prioridade:** HIGH
-*   **Tempo de Serviço Estimado:** 15 minutos
-*   **Instruções:** Ao chegar, informe que se trata de uma entrega urgente para a unidade de saúde. Siga as instruções do pessoal local para a descarga e assinatura do comprovante.
-
-**Entrega 3:**
-
-*   **Ordem:** 3
-*   **Estabelecimento:** Clínica Butantã
-*   **Endereço:** Lat: -23.569, Lon: -46.723
-*   **Demanda Estimada:** 16.27 (unidades/peso - verificar descrição do material)
-*   **Prioridade:** HIGH
-*   **Tempo de Serviço Estimado:** 20 minutos
-*   **Instruções:** Ao chegar, dirija-se à área de recebimento indicada. Confirme os dados da entrega com o recebedor e obtenha a assinatura no comprovante.
-
-**Ponto de Retorno:** [Inserir Endereço de Retorno - Ex: Central de Logística Hospitalar]
+**Instruções de Entrega na UBS Itaim Bibi:**
+1.  Ao chegar, identifique-se como motorista de entrega médica.
+2.  Dirija-se à área designada para recebimento de entregas, se houver. Caso contrário, procure a recepção ou o setor responsável pelas entregas médicas.
+3.  Apresente a documentação necessária para o recebimento (se aplicável).
+4.  Entregue a carga conforme as orientações do recebedor.
+5.  Obtenha a assinatura de recebimento em seu comprovante de entrega.
+6.  Confirme se há alguma instrução adicional ou pendência antes de se retirar.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Condução Defensiva:** Mantenha sempre uma distância segura dos outros veículos. Antecipe as ações dos motoristas, ciclistas e pedestres.
-*   **Condições de Tráfego:** Esteja atento às condições do trânsito, especialmente em horários de pico. Adapte sua velocidade e rota, se necessário, para evitar atrasos e riscos.
-*   **Condições Climáticas:** Em caso de chuva, neblina ou outras condições adversas, reduza a velocidade, aumente a distância de segurança e redobre a atenção. Se as condições forem perigosas demais, entre em contato para avaliar a continuidade da rota.
-*   **Manuseio da Carga:** Devido à alta capacidade utilizada, certifique-se de que a carga está firmemente presa e não interfere na sua visibilidade ou equilíbrio. Evite manobras bruscas.
-*   **Estacionamento:** Ao chegar aos locais de entrega, procure estacionar em locais seguros e permitidos, sem obstruir o tráfego ou o acesso de emergência.
-*   **Comunicação:** Mantenha-se em contato com a central em caso de imprevistos, atrasos significativos ou dificuldades.
+Sua segurança e a integridade da carga são nossas prioridades máximas.
+
+*   **No Trânsito:**
+    *   Mantenha sempre uma velocidade segura e compatível com as condições da via e do tráfego.
+    *   Respeite todas as leis de trânsito.
+    *   Mantenha distância segura dos outros veículos.
+    *   Esteja atento a pedestres, ciclistas e outros usuários da via.
+    *   Evite distrações, como o uso do celular enquanto pilota.
+    *   Em caso de chuva ou condições climáticas adversas, redobre a atenção e reduza a velocidade.
+*   **Manuseio da Carga:**
+    *   Manuseie a carga com o máximo cuidado, evitando quedas ou impactos.
+    *   Certifique-se de que a carga está sempre segura e não se moverá durante o trajeto.
+    *   Em caso de qualquer irregularidade com a carga (vazamento, dano aparente), informe imediatamente o supervisor.
+*   **No Local de Entrega:**
+    *   Estacione a moto em local seguro e permitido.
+    *   Esteja atento ao seu entorno ao manusear a carga.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência (acidente, problema mecânico grave, roubo ou qualquer situação que comprometa a segurança ou a entrega), entre em contato IMEDIATAMENTE com:
+Em caso de qualquer emergência, acidente ou problema com a rota, entre em contato imediatamente com os seguintes números:
 
-*   **Coordenador de Logística:**
-    *   Nome: [Nome do Coordenador]
-    *   Telefone: [Número de Telefone do Coordenador]
-*   **Emergência Médica / SAMU:**
-    *   Telefone: **192**
-*   **Polícia Militar:**
-    *   Telefone: **190**
+*   **Supervisor de Logística:** [Inserir Nome do Supervisor] - Telefone: [Inserir Telefone do Supervisor]
+*   **Central de Operações:** [Inserir Número da Central de Operações]
+*   **Serviços de Emergência (SAMU/Bombeiros/Polícia):** 192 / 193 / 190
 
-**Lembre-se:** Sua segurança e a integridade das entregas são prioridade máxima. Siga estas instruções com atenção e profissionalismo.
+---
 
-Agradecemos seu empenho e dedicação!
+Agradecemos sua dedicação e profissionalismo em cumprir esta missão. Sua atuação é essencial para o bom funcionamento dos serviços de saúde.
+
+Atenciosamente,
+
+[Seu Nome/Nome do Departamento Responsável]
+Logística Hospitalar e Otimização de Rotas

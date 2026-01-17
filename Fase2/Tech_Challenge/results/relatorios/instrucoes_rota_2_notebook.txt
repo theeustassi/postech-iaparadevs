@@ -1,7 +1,7 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:23
+        Data: 17/01/2026 14:46
         Veículo: Van 002
         ════════════════════════════════════════════════════════════
         
@@ -15,103 +15,81 @@
 
 ### 1. Resumo da Missão
 
-Prezado(a) motorista,
-
-Sua missão hoje é realizar a entrega de materiais médicos essenciais para duas unidades de saúde. A rota foi otimizada para eficiência e segurança.
+**Objetivo:** Realizar a entrega de suprimentos médicos com prioridade **CRITICAL** para a **UBS Consolação**.
 
 **Detalhes da Rota:**
-*   **Veículo:** Van 002
-*   **Distância Total:** 13.35 km
-*   **Tempo Estimado:** 0.9 horas (aproximadamente 54 minutos)
-*   **Número de Entregas:** 2
-*   **Capacidade Utilizada:** 94.8% (carga máxima)
-
-**Prioridade:** Todas as entregas são de **CRITICAL** importância.
+*   **Distância Total:** 5.61 km
+*   **Tempo Estimado:** 0.5 horas (30 minutos)
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 79.8% (Verificar se a carga está bem acondicionada e segura)
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Por favor, complete os seguintes itens antes de iniciar sua rota:
+Antes de iniciar a rota, por favor, complete o seguinte checklist:
 
-*   **Veículo:**
-    *   [ ] Verificação geral do veículo (pneus, freios, luzes, fluidos).
-    *   [ ] Limpeza e organização interna da Van 002.
-    *   [ ] Equipamentos de segurança (macaco, triângulo, extintor) em ordem.
-*   **Carga:**
-    *   [ ] Conferência da lista de carga com os materiais transportados.
-    *   [ ] Verificação da integridade das embalagens.
-    *   [ ] Assegurar que a carga está devidamente acomodada e segura para evitar movimentação durante o trajeto.
-*   **Documentação:**
-    *   [ ] Nota fiscal ou documento de transporte em mãos.
-    *   [ ] Mapa da rota ou GPS com o trajeto carregado.
-    *   [ ] Lista de contatos de emergência.
-*   **Equipamentos Pessoais:**
-    *   [ ] Uniforme completo e identificação.
-    *   [ ] Celular carregado com acesso à internet.
+*   [ ] **Veículo:** Van 002 em perfeitas condições (pneus, freios, luzes, fluidos).
+*   [ ] **Documentação:** Carteira de motorista, documento do veículo e autorização de transporte de cargas médicas em dia e acessíveis.
+*   [ ] **Carga:** Confirmar que todos os itens da entrega estão presentes e devidamente embalados/acondicionados conforme instruções específicas (se houver). Garantir que a carga está segura e não se moverá durante o transporte.
+*   [ ] **Equipamentos de Segurança:** Equipamento de proteção individual (EPI) adequado (máscara, luvas, etc.) disponível.
+*   [ ] **Comunicação:** Telefone celular totalmente carregado e com acesso à internet.
+*   [ ] **Navegação:** GPS ou aplicativo de navegação configurado com o endereço de destino.
+*   [ ] **Kit de Primeiros Socorros:** Verificar a presença e validade do kit de primeiros socorros no veículo.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-Siga a ordem abaixo para garantir a eficiência da sua rota:
+A rota consiste em uma única entrega.
 
-**Entrega 1:**
+**Ponto de Entrega 1:**
 
-*   **Local:** UBS Saúde
-*   **Endereço:** Lat: -23.5735, Lon: -46.6028
+*   **Ordem:** 1
+*   **Nome do Local:** UBS Consolação
+*   **Endereço:** Lat: -23.5545, Lon: -46.6605
 *   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 15 minutos
-*   **Instruções Específicas:**
-    *   Ao chegar, procure o responsável pelo recebimento de materiais na área designada.
-    *   Apresente a documentação necessária para a liberação da carga.
-    *   Certifique-se de que a entrega seja confirmada e assinada no documento de transporte.
+*   **Tempo Estimado de Serviço:** 20 minutos (tempo para realizar a entrega no local)
 
-**Entrega 2:**
+**Instruções para a Entrega:**
 
-*   **Local:** UBS Vila Prudente
-*   **Endereço:** Lat: -23.588, Lon: -46.582
-*   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 15 minutos
-*   **Instruções Específicas:**
-    *   Ao chegar, dirija-se à recepção ou ao setor de logística da unidade.
-    *   Confirme a identidade do recebedor e apresente a documentação de entrega.
-    *   Obtenha a assinatura de recebimento e, se aplicável, o carimbo da unidade.
+1.  Dirija-se à **UBS Consolação** utilizando o GPS ou aplicativo de navegação.
+2.  Ao chegar, identifique-se como motorista de entrega médica da [Nome da Sua Organização/Empresa].
+3.  Apresente a documentação necessária para a descarga.
+4.  Entregue os suprimentos médicos ao responsável indicado pela unidade.
+5.  Obtenha a confirmação de recebimento (assinatura, carimbo, etc.) em sua via do comprovante de entrega.
+6.  Mantenha a calma e a discrição durante todo o processo de entrega.
 
 ---
 
 ### 4. Orientações de Segurança
 
-Sua segurança e a integridade da carga são prioridade máxima.
-
-*   **Dirija com Responsabilidade:** Respeite os limites de velocidade, a sinalização de trânsito e as leis de trânsito.
-*   **Atenção ao Tráfego:** Esteja sempre atento às condições do trânsito, especialmente em áreas urbanas.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a distância para o veículo à frente.
-*   **Estacionamento Seguro:** Ao realizar as entregas, estacione em locais seguros e permitidos, minimizando o tempo de exposição do veículo e da carga.
-*   **Carga:** Mantenha a carga segura e protegida durante todo o trajeto. Evite paradas desnecessárias.
-*   **Comunicação:** Mantenha-se em contato com a central em caso de qualquer imprevisto.
-*   **Saúde:** Evite dirigir se estiver se sentindo cansado ou indisposto.
+*   **Condução Defensiva:** Dirija com atenção redobrada, respeitando todas as leis de trânsito e os limites de velocidade. Antecipe as ações de outros motoristas e pedestres.
+*   **Condições Climáticas:** Adapte sua velocidade e distância de segurança às condições climáticas (chuva, neblina, etc.).
+*   **Segurança da Carga:** Certifique-se de que a carga está sempre segura e protegida contra danos e roubo. Não deixe o veículo desacompanhado com a carga exposta.
+*   **Acesso e Estacionamento:** Ao chegar ao destino, procure o local mais seguro e adequado para estacionar, minimizando riscos para você, o veículo e a carga.
+*   **Interação no Local:** Mantenha uma postura profissional e respeitosa em todos os contatos.
+*   **Emergências:** Em caso de qualquer incidente ou emergência, priorize sua segurança e a da carga.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência (acidente, roubo, problema de saúde, etc.), entre em contato imediatamente com os seguintes números:
+Em caso de qualquer emergência, acidentes, problemas com a carga ou necessidade de suporte, entre em contato imediatamente com:
 
-*   **Central de Logística Hospitalar:**
-    *   Telefone: [Inserir Número da Central]
-    *   Ramal: [Inserir Ramal, se aplicável]
-*   **Segurança Hospitalar:**
-    *   Telefone: [Inserir Número de Segurança]
-*   **Serviços de Emergência (Polícia, Bombeiros, SAMU):**
-    *   Telefone: **190** (Polícia Militar)
-    *   Telefone: **193** (Corpo de Bombeiros)
-    *   Telefone: **192** (SAMU - Atendimento Móvel de Urgência)
+*   **Coordenador de Logística:**
+    *   Nome: [Nome do Coordenador]
+    *   Telefone: [Número de Telefone do Coordenador]
+*   **Central de Emergência:**
+    *   Telefone: [Número da Central de Emergência - Ex: 190 para Polícia, 193 para Bombeiros, 192 para SAMU]
+*   **Suporte Técnico/Manutenção do Veículo:**
+    *   Telefone: [Número de Contato para Manutenção]
 
 ---
 
-Agradecemos seu profissionalismo e dedicação. Sua atuação é fundamental para o bom funcionamento dos serviços de saúde.
+Agradecemos seu profissionalismo e dedicação em garantir que estas entregas médicas cheguem ao seu destino com segurança e pontualidade.
 
-Atenciosamente,
+**Atenciosamente,**
 
+**[Seu Nome/Nome da Sua Organização]**
 **Departamento de Logística Hospitalar**

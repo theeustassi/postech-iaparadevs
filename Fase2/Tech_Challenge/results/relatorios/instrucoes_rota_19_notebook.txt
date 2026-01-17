@@ -1,0 +1,106 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 17/01/2026 14:48
+        Veículo: Van 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções para Motorista de Entrega Médica - Van 001
+
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Van 001
+
+---
+
+### 1. Resumo da Missão
+
+**Objetivo:** Realizar uma entrega médica de alta prioridade para o Hospital Albert Einstein.
+
+**Detalhes da Rota:**
+*   **Distância Total:** 19.92 km
+*   **Tempo Estimado:** 1.1 horas
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 81.0% (Indica que o veículo está bem carregado, manuseie com cuidado)
+
+**Ponto de Entrega:**
+1.  **Hospital Albert Einstein:** Lat: -23.5988, Lon: -46.7158
+    *   **Prioridade:** MEDIUM
+    *   **Tempo de Serviço Estimado:** 30 minutos
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar a rota, certifique-se de que os seguintes itens estão em ordem:
+
+*   **Veículo:**
+    *   [ ] Verificação geral do veículo (pneus, freios, luzes, fluidos).
+    *   [ ] Condições de limpeza interna e externa do veículo.
+    *   [ ] Equipamentos de segurança (extintor, triângulo, kit de primeiros socorros) presentes e em bom estado.
+    *   [ ] Ar condicionado/ventilação funcionando corretamente.
+*   **Carga:**
+    *   [ ] Conferência da carga com a nota fiscal/documentação de transporte.
+    *   [ ] Verificação da integridade e segurança da embalagem dos materiais médicos.
+    *   [ ] Confirmação de que a carga está devidamente acondicionada para evitar deslocamentos.
+*   **Documentação:**
+    *   [ ] Carteira de habilitação válida.
+    *   [ ] Documentos do veículo em dia.
+    *   [ ] Roteiro impresso ou digitalizado acessível.
+    *   [ ] Lista de contatos de emergência.
+*   **Equipamentos Pessoais:**
+    *   [ ] Uniforme completo e limpo.
+    *   [ ] Telefone celular carregado e com acesso à internet.
+    *   [ ] GPS ou aplicativo de navegação configurado.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Partida:** [Endereço de Partida - Ex: Central de Distribuição Logística Hospitalar]
+
+**Instruções de Navegação:**
+*   Utilize o GPS configurado com o endereço do Hospital Albert Einstein (Lat: -23.5988, Lon: -46.7158).
+*   A rota estimada é de 19.92 km e levará aproximadamente 1.1 horas.
+*   Esteja atento ao tráfego local, especialmente em horários de pico, e ajuste a rota se necessário, priorizando a segurança.
+
+**Entrega 1: Hospital Albert Einstein**
+
+1.  **Chegada:** Ao chegar ao Hospital Albert Einstein, dirija-se à área designada para recebimento de cargas ou siga as sinalizações internas.
+2.  **Identificação:** Apresente-se na portaria ou no ponto de recebimento indicado, informando seu nome, o veículo e o destino da entrega.
+3.  **Descarregamento:**
+    *   Aguarde a equipe do hospital para auxiliar no descarregamento, se aplicável.
+    *   Manuseie os materiais com extremo cuidado, respeitando as indicações de fragilidade e temperatura, se houver.
+    *   Certifique-se de que a entrega está completa e em conformidade com a documentação.
+4.  **Confirmação:** Obtenha a assinatura do recebedor no comprovante de entrega. Caso não seja possível, registre o motivo e, se possível, tire uma foto do material entregue no local.
+5.  **Tempo de Serviço:** O tempo de serviço estimado é de 30 minutos. Esteja preparado para possíveis atrasos na liberação.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e a sinalização de trânsito.
+*   **Manuseio da Carga:** Devido à alta capacidade utilizada, redobre a atenção ao manobrar o veículo e ao realizar curvas. Evite freadas bruscas.
+*   **Segurança Pessoal:** Mantenha as portas do veículo travadas enquanto estiver em trânsito. Ao sair do veículo, esteja atento ao seu entorno.
+*   **Comunicação:** Mantenha contato com a central em caso de imprevistos, atrasos ou qualquer situação que possa comprometer a entrega.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras adversidades, reduza a velocidade e aumente a cautela.
+*   **Materiais Sensíveis:** Se houver materiais que exijam controle de temperatura, verifique o funcionamento do sistema de refrigeração e reporte qualquer anomalia imediatamente.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, etc.), entre em contato imediatamente com os seguintes números:
+
+*   **Central de Logística Hospitalar:**
+    *   **Telefone:** [Inserir Número da Central de Logística]
+    *   **WhatsApp:** [Inserir Número do WhatsApp da Central de Logística, se aplicável]
+*   **Serviços de Emergência:**
+    *   **Polícia Militar:** 190
+    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
+    *   **Bombeiros:** 193
+*   **Suporte Técnico do Veículo (se aplicável):** [Inserir Número de Suporte Técnico do Veículo]
+
+---
+
+**Agradecemos sua dedicação e profissionalismo. Sua atuação é fundamental para a continuidade dos serviços hospitalares.**

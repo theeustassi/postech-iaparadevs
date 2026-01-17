@@ -1,118 +1,115 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:23
+        Data: 17/01/2026 14:46
         Veículo: Moto 001
         ════════════════════════════════════════════════════════════
         
-        ## Instruções de Entrega Médica - Moto 001
+        ## Instruções de Entrega Médica - Motorista Moto 001
+
+**Data:** [Inserir Data Atual]
 
 **Para:** Motorista da Moto 001
-**Data:** [Inserir Data Atual]
-**Assunto:** Rota de Entrega Médica - Urgente
+
+**Assunto:** Instruções de Entrega Médica - Rota Única
 
 Prezado(a) Motorista,
 
-Este documento contém as instruções detalhadas para a sua missão de entrega médica prioritária. Sua diligência e profissionalismo são cruciais para garantir que estes suprimentos cheguem aos seus destinos em tempo hábil e em perfeitas condições.
+Este documento contém as instruções detalhadas para a sua missão de entrega médica. Sua atenção e cumprimento rigoroso destas diretrizes são essenciais para garantir a segurança e a eficiência do transporte de suprimentos médicos.
 
 ---
 
 ### 1. Resumo da Missão
 
-Você é responsável pela entrega de suprimentos médicos urgentes utilizando a Moto 001. A rota totaliza **35.32 km** com um tempo estimado de **2.0 horas**. Serão realizadas **3 entregas** com prioridade **CRITICAL**. A capacidade utilizada indica uma carga significativa, exigindo atenção especial ao manuseio e segurança.
+*   **Veículo:** Moto 001
+*   **Distância Total:** 10.35 km
+*   **Tempo Estimado:** 0.5 horas (30 minutos)
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 125.0% (Atenção: A capacidade utilizada indica que a carga está acima do ideal. Manuseie com extremo cuidado e certifique-se de que a carga esteja segura e estável.)
+*   **Ponto de Entrega Principal:** UBS Pinheiros
+
+Sua missão consiste em realizar uma única entrega de suprimentos médicos com prioridade **CRITICAL** para a UBS Pinheiros. Dada a criticidade, a pontualidade é fundamental.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+Antes de iniciar sua rota, por favor, complete o seguinte checklist:
 
-*   **Documentação:**
-    *   Carteira de Habilitação válida e CNH do veículo em dia.
-    *   Documentos da Moto 001 (CRLV).
-    *   Ordem de Serviço/Roteiro impresso ou em dispositivo eletrônico.
-    *   Lista de materiais a serem entregues (conferir com o responsável pela carga).
-*   **Veículo (Moto 001):**
-    *   Pneus calibrados e em bom estado.
-    *   Freios funcionando perfeitamente.
-    *   Nível de óleo e combustível adequados.
-    *   Iluminação (faróis, setas, lanternas) funcionando.
-    *   Buzina em ordem.
-    *   Bagageiro/Compartimento de carga seguro e limpo.
-    *   Verificar se a carga está bem acondicionada e segura para o transporte.
-*   **Equipamentos de Segurança:**
-    *   Capacete homologado e em bom estado.
+*   [ ] **Veículo:**
+    *   Verificar pneus (calibragem e estado).
+    *   Verificar freios (dianteiro e traseiro).
+    *   Verificar luzes (farol, lanterna, setas, luz de freio).
+    *   Verificar buzina.
+    *   Verificar nível de óleo e combustível.
+    *   Garantir que o baú/compartimento de carga esteja limpo e em boas condições.
+*   [ ] **Carga:**
+    *   Confirmar que a carga a ser transportada corresponde à descrição da missão.
+    *   Verificar se a carga está devidamente embalada, identificada e segura no veículo.
+    *   **ATENÇÃO:** Dada a capacidade utilizada de 125%, certifique-se de que a carga esteja firmemente presa e não haja risco de queda ou dano durante o trajeto. Utilize cintas de amarração, se necessário.
+*   [ ] **Equipamentos de Segurança:**
+    *   Capacete homologado em bom estado.
     *   Luvas de proteção.
-    *   Jaqueta e calças de proteção (preferencialmente com elementos refletivos).
-    *   Botas de segurança.
-    *   Máscara de proteção (se aplicável).
-*   **Comunicação:**
-    *   Celular com bateria carregada e com acesso à internet.
-    *   Aplicativo de navegação (GPS) configurado.
-    *   Carregador portátil (power bank) para o celular.
+    *   Jaqueta refletiva e resistente.
+    *   Calçados fechados e resistentes.
+    *   Óculos de proteção (se aplicável).
+*   [ ] **Documentação:**
+    *   Carteira Nacional de Habilitação (CNH) válida.
+    *   Documento do veículo (CRLV) válido.
+    *   Ordem de Serviço/Nota Fiscal (se aplicável).
+*   [ ] **Comunicação:**
+    *   Telefone celular carregado e com sinal.
+    *   Aplicativo de navegação (GPS) configurado com o destino.
+    *   Lista de contatos de emergência à mão.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-A ordem de entrega foi otimizada para sua eficiência. Siga rigorosamente a sequência abaixo:
+**Ponto de Partida:** [Inserir Endereço de Partida - Ex: Central de Distribuição Hospitalar]
 
-**Ponto de Partida:** [Inserir local de partida, se aplicável]
+**Ordem de Entrega:**
 
-**Entrega 1:**
-*   **Ordem:** 1
-*   **Nome:** UBS Tatuapé
-*   **Endereço:** Lat: -23.54, Lon: -46.575
-*   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 15.0 minutos
-*   **Instruções Adicionais:** Ao chegar, procure o setor responsável pelas entregas médicas e apresente a documentação necessária.
-
-**Entrega 2:**
-*   **Ordem:** 2
-*   **Nome:** Atendimento Domiciliar Sra. Almeida
-*   **Endereço:** Lat: -23.5425, Lon: -46.7018
-*   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 30.0 minutos
-*   **Instruções Adicionais:** Ao chegar, informe o nome da paciente e apresente a documentação de entrega. Aguarde a conferência e assinatura do recebimento.
-
-**Entrega 3:**
-*   **Ordem:** 3
-*   **Nome:** Hospital Albert Einstein
-*   **Endereço:** Lat: -23.5988, Lon: -46.7158
-*   **Prioridade:** CRITICAL
-*   **Tempo Estimado de Serviço:** 30.0 minutos
-*   **Instruções Adicionais:** Dirija-se à portaria/recepção de entregas e siga as orientações dos funcionários para a liberação da carga.
+1.  **Destino:** UBS Pinheiros
+    *   **Endereço:** Lat: -23.564, Lon: -46.682
+    *   **Demanda:** 25.00699944173915 (Unidades/Peso/Volume - especificar se aplicável)
+    *   **Prioridade:** CRITICAL
+    *   **Tempo Estimado de Serviço:** 15 minutos
+    *   **Instruções Específicas:**
+        *   Ao chegar, apresente-se na recepção/portaria da UBS Pinheiros e informe que se trata de uma entrega com prioridade CRITICAL.
+        *   Siga as orientações do pessoal da UBS para o local de descarregamento.
+        *   Obtenha a assinatura de recebimento em sua ordem de serviço ou comprovante eletrônico, se aplicável.
+        *   Confirme se a carga foi recebida em conformidade.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Dirija com Prudência:** A segurança é sua prioridade máxima. Respeite os limites de velocidade, sinalização de trânsito e as leis de trânsito.
-*   **Atenção ao Trânsito:** Esteja sempre atento ao seu redor, especialmente em cruzamentos e áreas de grande movimento. Antecipe as ações de outros veículos e pedestres.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a distância para os outros veículos. Se as condições se tornarem perigosas, procure um local seguro para aguardar.
-*   **Manuseio da Carga:** Devido à alta capacidade utilizada, certifique-se de que a carga esteja sempre bem fixada e não comprometa o equilíbrio da moto. Evite manobras bruscas.
-*   **Comunicação Constante:** Mantenha-se em contato com a central sempre que possível, especialmente ao iniciar e finalizar cada entrega, ou em caso de imprevistos.
-*   **Evite Distrações:** Jamais utilize o celular enquanto estiver pilotando. Pare em local seguro para realizar chamadas ou enviar mensagens.
-*   **Estacionamento:** Ao realizar as entregas, estacione a moto em local seguro e visível, garantindo que não obstrua o tráfego ou o acesso.
+*   **Condução Defensiva:** Dirija com atenção redobrada, antecipando as ações de outros veículos e pedestres. Mantenha distância segura.
+*   **Condições Climáticas:** Adapte sua velocidade e estilo de condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e, se necessário, procure um local seguro para aguardar a melhora.
+*   **Trânsito:** Esteja atento ao tráfego, especialmente em cruzamentos e áreas de grande movimento. Utilize os espelhos retrovisores constantemente.
+*   **Manuseio da Carga:** Devido à alta capacidade utilizada, redobre o cuidado ao manobrar a moto para evitar movimentos bruscos que possam desestabilizar a carga. Certifique-se de que a carga esteja sempre visível e segura.
+*   **Paradas:** Evite paradas desnecessárias. Se precisar parar, escolha um local seguro e visível, longe do fluxo principal de tráfego.
+*   **Comunicação:** Mantenha-se em contato com a central em caso de imprevistos ou atrasos significativos.
+*   **Identificação:** Mantenha a identificação do veículo e sua própria identificação visíveis, se necessário.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência, acidente ou imprevisto, entre em contato imediatamente com:
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, etc.), entre em contato imediatamente com os seguintes números:
 
-*   **Central de Logística:** [Inserir número de telefone da Central de Logística]
-*   **Supervisor de Rota:** [Inserir nome e número de telefone do Supervisor de Rota, se aplicável]
-*   **Serviços de Emergência:**
-    *   Polícia Militar: 190
-    *   Corpo de Bombeiros: 193
-    *   SAMU (Serviço de Atendimento Móvel de Urgência): 192
+*   **Central de Logística Hospitalar:** [Inserir Número de Telefone da Central]
+*   **Emergência Médica (SAMU):** 192
+*   **Polícia Militar:** 190
+*   **Bombeiros:** 193
+*   **Contato de Suporte Técnico (se aplicável):** [Inserir Número de Telefone do Suporte Técnico]
 
 ---
 
-Agradecemos sua dedicação e profissionalismo em cumprir esta importante missão.
+Agradecemos sua dedicação e profissionalismo. Sua atuação é vital para a continuidade dos serviços de saúde.
 
 Atenciosamente,
 
-[Seu Nome/Nome do Departamento]
-Logística Hospitalar e Otimização de Rotas
+**[Seu Nome/Departamento]**
+**Logística Hospitalar e Otimização de Rotas**

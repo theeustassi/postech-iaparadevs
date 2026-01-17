@@ -2,110 +2,85 @@
         ════════════════════════════════════════════════════════════
         RELATÓRIO DE OTIMIZAÇÃO DE ROTAS
         Sistema de Distribuição de Medicamentos e Insumos Médicos
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:48
         ════════════════════════════════════════════════════════════
         
         ## Relatório Executivo: Otimização de Rotas de Entregas Médicas
 
-**Data:** 26 de outubro de 2023
+**Data:** 26 de Outubro de 2023
 
-**Para:** Alta Direção
+**Para:** Alta Gerência
 
-**De:** [Seu Nome/Departamento], Especialista em Logística Hospitalar e Otimização de Rotas
+**De:** [Seu Nome/Departamento de Logística Hospitalar]
 
-**Assunto:** Relatório de Otimização de Rotas de Entregas Médicas – Resultados e Recomendações
+**Assunto:** Relatório de Otimização de Rotas de Entregas Médicas – Aumento de Eficiência e Redução de Custos
 
 ---
 
 ### 1. Sumário Executivo
 
-Este relatório apresenta os resultados da otimização das rotas de entrega de suprimentos médicos, focando na melhoria da eficiência operacional, redução de custos e garantia da pontualidade das entregas. Através da aplicação de um Algoritmo Genético (AG) com 300 gerações, alcançamos uma **melhoria de 10.2%** nos indicadores de desempenho, resultando em uma redução significativa no **custo total de R$ 516.12** e no **tempo total de 16.3 horas** para a execução de 14 rotas e 30 entregas. A priorização estratégica de entregas críticas foi mantida, com 17 demandas classificadas como de alta urgência. As métricas de fitness, que refletem a qualidade da solução encontrada, evoluíram de 292551.53 para 262615.44, demonstrando a eficácia do processo de otimização.
+Este relatório apresenta os resultados da otimização de rotas de entregas médicas, visando aprimorar a eficiência operacional, reduzir custos e garantir a pontualidade das entregas. A implementação de um algoritmo genético (AG) para otimização resultou em uma **melhoria de 8.0%** nos indicadores de desempenho, com uma redução significativa no "fitness" (representando o custo total e tempo combinado) de 375921.41 para 345661.47. As 20 rotas otimizadas cobrem uma distância total de 261.58 km, com um custo total de R$ 584.11 e um tempo total de 17.0 horas para a realização de 30 entregas. A análise detalhada das rotas revela oportunidades para um uso mais estratégico dos recursos disponíveis e aprimoramento dos processos logísticos.
 
 ---
 
 ### 2. Análise de Eficiência
 
-A otimização de rotas foi fundamental para aprimorar a performance logística. As 14 rotas planejadas cobriram uma **distância total de 240.22 km**, com um custo total de R$ 516.12 e um tempo operacional de 16.3 horas. A aplicação do AG resultou em uma **redução de 10.2%** em relação ao cenário base, o que se traduz em economia de recursos e maior agilidade na cadeia de suprimentos.
+A otimização das rotas de entregas médicas demonstrou um impacto positivo direto na eficiência operacional. A aplicação do algoritmo genético, após 300 gerações, permitiu a identificação de caminhos mais curtos e eficientes, resultando na **melhoria de 8.0%** observada.
 
-Observamos que, apesar da otimização, algumas rotas apresentaram desafios específicos, como a **Moto 001** com rotas que, em alguns casos, excederam a capacidade de carga (ex: 229.1%, 247.6%, 197.7% de uso de capacidade), indicando a necessidade de reavaliação da alocação de demandas ou da capacidade dos veículos. As **Vans 001 e 002** demonstraram um uso de capacidade mais adequado na maioria das rotas, com exceções pontuais.
-
-O tempo total de serviço e deslocamento foi otimizado, garantindo que as entregas, especialmente as de prioridade **CRITICAL** (17 entregas), sejam realizadas de forma mais eficiente. A análise detalhada de cada rota (apresentada na seção de detalhes) permite identificar oportunidades de ajuste fino.
+*   **Redução de Custos e Tempo:** A otimização não apenas reduziu a distância total percorrida, mas também impactou positivamente o tempo de execução e, consequentemente, os custos associados. O "fitness" reduzido reflete uma combinação mais vantajosa de distância, tempo e outros fatores de custo.
+*   **Gerenciamento de Prioridades:** A distribuição das entregas por prioridade (18 CRITICAL, 10 HIGH, 1 MEDIUM, 1 LOW) foi considerada no processo de otimização, garantindo que as demandas mais urgentes fossem atendidas com maior agilidade e menor risco.
+*   **Desempenho do Algoritmo:** O algoritmo genético demonstrou sua capacidade de explorar o espaço de soluções e convergir para um resultado otimizado, evidenciado pela diferença entre o "fitness" inicial e final.
 
 ---
 
 ### 3. Distribuição de Recursos
 
-A operação envolveu 14 rotas, com a utilização de diferentes tipos de veículos. A distribuição das prioridades das entregas foi a seguinte:
+A análise das rotas individuais revela a distribuição dos recursos (veículos) e a carga transportada:
 
-*   **CRITICAL:** 17 entregas
-*   **HIGH:** 10 entregas
-*   **MEDIUM:** 3 entregas
-
-A estratégia de otimização buscou equilibrar a cobertura geográfica com a urgência das demandas. A análise das rotas individuais revela a alocação de veículos como:
-
-*   **Van 001:** 5 rotas
-*   **Van 002:** 4 rotas
-*   **Moto 001:** 3 rotas
-
-É importante notar que as "Motos 001" em algumas rotas apresentaram um uso de capacidade significativamente superior a 100%, o que pode indicar a necessidade de reavaliar a adequação destes veículos para determinadas demandas ou a possibilidade de dividir cargas maiores em rotas distintas.
+*   **Veículos Utilizados:** Foram utilizadas "Van 001", "Van 002" e "Moto 001", com diferentes níveis de utilização e eficiência.
+*   **Carga por Veículo:** A demanda total de 30 entregas foi distribuída entre os veículos. Observa-se que algumas rotas apresentam um uso de capacidade percentual elevado, enquanto outras têm um potencial de otimização em termos de carga. Por exemplo, a "Moto 001" em algumas rotas apresenta um "capacity_usage_percent" superior a 200%, indicando a necessidade de reavaliar a capacidade de carga ou a frequência de viagens para este veículo em rotas específicas.
+*   **Tempo de Serviço e Deslocamento:** A relação entre "travel_time_hours" (tempo de deslocamento) e "service_time_hours" (tempo de serviço) em cada rota é um indicador crucial. Rotas com tempo de serviço desproporcionalmente alto podem indicar a necessidade de otimização dos processos de carga/descarga ou de recursos adicionais no ponto de entrega.
 
 ---
 
 ### 4. Indicadores de Desempenho (KPIs)
 
-| Indicador                        | Valor Inicial | Valor Final | Variação (%) | Impacto                                                              |
-| :--------------------------------- | :------------ | :---------- | :----------- | :------------------------------------------------------------------- |
-| Custo Total (R$)                   | (Estimado)    | 516.12      | -            | Redução de custos operacionais.                                      |
-| Tempo Total (horas)                | (Estimado)    | 16.3        | -            | Aumento da agilidade e eficiência operacional.                       |
-| Distância Total (km)               | (Estimado)    | 240.22      | -            | Redução do consumo de combustível e desgaste de veículos.            |
-| Melhoria Obtida (%)                | -             | 10.2        | -            | Ganho de eficiência geral.                                           |
-| Fitness Inicial                    | 292551.53     | -           | -            | Indicador da qualidade da solução inicial.                           |
-| Fitness Final                      | -             | 262615.44   | -            | Indicador da qualidade da solução otimizada (menor é melhor).      |
-| Número de Entregas                 | 30            | 30          | 0%           | Manutenção do volume de serviço.                                     |
-| Número de Rotas                    | 14            | 14          | 0%           | Manutenção da estrutura de roteirização.                             |
-| Uso de Capacidade Média (Estimado) | (Estimado)    | -           | -            | Necessita de análise aprofundada por veículo.                        |
-| Penalidade Média (Estimado)        | (Estimado)    | -           | -            | Indica a ocorrência de violações de restrições (capacidade, tempo). |
+Os seguintes KPIs foram considerados e apresentados nos resultados da otimização:
 
-**Observação:** O "Fitness" é uma métrica interna do algoritmo de otimização, onde um valor menor indica uma solução mais eficiente. A melhoria de 10.2% refere-se à redução nos custos e/ou tempos em comparação com um cenário não otimizado.
+*   **Número de Rotas:** 20
+*   **Distância Total Otimizada:** 261.58 km
+*   **Custo Total Otimizado:** R$ 584.11
+*   **Tempo Total Otimizado:** 17.0 horas
+*   **Total de Entregas:** 30
+*   **Melhoria Obtida:** 8.0%
+*   **Fitness Inicial:** 375921.41
+*   **Fitness Final:** 345661.47
+*   **Uso de Capacidade Média (por rota):** Variável, com picos que indicam sobrecarga em algumas rotas ou subutilização em outras.
+*   **Uso de Autonomia Média (por rota):** Variável, indicando a distância percorrida em relação à autonomia total do veículo.
 
 ---
 
 ### 5. Recomendações e Oportunidades de Melhoria
 
-Com base na análise dos resultados, apresentamos as seguintes recomendações para maximizar os benefícios da otimização e endereçar pontos de atenção:
+Com base na análise dos dados apresentados, as seguintes recomendações são propostas para maximizar a eficiência e aprimorar continuamente a logística de entregas médicas:
 
-1.  **Revisão da Alocação de Veículos e Capacidade:**
-    *   **Ação:** Analisar as rotas da "Moto 001" que apresentam uso de capacidade acima de 100% (ex: rotas 3, 6, 9, 12).
-    *   **Oportunidade:** Considerar a divisão dessas cargas em rotas menores, a utilização de veículos com maior capacidade para essas rotas específicas, ou a renegociação dos tempos de serviço para acomodar a demanda.
-    *   **Impacto Esperado:** Redução de multas/penalidades associadas ao excesso de capacidade e maior segurança nas entregas.
+*   **Análise Detalhada de Rotas com Alta Capacidade de Carga:** As rotas com "capacity_usage_percent" significativamente acima de 100% (ex: Moto 001, rota com 267.1%) requerem uma investigação aprofundada. Sugere-se:
+    *   **Revisão da Capacidade do Veículo:** Verificar se a capacidade nominal do veículo é adequada para a demanda.
+    *   **Divisão de Rotas:** Considerar a divisão dessas rotas em trechos menores ou a alocação de mais de um veículo para atender a demanda.
+    *   **Otimização do Agrupamento de Entregas:** Avaliar se o agrupamento de entregas está sendo feito de forma ideal para a capacidade do veículo.
+*   **Otimização do Tempo de Serviço:** Para rotas onde o "service_time_hours" representa uma parcela significativa do "total_time_hours", é recomendável investigar a eficiência dos processos de entrega e recebimento. Isso pode incluir:
+    *   **Padronização de Procedimentos:** Implementar procedimentos padronizados para carga e descarga.
+    *   **Treinamento da Equipe:** Oferecer treinamento para a equipe de entrega focado em agilidade e eficiência.
+    *   **Tecnologia de Apoio:** Avaliar o uso de tecnologias que possam agilizar o processo de confirmação de entrega.
+*   **Análise de Custos por Rota e Veículo:** Realizar uma análise mais granular dos custos associados a cada rota e veículo. Identificar rotas com custos desproporcionalmente altos e investigar as causas (ex: tempo de parada, custos de combustível por km).
+*   **Monitoramento Contínuo e Ajustes:** A otimização de rotas deve ser um processo contínuo. Recomenda-se o monitoramento regular dos KPIs e a reexecução do processo de otimização em intervalos planejados ou quando houver mudanças significativas na demanda ou na infraestrutura.
+*   **Considerar Fatores Adicionais na Otimização:** Em futuras iterações, considerar a inclusão de outros fatores na função objetivo do algoritmo, como:
+    *   **Janelas de Tempo de Entrega:** Restrições específicas de horários para determinadas entregas.
+    *   **Condições de Tráfego em Tempo Real:** Integração com dados de tráfego para otimizar rotas dinamicamente.
+    *   **Manutenção dos Veículos:** Incorporar a necessidade de manutenções preventivas na programação.
 
-2.  **Análise Detalhada de Penalidades:**
-    *   **Ação:** Investigar as rotas com penalidades significativas (ex: Rota 3 - R$ 13030.03, Rota 6 - R$ 12394.12, Rota 9 - R$ 14997.39, Rota 11 - R$ 5579.92, Rota 12 - R$ 10007.73).
-    *   **Oportunidade:** Identificar as restrições violadas (tempo, capacidade, etc.) e ajustar os parâmetros do modelo de otimização ou as regras de negócio.
-    *   **Impacto Esperado:** Melhoria na conformidade das rotas e redução de custos associados a penalidades.
-
-3.  **Monitoramento Contínuo e Ajustes de Parâmetros:**
-    *   **Ação:** Implementar um ciclo de monitoramento contínuo das rotas otimizadas e realizar ajustes nos parâmetros do AG ou nas restrições do modelo conforme necessário.
-    *   **Oportunidade:** Adaptar a solução a mudanças na demanda, condições de tráfego ou novas restrições operacionais.
-    *   **Impacto Esperado:** Manutenção e aprimoramento da eficiência logística a longo prazo.
-
-4.  **Exploração de Novas Tecnologias de Rastreamento:**
-    *   **Ação:** Integrar sistemas de rastreamento em tempo real para os veículos.
-    *   **Oportunidade:** Permitir o monitoramento dinâmico das rotas, identificar desvios e realizar realocações em tempo real, aumentando a capacidade de resposta a imprevistos.
-    *   **Impacto Esperado:** Maior controle operacional, melhor comunicação com os clientes e capacidade de reagir a eventos emergenciais.
-
-5.  **Otimização de Tempo de Serviço:**
-    *   **Ação:** Analisar os tempos de serviço em cada ponto de entrega.
-    *   **Oportunidade:** Identificar gargalos e oportunidades de redução do tempo de parada nos locais de entrega, o que pode liberar tempo para mais entregas ou reduzir o tempo total da rota.
-    *   **Impacto Esperado:** Aumento da produtividade da frota.
-
-A implementação destas recomendações permitirá a consolidação dos ganhos de eficiência obtidos com a otimização de rotas, fortalecendo a capacidade da instituição em prover suporte logístico essencial para as operações médicas.
+A implementação destas recomendações visa consolidar os ganhos de eficiência obtidos com a otimização de rotas, assegurando a excelência na prestação de serviços logísticos médicos.
 
 ---
 
-Agradecemos a atenção e nos colocamos à disposição para quaisquer esclarecimentos adicionais.
-
-Atenciosamente,
-
-[Seu Nome/Departamento]
-Especialista em Logística Hospitalar e Otimização de Rotas
+Este relatório fornece uma visão geral da otimização das rotas de entregas médicas. Estamos à disposição para discussões mais aprofundadas e para implementar as ações recomendadas.

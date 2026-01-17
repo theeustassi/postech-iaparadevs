@@ -1,112 +1,140 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:23
+        Data: 17/01/2026 14:46
         Veículo: Van 002
         ════════════════════════════════════════════════════════════
         
-        ## Instruções de Entrega Médica - Motorista
+        ## Instruções para Motorista de Entrega Médica - Rota UBS Jabaquara e UBS Ipiranga
 
-**Para:** Motorista da Van 002
-**Data:** [Inserir Data Atual]
-**Assunto:** Instruções de Rota para Entregas Médicas Urgentes
+**Data:** [Inserir Data]
 
-Prezado(a) Motorista,
+**Motorista:** [Nome do Motorista]
 
-Este documento contém as instruções detalhadas para a sua missão de entrega médica de hoje. Sua pontualidade e cuidado são essenciais para garantir que os suprimentos cheguem aos seus destinos com segurança e eficiência.
+**Veículo:** Van 002
 
 ---
 
 ### 1. Resumo da Missão
 
-*   **Veículo:** Van 002
-*   **Distância Total Estimada:** 18.66 km
-*   **Tempo Estimado da Rota:** 1.3 horas
-*   **Número de Entregas:** 2 (Ambas com prioridade CRITICAL)
-*   **Capacidade Utilizada:** 54.6% (Verifique se a carga está bem acomodada e segura)
+Prezado(a) motorista,
 
-Sua rota envolve duas entregas críticas. A ordem de entrega foi otimizada para garantir a máxima eficiência e pontualidade.
+Sua missão hoje é realizar a entrega de materiais médicos essenciais para duas unidades de saúde em São Paulo. A rota foi otimizada para garantir eficiência e pontualidade, visando atender às necessidades críticas destas unidades.
+
+**Informações da Rota:**
+
+*   **Veículo:** Van 002
+*   **Distância Total:** 16.35 km
+*   **Tempo Estimado:** 1.0 hora
+*   **Número de Entregas:** 2
+*   **Capacidade Utilizada:** 65.5% (Verifique se a carga está bem acondicionada e segura)
+
+Agradecemos seu profissionalismo e dedicação em garantir que estes suprimentos cheguem a tempo.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar sua jornada, por favor, complete os seguintes itens:
+Antes de iniciar sua rota, por favor, complete os seguintes itens:
 
-*   [ ] **Verificação do Veículo:**
-    *   Pressão dos pneus.
-    *   Nível de óleo e água.
-    *   Combustível suficiente para toda a rota e imprevistos.
-    *   Funcionamento de luzes (faróis, setas, freios).
-    *   Limpeza interna e externa da van, especialmente o compartimento de carga.
-*   [ ] **Documentação:**
-    *   Carteira de Habilitação válida.
-    *   Documento do veículo (CRLV).
-    *   Comprovante de seguro do veículo.
-    *   Lista de entregas e informações de contato dos locais de destino.
-*   [ ] **Carga:**
-    *   Confirmação de que todos os itens da carga estão presentes e corretamente identificados.
-    *   Verificação de que os materiais médicos estão devidamente acondicionados e protegidos contra danos e variações de temperatura (se aplicável).
-    *   Segurança da carga para evitar movimentação durante o trajeto.
-*   [ ] **Equipamentos:**
-    *   Telefone celular carregado com acesso à internet.
-    *   GPS ou aplicativo de navegação atualizado.
-    *   Kit de primeiros socorros para o veículo.
-    *   Luvas descartáveis e máscara (para manuseio e segurança).
-*   [ ] **Comunicação:**
-    *   Confirmação de que você possui os números de contato de emergência e da central de logística.
+*   **Documentação:**
+    *   [ ] Conferir se possui a Ordem de Serviço/Nota Fiscal referente à carga.
+    *   [ ] Verificar se a CNH e os documentos do veículo estão em dia e em posse.
+*   **Veículo:**
+    *   [ ] Inspeção visual completa do veículo (pneus, freios, luzes, fluidos).
+    *   [ ] Verificar se o sistema de refrigeração (se aplicável à carga) está funcionando corretamente.
+    *   [ ] Confirmar se o veículo está limpo e em boas condições de higiene.
+*   **Carga:**
+    *   [ ] Conferir se a carga está completa e de acordo com a listagem.
+    *   [ ] Assegurar que todos os materiais estão devidamente embalados, identificados e acondicionados de forma segura para evitar danos durante o transporte.
+    *   [ ] Confirmar que os materiais de alta prioridade (CRITICAL) estão acessíveis e protegidos.
+*   **Equipamentos:**
+    *   [ ] Celular carregado e com acesso à internet.
+    *   [ ] GPS/Aplicativo de navegação configurado com a rota.
+    *   [ ] Equipamento de proteção individual (EPIs) necessário (se aplicável).
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-**Ponto de Partida:** [Inserir endereço do ponto de partida, se aplicável, ou "Central de Logística"]
+A rota foi planejada na seguinte ordem para otimizar o tempo e a logística:
 
-**1. Entrega 1:**
-    *   **Nome do Local:** Hospital São Paulo
-    *   **Endereço:** Lat: -23.5988, Lon: -46.6422
-    *   **Prioridade:** CRITICAL
-    *   **Tempo Estimado de Serviço:** 25.0 minutos
-    *   **Instruções Adicionais:** Ao chegar, dirija-se à área de recebimento de suprimentos. Apresente suas credenciais e a documentação da entrega. Aguarde a confirmação do recebimento.
+**Ponto de Partida:** [Inserir Local de Partida - Ex: Centro de Distribuição Hospitalar]
 
-**2. Entrega 2:**
-    *   **Nome do Local:** Clínica Vila Madalena
-    *   **Endereço:** Lat: -23.5465, Lon: -46.6892
-    *   **Prioridade:** CRITICAL
-    *   **Tempo Estimado de Serviço:** 20.0 minutos
-    *   **Instruções Adicionais:** Ao chegar, procure a recepção ou o setor responsável pelo recebimento de materiais médicos. Siga os procedimentos locais para a entrega.
+---
 
-**Direções de Navegação:**
-Utilize seu dispositivo de navegação para seguir a rota otimizada. A rota foi calculada para minimizar o tempo de viagem e o tráfego.
+**Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome:** UBS Jabaquara
+*   **Endereço:** Lat: -23.614, Lon: -46.642
+*   **Prioridade:** CRITICAL
+*   **Tempo Estimado de Serviço:** 15.0 minutos
+*   **Instruções Adicionais:**
+    *   Ao chegar, identifique-se na recepção/portaria como motorista de entrega médica.
+    *   Aguarde as instruções do responsável pela unidade para o descarregamento.
+    *   Confirme a entrega com a assinatura do recebedor na Ordem de Serviço/Nota Fiscal.
+
+---
+
+**Entrega 2:**
+
+*   **Ordem:** 2
+*   **Nome:** UBS Ipiranga
+*   **Endereço:** Lat: -23.592, Lon: -46.61
+*   **Prioridade:** CRITICAL
+*   **Tempo Estimado de Serviço:** 15.0 minutos
+*   **Instruções Adicionais:**
+    *   Ao chegar, identifique-se na recepção/portaria como motorista de entrega médica.
+    *   Aguarde as instruções do responsável pela unidade para o descarregamento.
+    *   Confirme a entrega com a assinatura do recebedor na Ordem de Serviço/Nota Fiscal.
+
+---
+
+**Ponto de Chegada:** [Inserir Local de Retorno/Fim da Rota - Ex: Centro de Distribuição Hospitalar]
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Condução Defensiva:** Dirija com atenção redobrada, respeitando todos os limites de velocidade e sinalizações de trânsito. Mantenha distância segura dos outros veículos.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
-*   **Manuseio de Carga:** Ao descarregar, certifique-se de que a área esteja segura e livre de obstáculos. Mantenha a postura correta ao levantar peso para evitar lesões.
-*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao sair, mesmo por curtos períodos. Evite estacionar em locais ermos ou mal iluminados.
-*   **Comunicação em Trânsito:** Se precisar fazer uma parada não planejada ou se encontrar dificuldades, comunique-se imediatamente com a central de logística.
+Sua segurança e a integridade da carga são prioridades. Siga estas orientações rigorosamente:
+
+*   **Durante o Trajeto:**
+    *   Respeite rigorosamente as leis de trânsito e os limites de velocidade.
+    *   Mantenha distância segura dos outros veículos.
+    *   Evite distrações ao volante (uso de celular, etc.).
+    *   Em caso de trânsito intenso, mantenha a calma e recalcule o tempo estimado, se necessário.
+    *   Não aceite caronas e não transporte passageiros não autorizados.
+    *   Mantenha as portas do veículo travadas durante o trajeto.
+*   **Durante as Entregas:**
+    *   Ao estacionar, certifique-se de que o local é seguro e permitido.
+    *   Ao sair do veículo, tranque-o sempre.
+    *   Mantenha contato visual com o veículo e a carga durante o descarregamento.
+    *   Seja cortês e profissional com os funcionários das unidades de saúde.
+    *   Em caso de qualquer incidente ou situação suspeita, informe imediatamente o seu supervisor.
+*   **Manuseio da Carga:**
+    *   Manuseie os materiais com cuidado para evitar quedas ou danos.
+    *   Se houver materiais que exijam cuidados especiais (temperatura controlada, fragilidade), redobre a atenção.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, ou qualquer situação que coloque em risco a carga ou sua segurança), entre em contato imediatamente com:
+Em caso de qualquer emergência, acidente, ou necessidade de suporte, entre em contato imediatamente:
 
-*   **Central de Logística:**
-    *   **Telefone:** [Inserir Número de Telefone da Central de Logística]
-    *   **Contato de Emergência:** [Inserir Número de Telefone Alternativo ou Supervisor]
+*   **Supervisor de Logística:**
+    *   **Nome:** [Nome do Supervisor]
+    *   **Telefone:** [Número de Telefone do Supervisor]
+*   **Central de Emergência Hospitalar:**
+    *   **Telefone:** [Número da Central de Emergência Hospitalar]
+*   **Polícia Militar:**
+    *   **Telefone:** 190
+*   **Serviço de Atendimento Móvel de Urgência (SAMU):**
+    *   **Telefone:** 192
 
-*   **Serviços de Emergência:**
-    *   **Polícia Militar:** 190
-    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
-    *   **Bombeiros:** 193
+**Lembre-se:** Sua responsabilidade é vital para a continuidade dos serviços de saúde. Agradecemos sua atenção e profissionalismo.
 
-Agradecemos sua dedicação e profissionalismo. Sua responsabilidade é fundamental para o bom funcionamento da nossa operação logística médica.
+---
 
-Atenciosamente,
-
-[Seu Nome/Departamento]
-Logística Hospitalar e Otimização de Rotas
+**[Nome da Empresa/Instituição]**
+**Departamento de Logística Hospitalar**

@@ -1,34 +1,26 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:47
         Veículo: Van 001
         ════════════════════════════════════════════════════════════
         
-        ## Instruções de Entrega Médica - Motorista Van 001
+        ## Instruções para Motorista de Entrega Médica - Van 001
 
-**Data:** [Inserir Data Atual]
+**Prezado(a) Motorista,**
 
-**Para:** Motorista Van 001
-
-**De:** Departamento de Logística Hospitalar
-
-**Assunto:** Instruções Detalhadas para Rota de Entrega Médica
-
-Prezado(a) Motorista,
-
-Este documento contém as instruções essenciais para a sua missão de entrega médica. A precisão e a segurança são primordiais em todas as etapas. Por favor, leia atentamente e siga todas as orientações.
+Este documento contém as instruções detalhadas para a sua missão de entrega médica. Por favor, leia atentamente e siga todos os procedimentos para garantir a segurança e eficiência da operação.
 
 ---
 
 ### 1. Resumo da Missão
 
 *   **Veículo:** Van 001
-*   **Distância Total:** 10.48 km
-*   **Tempo Estimado:** 0.8 horas (aproximadamente 48 minutos)
-*   **Número de Entregas:** 2
-*   **Capacidade Utilizada:** 26.9%
-*   **Objetivo:** Realizar a entrega de materiais médicos com prioridade "HIGH" para as unidades de saúde listadas abaixo, garantindo a integridade dos produtos e o cumprimento dos prazos.
+*   **Distância Total Estimada:** 18.71 km
+*   **Tempo Estimado de Rota:** 0.9 horas
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 24.7%
+*   **Objetivo:** Realizar a entrega de suprimentos médicos com prioridade **CRITICAL** para a **Clínica Butantã**.
 
 ---
 
@@ -36,77 +28,81 @@ Este documento contém as instruções essenciais para a sua missão de entrega 
 
 Antes de iniciar a rota, certifique-se de que os seguintes itens foram verificados:
 
-*   [ ] **Veículo:** Van 001 está em perfeitas condições de funcionamento (freios, pneus, luzes, etc.).
-*   [ ] **Documentação:** Carteira de habilitação, documento do veículo e autorização de transporte de cargas médicas em dia e acessíveis.
-*   [ ] **Carga:** Conferência da carga a ser transportada com a lista de remessa. Verifique a integridade das embalagens e a ausência de vazamentos ou danos.
-*   [ ] **Equipamentos de Segurança:** Uso de cinto de segurança obrigatório. Verifique a disponibilidade e o estado de conservação de extintor de incêndio e kit de primeiros socorros.
-*   [ ] **Dispositivo de Navegação:** GPS ou aplicativo de mapas configurado com a rota otimizada.
-*   [ ] **Comunicação:** Telefone celular carregado e com sinal.
-*   [ ] **Equipamento de Proteção Individual (EPI):** Uso de máscara e luvas, se aplicável e conforme protocolo vigente.
+*   **Veículo:**
+    *   [ ] Verificação geral do estado do veículo (pneus, freios, luzes, fluidos).
+    *   [ ] Nível de combustível adequado para a rota.
+    *   [ ] Equipamentos de segurança (macaco, triângulo, extintor de incêndio) em bom estado e acessíveis.
+    *   [ ] Sistema de refrigeração (se aplicável) funcionando corretamente.
+    *   [ ] Limpeza e organização da área de carga.
+*   **Carga:**
+    *   [ ] Conferência dos itens a serem transportados com a nota fiscal/documentação.
+    *   [ ] Embalagens intactas e adequadas para o transporte de materiais médicos.
+    *   [ ] Posicionamento seguro da carga no veículo para evitar movimentação durante o trajeto.
+*   **Documentação:**
+    *   [ ] Carteira de Habilitação válida.
+    *   [ ] Documento do veículo (CRLV).
+    *   [ ] Nota fiscal/documento de transporte dos materiais.
+    *   [ ] Roteiro impresso ou disponível no dispositivo móvel.
+*   **Equipamentos Pessoais:**
+    *   [ ] Uniforme completo e limpo.
+    *   [ ] Equipamento de proteção individual (EPI) se necessário (luvas, máscara).
+    *   [ ] Celular carregado com acesso à internet.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-A ordem de entrega foi otimizada para garantir eficiência e pontualidade. Siga rigorosamente a sequência abaixo:
+A rota possui um único ponto de entrega, com prioridade **CRITICAL**.
 
-**Ponto de Partida:** [Inserir Local de Partida - Ex: Central de Distribuição Hospitalar]
-
-**Entrega 1:**
+**Ponto de Entrega 1:**
 
 *   **Ordem:** 1
-*   **Nome do Local:** UBS Cambuci
-*   **Endereço:** Lat: -23.5658, Lon: -46.6185
-*   **Prioridade:** HIGH
-*   **Tempo de Serviço Estimado:** 15.0 minutos
-*   **Instruções Específicas:** Ao chegar, apresente-se na recepção e informe que se trata de uma entrega de materiais médicos urgentes. Siga as orientações do pessoal local para o local de descarga.
+*   **Nome:** Clínica Butantã
+*   **Endereço:** Lat: -23.569, Lon: -46.723
+*   **Demanda:** 12.361722476581441 (unidades/volume - **verificar especificação na nota fiscal**)
+*   **Prioridade:** CRITICAL
+*   **Tempo de Serviço Estimado:** 20.0 minutos
 
-**Entrega 2:**
+**Instruções para o Ponto de Entrega 1:**
 
-*   **Ordem:** 2
-*   **Nome do Local:** UBS Ipiranga
-*   **Endereço:** Lat: -23.592, Lon: -46.61
-*   **Prioridade:** HIGH
-*   **Tempo de Serviço Estimado:** 15.0 minutos
-*   **Instruções Específicas:** Ao chegar, dirija-se à área de recebimento de materiais e informe o nome da unidade e o tipo de carga. Mantenha a discrição e o profissionalismo.
-
-**Ponto de Retorno:** [Inserir Local de Retorno - Ex: Central de Distribuição Hospitalar ou próximo ponto de coleta, se houver]
+1.  Navegue até o endereço fornecido: **Clínica Butantã (Lat: -23.569, Lon: -46.723)**.
+2.  Ao chegar, identifique-se como motorista da Van 001, responsável pela entrega de suprimentos médicos com prioridade **CRITICAL**.
+3.  Apresente a documentação de transporte para conferência pela equipe da clínica.
+4.  Aguarde as instruções da equipe de recebimento para a descarga dos materiais.
+5.  Certifique-se de que a quantidade e o tipo de material entregue correspondem à documentação.
+6.  Obtenha a assinatura de recebimento na sua via da nota fiscal/documento.
+7.  Agradeça e informe sobre a conclusão da entrega.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Condução Defensiva:** Dirija com atenção redobrada, respeitando os limites de velocidade e a sinalização de trânsito. Antecipe as ações de outros condutores e pedestres.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a distância para os outros veículos.
-*   **Manuseio da Carga:** Ao descarregar, certifique-se de que o local é seguro e estável. Utilize técnicas de levantamento adequadas para evitar lesões. Mantenha a carga protegida de intempéries e de acesso não autorizado.
-*   **Estacionamento:** Estacione o veículo em locais seguros e permitidos, evitando áreas de risco de roubo ou danos. Mantenha as portas trancadas quando o veículo estiver desocupado.
-*   **Interação com Terceiros:** Mantenha uma postura profissional e cortês em todos os contatos. Evite discussões e mantenha a calma em situações de conflito.
+*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e a sinalização de trânsito.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
+*   **Manuseio da Carga:** Ao manusear os materiais, utilize técnicas ergonômicas adequadas para evitar lesões. Se a carga for pesada ou volumosa, solicite auxílio.
+*   **Segurança do Veículo:** Mantenha as portas do veículo trancadas quando não estiver em serviço ativo de entrega. Não deixe objetos de valor à vista.
+*   **Comunicação:** Mantenha contato com a central em caso de qualquer imprevisto ou alteração na rota.
+*   **Saúde e Bem-Estar:** Faça pausas regulares, se necessário, para garantir que você esteja descansado e alerta.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer imprevisto, acidente, problema com a carga ou necessidade de assistência, entre em contato IMEDIATAMENTE com os seguintes números:
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, ou qualquer situação que coloque em risco a carga ou sua segurança), entre em contato imediatamente com os seguintes números:
 
-*   **Coordenação de Logística Hospitalar:**
-    *   **Telefone Principal:** [Inserir Número de Telefone da Coordenação]
-    *   **Telefone Alternativo:** [Inserir Número de Telefone Alternativo da Coordenação]
-    *   **Horário de Atendimento:** 24 horas por dia, 7 dias por semana.
+*   **Central de Logística Hospitalar:**
+    *   Telefone: **[INSERIR NÚMERO DA CENTRAL]**
+    *   Ramal (se aplicável): **[INSERIR RAMAL DA CENTRAL]**
+*   **Serviços de Emergência:**
+    *   Polícia Militar: **190**
+    *   Corpo de Bombeiros: **193**
+    *   Serviço de Atendimento Móvel de Urgência (SAMU): **192**
 
-*   **Emergência Médica/Ambulância:**
-    *   **SAMU:** 192
+---
 
-*   **Polícia:**
-    *   **Polícia Militar:** 190
+Agradecemos seu profissionalismo e dedicação em garantir que suprimentos médicos cheguem onde são necessários. Sua atuação é fundamental para a saúde e bem-estar dos pacientes.
 
-*   **Bombeiros:**
-    *   **Corpo de Bombeiros:** 193
+**Bom trabalho!**
 
-**Lembre-se:** Sua responsabilidade é garantir que as entregas sejam realizadas de forma segura e eficiente. A sua dedicação é fundamental para o bom funcionamento dos serviços de saúde.
-
-Agradecemos a sua colaboração.
-
-Atenciosamente,
-
-Departamento de Logística Hospitalar
-[Nome do Hospital/Instituição]
+**[SEU NOME/DEPARTAMENTO DE LOGÍSTICA]**
+**[DATA]**

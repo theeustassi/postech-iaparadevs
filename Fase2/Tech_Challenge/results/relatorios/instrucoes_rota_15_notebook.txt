@@ -1,0 +1,92 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 17/01/2026 14:47
+        Veículo: Moto 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Motorista Moto 001
+
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Moto 001
+
+---
+
+### 1. Resumo da Missão
+
+**Objetivo:** Realizar a entrega de materiais médicos urgentes para a **Clínica Perdizes**.
+
+**Detalhes da Rota:**
+*   **Distância Total:** 8.82 km
+*   **Tempo Estimado:** 0.5 horas (30 minutos)
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 239.4% (Atenção: Este indicador sugere que a carga é significativamente maior do que a capacidade nominal da moto. Certifique-se de que a carga está segura e bem distribuída para evitar acidentes ou danos. Se houver qualquer dúvida sobre a segurança do transporte, entre em contato com o supervisor.)
+
+**Ponto de Entrega Principal:**
+1.  **Clínica Perdizes:** Lat: -23.5382, Lon: -46.6745
+    *   **Prioridade:** ALTA
+    *   **Tempo de Serviço Estimado:** 20 minutos
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+
+*   [ ] **Veículo:** Moto 001 em perfeitas condições (freios, pneus, luzes, buzina).
+*   [ ] **Documentação:** CNH válida, documento do veículo, autorização de transporte (se aplicável).
+*   [ ] **Equipamento de Segurança:** Capacete homologado, luvas, jaqueta refletiva, calçados fechados.
+*   [ ] **Carga:**
+    *   Verificar se todos os itens foram carregados conforme a lista de despacho.
+    *   Confirmar que a carga está devidamente acondicionada, segura e não obstrui a visibilidade ou o controle da moto.
+    *   **Atenção especial à capacidade utilizada de 239.4%. Certifique-se de que a carga está estável e não compromete a dirigibilidade.**
+*   [ ] **Navegação:** GPS ou aplicativo de mapas configurado com o endereço de destino.
+*   [ ] **Comunicação:** Celular carregado e com sinal.
+*   [ ] **Kit de Primeiros Socorros:** Verifique se o kit de primeiros socorros da moto está completo e acessível.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Entrega 1:**
+
+*   **Destino:** Clínica Perdizes
+*   **Endereço:** Lat: -23.5382, Lon: -46.6745
+*   **Prioridade:** ALTA
+*   **Tempo de Serviço Estimado:** 20 minutos
+
+**Instruções de Navegação:**
+1.  Saia da base e siga as instruções do seu dispositivo de navegação para a Clínica Perdizes.
+2.  Ao chegar, procure o ponto de recebimento indicado pela clínica.
+3.  Apresente a documentação de entrega e solicite a assinatura do recebedor.
+4.  Confirme que a entrega foi realizada com sucesso.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Condução Defensiva:** Mantenha sempre uma distância segura dos outros veículos. Esteja atento às condições do trânsito e da via.
+*   **Visibilidade:** Use sempre o farol aceso, mesmo durante o dia. Utilize os piscas com antecedência para sinalizar suas intenções.
+*   **Condições Climáticas:** Redobre a atenção em caso de chuva, neblina ou outras condições adversas. Adapte sua velocidade e evite manobras bruscas.
+*   **Carga:** Certifique-se de que a carga está sempre segura e não compromete seu equilíbrio ou visibilidade. Em caso de qualquer instabilidade, pare em local seguro e reajuste a carga.
+*   **Paradas:** Evite parar em locais de risco. Se precisar parar, procure um local seguro e bem iluminado.
+*   **Interação:** Seja cordial e profissional ao interagir com os pontos de entrega.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência, acidente ou imprevisto, entre em contato imediatamente com:
+
+*   **Supervisor de Logística:** [Nome do Supervisor] - Telefone: [Número de Telefone do Supervisor]
+*   **Central de Atendimento Hospitalar:** Telefone: [Número da Central de Atendimento]
+*   **Serviços de Emergência:** SAMU - Telefone: 192
+*   **Polícia Militar:** Telefone: 190
+*   **Bombeiros:** Telefone: 193
+
+---
+
+**Lembre-se:** Sua missão é crucial para o atendimento médico. Dirija com responsabilidade e garanta a integridade da carga e a sua própria segurança.
+
+**Bom trabalho!**

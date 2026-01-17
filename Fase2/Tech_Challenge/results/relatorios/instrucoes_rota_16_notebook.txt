@@ -1,0 +1,108 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 17/01/2026 14:47
+        Veículo: Van 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Motorista Van 001
+
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Van 001
+
+---
+
+### 1. Resumo da Missão
+
+Prezado(a) motorista,
+
+Sua missão hoje é realizar uma entrega médica prioritária para o **Atendimento Domiciliar Sra. Almeida**. A rota total é de aproximadamente **14.05 km**, com um tempo estimado de **0.9 horas**. A carga transportada representa **49.3%** da capacidade total do veículo.
+
+É fundamental que esta entrega seja realizada com a máxima eficiência e cuidado, dada a prioridade "HIGH" da demanda.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, complete o seguinte checklist:
+
+*   **Veículo:**
+    *   [ ] Verificação dos níveis de óleo, água e fluido de freio.
+    *   [ ] Calibragem dos pneus.
+    *   [ ] Funcionamento de luzes (faróis, setas, freio).
+    *   [ ] Limpeza interna e externa do veículo.
+    *   [ ] Verificação do sistema de refrigeração (se aplicável para a carga).
+*   **Carga:**
+    *   [ ] Conferência da quantidade e tipo de materiais a serem entregues.
+    *   [ ] Verificação da integridade da embalagem.
+    *   [ ] Garantia de que a carga está devidamente acondicionada e segura.
+*   **Documentação:**
+    *   [ ] Roteiro impresso ou acesso digital.
+    *   [ ] Documento de identificação do motorista.
+    *   [ ] Documentos do veículo (CRLV, etc.).
+    *   [ ] Formulário de entrega/recibo a ser assinado.
+*   **Equipamentos:**
+    *   [ ] Telefone celular carregado com acesso à internet.
+    *   [ ] GPS ou aplicativo de navegação.
+    *   [ ] Kit de primeiros socorros no veículo.
+    *   [ ] Equipamento de proteção individual (EPIs) necessário (se aplicável).
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Cliente:** Atendimento Domiciliar Sra. Almeida
+*   **Endereço:** Lat: -23.5425, Lon: -46.7018
+*   **Demanda:** 24.66639796845844 (unidades/volume - **verificar detalhe na documentação**)
+*   **Prioridade:** HIGH
+*   **Tempo Estimado de Serviço:** 30.0 minutos
+
+**Instruções de Navegação:**
+
+1.  Inicie a rota a partir do ponto de coleta atual.
+2.  Utilize seu aplicativo de navegação preferencial para chegar ao endereço: **Lat: -23.5425, Lon: -46.7018**.
+3.  Ao chegar ao local, identifique-se como motorista da entrega médica.
+4.  Procure o responsável pela recepção ou a Sra. Almeida (ou seu representante).
+5.  Entregue os materiais conforme a documentação.
+6.  Obtenha a assinatura no formulário de entrega/recibo.
+7.  Confirme se há alguma instrução adicional ou necessidade específica do cliente.
+8.  Informe a conclusão da entrega ao seu supervisor (se aplicável).
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Dirija com atenção redobrada, respeitando os limites de velocidade e as leis de trânsito. Antecipe as ações de outros motoristas e pedestres.
+*   **Condições da Via:** Esteja atento às condições da estrada, especialmente em áreas com tráfego intenso ou condições climáticas adversas.
+*   **Segurança da Carga:** Certifique-se de que a carga permaneça segura durante todo o trajeto. Evite freadas bruscas ou manobras arriscadas.
+*   **Acesso ao Cliente:** Ao chegar ao destino, mantenha a atenção ao descer do veículo e ao se aproximar do local de entrega.
+*   **Manuseio da Carga:** Manuseie os materiais com cuidado para evitar danos. Se houver necessidade de auxílio para descarregar, solicite-o de forma profissional.
+*   **Comunicação:** Mantenha seu telefone celular acessível para comunicação em caso de necessidade.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência, acidente, problema com a carga ou dificuldade na entrega, entre em contato imediatamente com:
+
+*   **Supervisor de Logística:**
+    *   **Nome:** [Nome do Supervisor]
+    *   **Telefone:** [Número de Telefone do Supervisor]
+*   **Central de Emergência Hospitalar:**
+    *   **Telefone:** [Número da Central de Emergência]
+*   **Serviços de Emergência Locais:**
+    *   **Polícia:** 190
+    *   **Bombeiros:** 193
+    *   **SAMU:** 192
+
+---
+
+Agradecemos seu profissionalismo e dedicação na realização desta importante entrega. Sua atenção aos detalhes e compromisso com a segurança são essenciais para o bom funcionamento dos nossos serviços.
+
+Atenciosamente,
+
+**Departamento de Logística Hospitalar**

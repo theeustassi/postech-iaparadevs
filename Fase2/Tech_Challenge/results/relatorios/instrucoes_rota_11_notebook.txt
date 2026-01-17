@@ -1,56 +1,52 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:47
         Veículo: Van 002
         ════════════════════════════════════════════════════════════
         
-        ## Instruções para Motorista de Entrega Médica - Rota 002
-
-**Assunto:** Rota de Entrega Médica - Van 002
+        ## Instruções de Entrega Médica - Motorista
 
 **Data:** [Inserir Data Atual]
-
-**Para:** Motorista Responsável pela Van 002
-
-Prezado(a) Motorista,
-
-Este documento contém as instruções detalhadas para a sua missão de entrega médica. Sua responsabilidade é garantir que os materiais sejam transportados com segurança e pontualidade, seguindo rigorosamente os procedimentos.
+**Veículo:** Van 002
+**Motorista:** [Nome do Motorista]
 
 ---
 
 ### 1. Resumo da Missão
 
-*   **Veículo:** Van 002
-*   **Distância Total Estimada:** 10.69 km
-*   **Tempo Estimado de Percurso:** 0.6 horas (aproximadamente 36 minutos)
-*   **Número de Entregas:** 1
-*   **Capacidade Utilizada:** 122.1% (Atenção: A capacidade utilizada excede 100%. Verifique se a carga está devidamente acomodada e segura, sem comprometer a dirigibilidade do veículo ou a integridade dos materiais. Se houver qualquer dúvida ou risco, entre em contato imediatamente com a supervisão.)
+Prezado(a) motorista,
+
+Sua missão hoje é realizar uma entrega médica de **CRITICAL** prioridade para a **Casa de Repouso Morumbi**. A rota total é de aproximadamente **21.49 km**, com tempo estimado de **1.0 hora**. A capacidade do veículo está sendo utilizada em **81.2%**, indicando que a carga está bem distribuída.
+
+É fundamental que esta entrega seja realizada com a máxima agilidade e segurança, pois envolve materiais de alta importância para a saúde dos pacientes.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar sua rota, por favor, complete os seguintes itens:
+Antes de iniciar sua rota, por favor, complete o seguinte checklist:
 
-*   [ ] **Documentação do Veículo:** Verifique se o licenciamento, seguro e demais documentos da Van 002 estão em dia e a bordo.
-*   [ ] **Documentação da Carga:** Confirme se os documentos de transporte (notas fiscais, guias, etc.) correspondem à carga a ser transportada.
-*   [ ] **Inspeção do Veículo:**
-    *   [ ] Pneus (calibragem e estado de conservação)
-    *   [ ] Freios
-    *   [ ] Luzes (faróis, setas, freio)
-    *   [ ] Nível de óleo e água
-    *   [ ] Limpadores de para-brisa e nível do fluido
-    *   [ ] Cintos de segurança
-*   [ ] **Equipamentos de Segurança:**
-    *   [ ] Kit de primeiros socorros
-    *   [ ] Triângulo de sinalização
-    *   [ ] Extintor de incêndio (verificar validade)
-    *   [ ] Colete refletivo
-*   [ ] **Carga:**
-    *   [ ] Verifique se todos os itens estão devidamente embalados e identificados.
-    *   [ ] Confirme se a carga está bem acondicionada e segura dentro do veículo, evitando movimentação durante o trajeto.
-    *   [ ] **Atenção especial à capacidade utilizada (122.1%):** Certifique-se de que a carga não está sobrecarregando o veículo ou obstruindo a visão.
+*   **Veículo:**
+    *   [ ] Verificar níveis de óleo, água e combustível.
+    *   [ ] Checar a pressão dos pneus.
+    *   [ ] Testar luzes, setas e freios.
+    *   [ ] Confirmar o funcionamento do ar condicionado/aquecimento.
+    *   [ ] Assegurar que o veículo está limpo e organizado.
+*   **Carga:**
+    *   [ ] Conferir se todos os itens da nota fiscal/romaneio estão presentes e em conformidade.
+    *   [ ] Verificar a integridade das embalagens (sem danos, vazamentos ou sinais de violação).
+    *   [ ] Confirmar que os materiais sensíveis à temperatura (se aplicável) estão adequadamente acondicionados e monitorados.
+    *   [ ] Garantir que a carga está devidamente fixada para evitar movimentação durante o trajeto.
+*   **Documentação:**
+    *   [ ] Portar documento do veículo (CRLV).
+    *   [ ] Portar sua CNH válida.
+    *   [ ] Levar a nota fiscal/romaneio da carga.
+    *   [ ] Ter em mãos este documento com as instruções de rota.
+*   **Equipamentos de Proteção Individual (EPIs):**
+    *   [ ] Utilizar máscara facial durante todo o trajeto e na entrega.
+    *   [ ] Portar álcool em gel para higienização das mãos.
+    *   [ ] Utilizar luvas descartáveis ao manusear a carga.
 
 ---
 
@@ -59,47 +55,52 @@ Antes de iniciar sua rota, por favor, complete os seguintes itens:
 **Ponto de Entrega 1:**
 
 *   **Ordem:** 1
-*   **Nome do Local:** UBS Casa Verde
-*   **Endereço:** Lat: -23.508, Lon: -46.658
-*   **Prioridade:** HIGH
-*   **Tempo Estimado de Serviço:** 15.0 minutos
-*   **Instruções:**
-    *   Dirija-se ao endereço indicado (utilize o GPS com as coordenadas fornecidas).
-    *   Ao chegar, identifique-se como motorista da entrega médica.
-    *   Aguarde as instruções da equipe local para o descarregamento.
-    *   Certifique-se de que a entrega seja recebida pela pessoa autorizada.
-    *   Obtenha a assinatura de recebimento nos documentos de transporte.
-    *   Confirme se toda a carga destinada a este ponto foi entregue.
+*   **Nome:** Casa de Repouso Morumbi
+*   **Endereço:** Lat: -23.6145, Lon: -46.7125
+*   **Demanda:** 40.6042230886759 (unidades/volume - **verificar na nota fiscal o tipo de unidade**)
+*   **Prioridade:** CRITICAL
+*   **Tempo de Serviço Estimado:** 25.0 minutos
+
+**Instruções para o Ponto de Entrega 1:**
+
+1.  **Navegação:** Siga as instruções do seu GPS para chegar ao endereço: Lat: -23.6145, Lon: -46.7125.
+2.  **Chegada:** Ao chegar na Casa de Repouso Morumbi, procure o setor de recebimento de materiais ou o responsável indicado na nota fiscal.
+3.  **Identificação:** Apresente a nota fiscal/romaneio e informe que se trata de uma entrega de **CRITICAL** prioridade.
+4.  **Entrega:** Entregue os materiais conforme especificado na documentação. Certifique-se de que o recebedor confira a quantidade e a integridade dos itens.
+5.  **Assinatura:** Obtenha a assinatura do recebedor na nota fiscal/romaneio como comprovante de entrega.
+6.  **Confirmação:** Confirme a conclusão da entrega com a central de logística (contato no item 5).
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Direção Defensiva:** Mantenha uma distância segura dos outros veículos, respeite os limites de velocidade e a sinalização de trânsito.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
-*   **Carga Segura:** Mantenha a carga sempre segura e estável. Evite freadas bruscas ou manobras desnecessárias.
-*   **Comunicação:** Mantenha o celular carregado e com sinal. Em caso de qualquer imprevisto, informe imediatamente a supervisão.
-*   **Descanso:** Respeite os períodos de descanso. Não dirija se estiver se sentindo cansado ou sonolento.
-*   **Acesso aos Locais:** Ao chegar aos pontos de entrega, estacione o veículo em local seguro e permitido. Tenha cuidado ao manobrar em áreas de tráfego intenso ou com espaço limitado.
-*   **Segurança Pessoal:** Ao sair do veículo, mantenha-se atento ao seu redor. Evite exibir objetos de valor.
+*   **Condução Defensiva:** Dirija com atenção redobrada, respeitando os limites de velocidade e as leis de trânsito. Antecipe as ações de outros motoristas e pedestres.
+*   **Manuseio da Carga:** Ao descarregar, mantenha a postura correta para evitar lesões. Se a carga for pesada ou volumosa, solicite auxílio se necessário.
+*   **Interação no Local de Entrega:** Mantenha uma postura profissional e cordial. Evite conversas desnecessárias e concentre-se na tarefa.
+*   **Condições Climáticas:** Esteja atento às condições climáticas e ajuste sua condução conforme necessário. Em caso de chuva forte, neblina ou outras condições adversas, redobre a atenção.
+*   **Paradas:** Evite paradas desnecessárias. Se precisar parar, escolha locais seguros e bem iluminados.
+*   **Segurança do Veículo:** Ao sair do veículo, certifique-se de que ele está devidamente trancado.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência (acidente, roubo, problema mecânico grave, etc.), entre em contato imediatamente com:
+Em caso de qualquer imprevisto, acidente, problema com a carga ou necessidade de suporte, entre em contato imediatamente com:
 
-*   **Supervisão Logística:**
-    *   Nome: [Nome do Supervisor]
-    *   Telefone: [Número de Telefone do Supervisor]
-*   **Emergência Médica (SAMU):** 192
-*   **Polícia Militar:** 190
-*   **Bombeiros:** 193
+*   **Central de Logística Hospitalar:**
+    *   **Telefone:** [Inserir Número de Telefone da Central de Logística]
+    *   **Ramal (se aplicável):** [Inserir Ramal]
+    *   **Contato de Emergência 24h:** [Inserir Número de Telefone de Emergência 24h da Logística]
+
+*   **Serviços de Emergência:**
+    *   **Polícia Militar:** 190
+    *   **Corpo de Bombeiros:** 193
+    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
 
 ---
 
-Agradecemos sua dedicação e profissionalismo em garantir o sucesso desta importante missão.
+Agradecemos seu empenho e profissionalismo na realização desta importante entrega. Sua dedicação garante o fluxo contínuo de suprimentos essenciais para a saúde.
 
 Atenciosamente,
 
-[Seu Nome/Nome do Departamento de Logística Hospitalar]
+**Departamento de Logística Hospitalar**

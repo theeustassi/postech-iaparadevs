@@ -104,8 +104,7 @@ jupyter notebook
 ```
 
 Abra os notebooks na ordem:
-1. `01_introducao_algoritmo_genetico.ipynb` - Entenda os conceitos básicos
-2. `02_demonstracao_completa.ipynb` - Veja o sistema completo em ação
+1. `02_demonstracao_completa.ipynb` - Veja o sistema completo em ação
 
 #### Via Script Python
 
@@ -182,7 +181,6 @@ pytest tests/ -v
 ## Documentação Adicional
 
 - [RELATORIO_TECNICO.md](RELATORIO_TECNICO.md) - Relatório técnico detalhado
-- [CODIGO_BASE.md](CODIGO_BASE.md) - Informações sobre código base da FIAP
 - [GUIA_EXECUCAO.md](GUIA_EXECUCAO.md) - Guia rápido de execução
 - [Notebooks](notebooks/) - Exemplos práticos e tutoriais
 

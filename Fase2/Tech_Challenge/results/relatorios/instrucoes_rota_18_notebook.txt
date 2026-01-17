@@ -1,0 +1,123 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 17/01/2026 14:48
+        Veículo: Moto 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Moto 001
+
+**Prezado(a) Motorista,**
+
+Este documento contém as instruções detalhadas para sua missão de entrega médica. A precisão, segurança e pontualidade são cruciais para o sucesso desta operação. Por favor, leia atentamente todas as seções.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Moto 001
+*   **Distância Total Estimada:** 8.98 km
+*   **Tempo Total Estimado:** 1.4 horas (incluindo tempo de serviço nos locais)
+*   **Número de Entregas:** 3
+*   **Capacidade Utilizada:** 207.0% (Atenção: A capacidade utilizada indica que a carga é volumosa ou pesada. Certifique-se de que todos os itens estão seguros e bem acomodados para evitar acidentes e danos.)
+
+**Objetivo:** Realizar a entrega de materiais médicos para três pontos prioritários, seguindo a ordem estabelecida.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+
+*   **Documentação:**
+    *   Carteira de Habilitação (CNH) válida.
+    *   Documento do veículo (CRLV) em dia.
+    *   Ordem de Serviço/Romaneio de entrega.
+    *   Lista de contatos de emergência (fornecida abaixo).
+*   **Veículo:**
+    *   Verificação dos pneus (pressão e estado).
+    *   Nível de combustível adequado para a rota.
+    *   Freios em perfeito funcionamento.
+    *   Faróis, setas e luzes de freio funcionando.
+    *   Espelhos retrovisores ajustados.
+    *   Buzina funcionando.
+*   **Carga:**
+    *   Confirmar se todos os itens listados no romaneio estão presentes.
+    *   Verificar se a carga está devidamente acondicionada e segura para o transporte em motocicleta.
+    *   Garantir que os materiais sensíveis (se houver) estejam protegidos contra impactos e variações de temperatura.
+*   **Equipamentos de Segurança:**
+    *   Capacete homologado e em bom estado, com viseira limpa.
+    *   Luvas de proteção.
+    *   Jaqueta e calça de proteção (preferencialmente com elementos refletivos).
+    *   Calçados fechados e resistentes.
+    *   Mochila ou baú seguro e adequado para o transporte da carga.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+A rota foi otimizada para sua conveniência e eficiência. Siga rigorosamente a ordem abaixo:
+
+**Ponto de Partida:** (Local de onde você está partindo para a primeira entrega)
+
+**1. Primeira Entrega:**
+    *   **Nome:** UBS Cambuci
+    *   **Endereço:** Lat: -23.5658, Lon: -46.6185
+    *   **Prioridade:** HIGH
+    *   **Tempo de Serviço Estimado:** 15.0 minutos
+    *   **Instruções Adicionais:** Ao chegar, identifique-se na recepção e solicite o responsável pelo recebimento dos materiais.
+
+**2. Segunda Entrega:**
+    *   **Nome:** Atendimento Domiciliar Sra. Santos
+    *   **Endereço:** Lat: -23.575, Lon: -46.615
+    *   **Prioridade:** HIGH
+    *   **Tempo de Serviço Estimado:** 25.0 minutos
+    *   **Instruções Adicionais:** Ao chegar, toque a campainha ou ligue para o número de contato (se fornecido) e aguarde instruções. Mantenha discrição e profissionalismo.
+
+**3. Terceira Entrega:**
+    *   **Nome:** Atendimento Domiciliar Sr. Pereira
+    *   **Endereço:** Lat: -23.5558, Lon: -46.6028
+    *   **Prioridade:** HIGH
+    *   **Tempo de Serviço Estimado:** 30.0 minutos
+    *   **Instruções Adicionais:** Ao chegar, siga as mesmas orientações da entrega domiciliar anterior.
+
+**Ponto de Chegada:** (Local de retorno após a última entrega, se aplicável)
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Condução:**
+    *   Respeite rigorosamente os limites de velocidade e a sinalização de trânsito.
+    *   Mantenha distância segura dos outros veículos.
+    *   Evite manobras bruscas e desnecessárias.
+    *   Esteja sempre atento às condições da via e ao tráfego ao seu redor.
+    *   Evite o uso do celular enquanto estiver pilotando.
+*   **Carga:**
+    *   A capacidade utilizada de 207.0% exige atenção redobrada. Certifique-se de que a carga está perfeitamente acomodada e não compromete o equilíbrio da moto.
+    *   Em caso de chuva ou condições adversas, redobre os cuidados com a carga, protegendo-a adequadamente.
+*   **Interação:**
+    *   Seja cordial e profissional em todos os contatos.
+    *   Em atendimentos domiciliares, respeite a privacidade dos pacientes.
+    *   Em caso de qualquer dúvida ou imprevisto nos locais de entrega, entre em contato com a central.
+*   **Condições Climáticas:**
+    *   Em caso de chuva forte, neblina ou outras condições climáticas perigosas, avalie a segurança da rota. Se necessário, comunique a central para reavaliar a rota ou adiar a entrega.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, etc.), entre em contato imediatamente com os seguintes números:
+
+*   **Coordenador de Logística:** [Inserir Nome do Coordenador] - Telefone: [Inserir Telefone do Coordenador]
+*   **Central de Apoio:** Telefone: [Inserir Telefone da Central]
+*   **Emergência Médica (SAMU):** 192
+*   **Polícia Militar:** 190
+
+---
+
+Agradecemos seu empenho e profissionalismo. Sua dedicação é fundamental para garantir que os materiais médicos cheguem a quem precisa.
+
+**Atenciosamente,**
+
+**Equipe de Logística Hospitalar**

@@ -257,8 +257,9 @@ class RouteOptimizer:
         
         for position, point_id in enumerate(route[1:-1], start=1):
             point = self.delivery_points[point_id]
+            # Inverter prioridade: CRITICAL (1) deve ter mais peso, não menos
             # Quanto mais crítica a prioridade e mais tarde na rota, maior a penalidade
-            priority_weight = point.priority.value
+            priority_weight = 5 - point.priority.value  # CRITICAL=4, HIGH=3, MEDIUM=2, LOW=1
             position_weight = position / len(route)
             
             score += priority_weight * position_weight

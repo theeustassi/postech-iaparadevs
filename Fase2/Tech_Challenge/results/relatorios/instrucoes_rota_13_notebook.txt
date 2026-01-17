@@ -1,110 +1,102 @@
 
         ════════════════════════════════════════════════════════════
         INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
-        Data: 13/01/2026 22:24
+        Data: 17/01/2026 14:47
         Veículo: Van 001
         ════════════════════════════════════════════════════════════
         
-        ## Instruções para Motorista de Entrega Médica - Van 001
+        ## Instruções Detalhadas para Motorista de Entrega Médica - Rota 001
 
-**Data:** [Inserir Data]
-**Hora de Início Prevista:** [Inserir Hora de Início Prevista]
+**Prezado(a) Motorista,**
 
-Prezado(a) Motorista,
-
-Este documento contém as instruções detalhadas para a sua missão de entrega médica. A precisão e o profissionalismo na execução destas tarefas são cruciais para garantir a continuidade do atendimento aos pacientes.
+Este documento contém as instruções essenciais para a sua missão de entrega médica. A precisão e o cuidado na execução destas tarefas são fundamentais para garantir o fluxo contínuo de suprimentos médicos essenciais.
 
 ---
 
 ### 1. Resumo da Missão
 
 *   **Veículo:** Van 001
-*   **Distância Total Prevista:** 2.72 km
-*   **Tempo Estimado de Rota:** 0.3 horas (aproximadamente 18 minutos)
-*   **Número de Entregas:** 1
-*   **Carga:** 99.8% de capacidade utilizada. A carga é composta por [Descrever brevemente o tipo de material, se aplicável, ex: medicamentos, suprimentos cirúrgicos]. Manuseie com o máximo cuidado.
-*   **Objetivo:** Realizar a entrega de material médico para o Centro de Saúde Bela Vista.
+*   **Distância Total Estimada:** 8.71 km
+*   **Tempo Estimado da Rota:** 0.8 horas (aproximadamente 48 minutos)
+*   **Número de Entregas:** 2
+*   **Capacidade Utilizada:** 74.8% (Verifique se a carga está bem acomodada e segura)
+*   **Objetivo:** Realizar a entrega de materiais médicos com prioridade alta para duas unidades de saúde, seguindo a ordem estabelecida.
 
 ---
 
 ### 2. Checklist Pré-Saída
 
-Antes de iniciar a rota, por favor, verifique os seguintes itens:
+Antes de iniciar a rota, por favor, certifique-se de que os seguintes itens foram verificados:
 
-*   [ ] **Documentação do Veículo:** Certifique-se de que o documento do veículo (CRLV) e sua habilitação estão válidos e em seu poder.
-*   [ ] **Condições da Van 001:**
+*   [ ] **Documentação do Veículo:** Licenciamento, seguro e demais documentos em dia e disponíveis.
+*   [ ] **Documentação da Carga:** Nota fiscal ou guia de remessa correspondente à carga transportada.
+*   [ ] **Condições do Veículo:**
     *   Pneus calibrados e em bom estado.
     *   Níveis de óleo, água e fluido de freio adequados.
-    *   Luzes (faróis, setas, freio) funcionando corretamente.
-    *   Freios em perfeito estado de funcionamento.
-    *   Limpeza interna e externa da van.
-*   [ ] **Carga:**
-    *   Verifique se a carga está devidamente acondicionada e segura para o transporte.
-    *   Confirme se a carga corresponde à documentação de embarque.
-    *   Certifique-se de que os itens sensíveis (se houver) estão protegidos contra variações de temperatura e impacto.
+    *   Funcionamento de luzes, setas e freios.
+    *   Limpeza interna e externa do veículo.
 *   [ ] **Equipamentos de Segurança:**
-    *   Kit de primeiros socorros completo e acessível.
-    *   Extintor de incêndio válido e em local de fácil acesso.
+    *   Kit de primeiros socorros completo e dentro da validade.
+    *   Extintor de incêndio em local acessível e com validade em dia.
     *   Triângulo de sinalização.
-    *   Colete refletivo.
-*   [ ] **Comunicação:**
-    *   Telefone celular carregado e com sinal.
-    *   Aplicativo de navegação (GPS) configurado com a rota.
-*   [ ] **Rastreamento:** Confirme se o sistema de rastreamento do veículo está ativo e funcionando.
+*   [ ] **Equipamentos de Comunicação:**
+    *   Telefone celular carregado e com acesso à internet.
+    *   Carregador veicular.
+*   [ ] **Carga:**
+    *   Verificar se todos os itens da nota fiscal estão presentes.
+    *   Garantir que a carga está devidamente acondicionada e segura para evitar movimentação durante o trajeto.
+    *   Confirmar que os materiais de alta prioridade estão facilmente acessíveis.
 
 ---
 
 ### 3. Sequência Detalhada de Entregas
 
-A rota é composta por uma única parada.
+Siga rigorosamente a ordem de entrega abaixo:
 
-**Ponto de Entrega 1:**
+**Entrega 1:**
 
 *   **Ordem:** 1
-*   **Nome do Local:** Centro de Saúde Bela Vista
+*   **Nome da Unidade:** UBS Vila Mariana
+*   **Endereço:** Lat: -23.588, Lon: -46.638
+*   **Prioridade:** HIGH
+*   **Tempo Estimado de Serviço:** 20.0 minutos
+*   **Instruções Adicionais:** Ao chegar, apresente-se na recepção e informe que se trata de uma entrega de suprimentos médicos urgentes. Siga as orientações do pessoal local para o local de descarga.
+
+**Entrega 2:**
+
+*   **Ordem:** 2
+*   **Nome da Unidade:** Centro de Saúde Bela Vista
 *   **Endereço:** Lat: -23.5598, Lon: -46.642
-*   **Prioridade:** MÉDIA
-*   **Tempo de Serviço Estimado:** 15 minutos (tempo para descarregar e obter confirmação)
-
-**Instruções para o Ponto de Entrega 1:**
-
-1.  **Navegação:** Utilize o GPS para chegar ao Centro de Saúde Bela Vista.
-2.  **Chegada:** Ao chegar, procure o local designado para recebimento de entregas. Se necessário, informe-se com o pessoal da recepção.
-3.  **Descarregamento:** Descarregue a carga com cuidado, garantindo que todos os itens sejam manuseados de forma segura.
-4.  **Confirmação:** Obtenha a assinatura do recebedor responsável no comprovante de entrega. Certifique-se de que o nome e a função do recebedor estejam legíveis.
-5.  **Registro:** Registre a conclusão da entrega no sistema [Nome do Sistema/Aplicativo de Rastreamento/Registro].
+*   **Prioridade:** HIGH
+*   **Tempo Estimado de Serviço:** 15.0 minutos
+*   **Instruções Adicionais:** Ao chegar, dirija-se à área de recebimento de materiais e apresente a documentação necessária. Confirme a entrega com o responsável.
 
 ---
 
 ### 4. Orientações de Segurança
 
-*   **Direção Defensiva:** Dirija sempre de forma defensiva, respeitando os limites de velocidade e as leis de trânsito. Antecipe as ações de outros motoristas e pedestres.
-*   **Manuseio da Carga:** Ao manusear os materiais médicos, utilize técnicas adequadas para evitar quedas, impactos ou danos. Em caso de dúvida sobre o manuseio de algum item específico, consulte o responsável pela carga ou o supervisor.
-*   **Segurança Pessoal:** Mantenha as portas do veículo trancadas ao sair para realizar a entrega. Evite deixar objetos de valor à vista dentro da van.
-*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva, neblina ou outras condições adversas, reduza a velocidade e aumente a distância de segurança.
-*   **Fadiga:** Se sentir sinais de fadiga, procure um local seguro para descansar antes de continuar a rota. Sua segurança e a integridade da carga são prioridade.
-*   **Documentação:** Mantenha sempre a documentação de transporte (nota fiscal, comprovante de entrega) em ordem.
+*   **Direção Defensiva:** Mantenha uma velocidade segura e adequada às condições do tráfego e da via. Respeite os limites de velocidade.
+*   **Atenção Constante:** Esteja sempre atento ao seu redor, antecipando possíveis riscos e comportamentos de outros motoristas.
+*   **Uso do Cinto de Segurança:** O uso do cinto de segurança é obrigatório durante todo o trajeto.
+*   **Proibido o Uso de Celular ao Volante:** Utilize o dispositivo apenas com o veículo parado em local seguro.
+*   **Estacionamento Seguro:** Ao realizar as entregas, estacione o veículo em local seguro e permitido, garantindo a sua integridade e a da carga.
+*   **Integridade da Carga:** Ao manusear os materiais, faça-o com cuidado para evitar danos aos produtos.
+*   **Comunicação:** Mantenha contato com a central em caso de qualquer imprevisto ou atraso.
 
 ---
 
 ### 5. Contatos de Emergência
 
-Em caso de qualquer emergência, acidente, ou necessidade de suporte, entre em contato imediatamente com:
+Em caso de qualquer emergência (acidente, roubo, problema de saúde, etc.), entre em contato imediatamente com os seguintes números:
 
-*   **Supervisor de Logística:**
-    *   Nome: [Nome do Supervisor]
-    *   Telefone: [Número de Telefone do Supervisor]
-*   **Central de Monitoramento/Segurança:**
-    *   Telefone: [Número de Telefone da Central]
-*   **Serviços de Emergência:**
-    *   Polícia Militar: 190
-    *   Corpo de Bombeiros: 193
-    *   SAMU (Atendimento Móvel de Urgência): 192
+*   **Central de Logística:** [Número da Central de Logística]
+*   **Supervisor de Transporte:** [Nome e Número do Supervisor]
+*   **Serviços de Emergência (Polícia, Bombeiros, SAMU):** 190 / 193 / 192
 
 ---
 
-Agradecemos seu compromisso e dedicação. Sua atuação é fundamental para o bom funcionamento da logística hospitalar.
+Agradecemos o seu profissionalismo e dedicação. O seu trabalho é vital para a saúde da comunidade.
 
-Atenciosamente,
+**Atenciosamente,**
 
-[Seu Nome/Nome do Departamento de Logística Hospitalar]
+**Equipe de Logística Hospitalar**

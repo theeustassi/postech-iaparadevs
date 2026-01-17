@@ -1,0 +1,113 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 17/01/2026 14:47
+        Veículo: Van 002
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções para Motorista de Entrega Médica - Rota 002
+
+**Prezado(a) Motorista,**
+
+Este documento contém as instruções detalhadas para a sua missão de entrega médica. A precisão e o cuidado na execução destas tarefas são fundamentais para garantir o bem-estar dos pacientes e a eficiência do serviço.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Van 002
+*   **Distância Total Estimada:** 13.69 km
+*   **Tempo Total Estimado:** 1.1 horas
+*   **Número de Entregas:** 2
+*   **Capacidade Utilizada:** 75.4%
+*   **Objetivo:** Realizar a entrega de materiais médicos com prioridade alta para dois pontos de atendimento, seguindo a ordem estabelecida.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Por favor, verifique os seguintes itens antes de iniciar a rota:
+
+*   **Veículo:**
+    *   [ ] Verificação dos níveis de óleo, água e combustível.
+    *   [ ] Calibragem dos pneus.
+    *   [ ] Funcionamento de luzes, freios e limpadores de para-brisa.
+    *   [ ] Limpeza e organização interna do veículo.
+    *   [ ] Equipamentos de segurança (triângulo, extintor, macaco, chave de roda) em bom estado e acessíveis.
+*   **Carga:**
+    *   [ ] Conferência da lista de materiais a serem entregues com o conteúdo da van.
+    *   [ ] Verificação da integridade das embalagens e da temperatura (se aplicável).
+    *   [ ] Garantia de que a carga está devidamente acondicionada e segura para o transporte.
+*   **Documentação:**
+    *   [ ] Carteira de Habilitação válida.
+    *   [ ] Documento do veículo (CRLV) em dia.
+    *   [ ] Roteiro de entregas impresso ou acessível digitalmente.
+    *   [ ] Lista de contatos de emergência.
+*   **Equipamentos Pessoais:**
+    *   [ ] Uniforme completo e identificação.
+    *   [ ] Celular com bateria carregada e acesso à internet.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+Siga rigorosamente a ordem de entrega abaixo:
+
+**Ponto de Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Local:** Atendimento Domiciliar Sra. Costa
+*   **Endereço:** Lat: -23.532, Lon: -46.678
+*   **Demanda:** 32.50727371146408 (representa a quantidade ou volume de material a ser entregue. **Verificar com o responsável pela carga a unidade de medida correta para esta demanda.**)
+*   **Prioridade:** HIGH
+*   **Tempo de Serviço Estimado:** 30 minutos
+*   **Instruções Adicionais:**
+    *   Ao chegar, identifique-se como motorista da Van 002, responsável pela entrega para a Sra. Costa.
+    *   Aguarde as instruções do responsável no local para o recebimento e conferência da carga.
+    *   Assegure-se de que a entrega seja realizada diretamente ao destinatário ou a um representante autorizado.
+    *   Obtenha a assinatura de recebimento em sua documentação de rota.
+
+**Ponto de Entrega 2:**
+
+*   **Ordem:** 2
+*   **Nome do Local:** UBS Casa Verde
+*   **Endereço:** Lat: -23.508, Lon: -46.658
+*   **Demanda:** 5.1797288501790835 (representa a quantidade ou volume de material a ser entregue. **Verificar com o responsável pela carga a unidade de medida correta para esta demanda.**)
+*   **Prioridade:** HIGH
+*   **Tempo de Serviço Estimado:** 15 minutos
+*   **Instruções Adicionais:**
+    *   Ao chegar à UBS Casa Verde, dirija-se à área designada para recebimento de entregas.
+    *   Apresente suas credenciais e a documentação da carga.
+    *   Conduza a entrega conforme as orientações do pessoal da unidade de saúde.
+    *   Obtenha a assinatura de recebimento em sua documentação de rota.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e as sinalizações de trânsito. Esteja atento às condições da via e do clima.
+*   **Manuseio da Carga:** Ao descarregar e entregar os materiais, manuseie com extremo cuidado para evitar danos aos produtos e lesões pessoais. Utilize técnicas adequadas de levantamento, se necessário.
+*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao se ausentar. Esteja atento ao seu entorno, especialmente em áreas desconhecidas.
+*   **Comunicação:** Mantenha contato regular com a central de logística, informando sobre o progresso da rota e quaisquer imprevistos.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, problema mecânico, roubo, etc.), entre em contato imediatamente com os seguintes números:
+
+*   **Central de Logística Hospitalar:**
+    *   **Telefone:** [Inserir Número de Telefone da Central de Logística]
+    *   **Ramal (se aplicável):** [Inserir Ramal]
+*   **Serviços de Emergência:**
+    *   **SAMU (Atendimento Móvel de Urgência):** 192
+    *   **Polícia Militar:** 190
+    *   **Corpo de Bombeiros:** 193
+
+---
+
+Agradecemos seu compromisso e profissionalismo em garantir que estas entregas médicas sejam realizadas com sucesso. Sua dedicação é essencial para a continuidade do cuidado aos nossos pacientes.
+
+**Atenciosamente,**
+
+**Departamento de Logística Hospitalar**

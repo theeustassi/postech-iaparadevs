@@ -1,0 +1,111 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 17/01/2026 14:48
+        Veículo: Van 002
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções para Motorista de Entrega Médica - Rota UBS Saúde
+
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Van 002
+
+---
+
+### 1. Resumo da Missão
+
+Prezado(a) motorista, sua missão hoje é realizar uma entrega médica prioritária para a **UBS Saúde**. A rota é curta, com uma única parada, e o tempo estimado é de 30 minutos. A Van 002 está com 77.5% de sua capacidade utilizada, o que indica um volume considerável de materiais a serem transportados. A entrega possui prioridade **LOW**.
+
+**Informações da Rota:**
+*   **Veículo:** Van 002
+*   **Distância Total:** 8.04 km
+*   **Tempo Estimado:** 0.5 horas (30 minutos)
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 77.5%
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+
+*   **Documentação do Veículo:**
+    *   Documento de licenciamento e seguro do veículo em dia.
+    *   Checklist de manutenção do veículo preenchido e assinado.
+*   **Condições do Veículo:**
+    *   Pneus calibrados e em bom estado.
+    *   Níveis de óleo, água e fluidos verificados.
+    *   Luzes (faróis, setas, freio) funcionando corretamente.
+    *   Sistema de ar condicionado/ventilação funcionando.
+    *   Limpeza interna e externa da van.
+*   **Carga:**
+    *   Conferência da nota fiscal/documento de transporte com a carga a ser transportada.
+    *   Verificação da integridade e acondicionamento adequado dos materiais médicos.
+    *   Segurança da carga para evitar movimentação durante o trajeto.
+*   **Equipamentos de Segurança:**
+    *   Kit de primeiros socorros completo e acessível.
+    *   Extintor de incêndio em local visível e em validade.
+    *   Triângulo de sinalização.
+    *   Colete refletivo.
+    *   Máscara e álcool em gel para higiene pessoal.
+*   **Navegação:**
+    *   GPS ou aplicativo de navegação configurado com o endereço de entrega.
+    *   Carga completa do dispositivo de navegação.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Local:** UBS Saúde
+*   **Endereço:** Lat: -23.5735, Lon: -46.6028
+*   **Prioridade:** LOW
+*   **Tempo de Serviço Estimado:** 15 minutos
+
+**Instruções de Entrega:**
+1.  Dirija-se à UBS Saúde utilizando o sistema de navegação.
+2.  Ao chegar, localize a área designada para recebimento de entregas. Caso não haja sinalização clara, procure por um funcionário responsável pela recepção.
+3.  Apresente a documentação de transporte ao recebedor.
+4.  Aguarde a conferência e o descarregamento dos materiais.
+5.  Obtenha a assinatura de recebimento no documento de transporte.
+6.  Verifique se todos os itens foram descarregados conforme a nota fiscal.
+7.  Retorne à base ou aguarde novas instruções, conforme comunicado.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e as leis de trânsito.
+*   **Atenção Constante:** Evite distrações como o uso de celular ao volante.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas (chuva, neblina, etc.).
+*   **Segurança da Carga:** Certifique-se de que a carga está segura e não compromete a estabilidade do veículo.
+*   **Acesso ao Local de Entrega:** Ao chegar ao destino, observe o trânsito e as condições de acesso para estacionar o veículo de forma segura.
+*   **Manuseio de Materiais:** Ao manusear os materiais, tenha cuidado para evitar quedas ou danos, especialmente se forem frágeis ou perecíveis.
+*   **Higiene:** Mantenha a higiene pessoal, utilizando álcool em gel após o contato com superfícies e pessoas.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência, acidente, problema mecânico ou imprevisto durante a rota, entre em contato imediatamente com:
+
+*   **Coordenação de Logística:**
+    *   **Nome:** [Nome do Coordenador]
+    *   **Telefone:** [Número de Telefone do Coordenador]
+*   **Suporte Técnico (em caso de falha no veículo):**
+    *   **Empresa:** [Nome da Empresa de Manutenção/Seguro]
+    *   **Telefone:** [Número de Telefone do Suporte Técnico]
+*   **Emergência Médica/Policial:**
+    *   **SAMU:** 192
+    *   **Polícia Militar:** 190
+
+---
+
+Agradecemos seu profissionalismo e dedicação. Uma entrega segura e eficiente é fundamental para a continuidade dos serviços de saúde.
+
+**Atenciosamente,**
+
+**[Nome da Sua Instituição/Departamento de Logística Hospitalar]**
