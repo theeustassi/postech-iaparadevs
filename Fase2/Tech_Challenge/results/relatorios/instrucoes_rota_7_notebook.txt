@@ -1,0 +1,119 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:24
+        Veículo: Van 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Van 001
+
+**Prezado(a) Motorista,**
+
+Este documento contém as instruções detalhadas para sua missão de entrega médica. Sua diligência e atenção são cruciais para garantir que suprimentos essenciais cheguem aos seus destinos de forma segura e pontual.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Van 001
+*   **Distância Total Estimada:** 23.32 km
+*   **Tempo Estimado Total:** 1.5 horas
+*   **Número de Entregas:** 3
+*   **Capacidade Utilizada:** 69.1%
+*   **Prioridade Geral:** CRITICAL (todas as entregas são de alta prioridade)
+
+Sua missão é realizar a entrega de materiais médicos para três unidades de saúde, seguindo a ordem de rota especificada abaixo. A pontualidade e a segurança dos materiais são de suma importância.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, complete o seguinte checklist:
+
+*   [ ] **Verificação do Veículo:**
+    *   Nível de combustível adequado.
+    *   Pneus calibrados e em bom estado.
+    *   Luzes (faróis, setas, freio) funcionando corretamente.
+    *   Freios em bom estado.
+    *   Limpeza interna e externa do veículo.
+    *   Sistema de refrigeração (se aplicável) em funcionamento.
+*   [ ] **Verificação da Carga:**
+    *   Confirmar que todos os itens a serem entregues estão presentes e devidamente acondicionados.
+    *   Verificar a integridade das embalagens.
+    *   Garantir que os materiais sensíveis (se houver) estão protegidos adequadamente.
+*   [ ] **Documentação:**
+    *   Lista de entrega/romaneio com os detalhes de cada parada.
+    *   Documentos do veículo (CRLV, CNH).
+    *   Telefone celular carregado e com acesso à internet.
+*   [ ] **Equipamentos de Segurança:**
+    *   Kit de primeiros socorros no veículo.
+    *   Extintor de incêndio válido.
+    *   Cones de sinalização e triângulo de segurança.
+    *   Máscara e álcool em gel (para sua proteção e dos receptores).
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+Siga rigorosamente a ordem abaixo para otimizar a rota e garantir a eficiência:
+
+**Partida:** [Local de Origem - *a ser preenchido pela logística*]
+
+**1. Primeira Entrega:**
+    *   **Nome:** UBS Freguesia do Ó
+    *   **Endereço:** Lat: -23.497, Lon: -46.694
+    *   **Demanda:** 13.129114912342072 unidades/volume
+    *   **Prioridade:** CRITICAL
+    *   **Tempo de Serviço Estimado:** 15.0 minutos
+    *   **Instruções Adicionais:** Ao chegar, procure o responsável pelo recebimento de materiais na área designada. Confirme a entrega e obtenha assinatura no romaneio.
+
+**2. Segunda Entrega:**
+    *   **Nome:** UBS Santana
+    *   **Endereço:** Lat: -23.515, Lon: -46.625
+    *   **Demanda:** 15.017460965701261 unidades/volume
+    *   **Prioridade:** CRITICAL
+    *   **Tempo de Serviço Estimado:** 15.0 minutos
+    *   **Instruções Adicionais:** Siga as sinalizações internas para a área de recebimento. Apresente a documentação e aguarde a conferência e assinatura.
+
+**3. Terceira Entrega:**
+    *   **Nome:** Clínica Higienópolis
+    *   **Endereço:** Lat: -23.545, Lon: -46.6588
+    *   **Demanda:** 6.410346269563729 unidades/volume
+    *   **Prioridade:** CRITICAL
+    *   **Tempo de Serviço Estimado:** 20.0 minutos
+    *   **Instruções Adicionais:** Dirija-se à recepção principal ou setor de logística. Informe o motivo da visita e siga as orientações para a entrega.
+
+**Retorno:** [Local de Retorno - *a ser preenchido pela logística*]
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Condução Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e as leis de trânsito. Antecipe as ações dos outros motoristas.
+*   **Condições Climáticas:** Esteja atento às condições climáticas. Em caso de chuva forte, neblina ou outras adversidades, reduza a velocidade e aumente a atenção.
+*   **Segurança da Carga:** Certifique-se de que a carga esteja bem fixada para evitar deslocamentos durante o trajeto.
+*   **Segurança Pessoal:** Ao realizar as entregas, esteja atento ao seu entorno. Evite estacionar em locais isolados ou perigosos. Mantenha as portas do veículo travadas quando não estiver presente.
+*   **Manuseio de Materiais:** Se houver materiais que exijam cuidados especiais (temperatura, fragilidade), manuseie-os com o máximo de atenção.
+*   **Comunicação:** Mantenha contato com a central logística em caso de qualquer imprevisto ou atraso significativo.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, etc.), entre em contato imediatamente com:
+
+*   **Central Logística Hospitalar:**
+    *   **Telefone:** [Número da Central Logística - *a ser preenchido*]
+    *   **Contato de Emergência:** [Nome do Contato de Emergência - *a ser preenchido*]
+*   **Serviços de Emergência Locais:**
+    *   **Polícia Militar:** 190
+    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
+    *   **Corpo de Bombeiros:** 193
+
+---
+
+Agradecemos seu empenho e profissionalismo nesta importante tarefa. Sua dedicação contribui diretamente para a saúde e bem-estar da comunidade.
+
+Atenciosamente,
+
+**Equipe de Logística Hospitalar**

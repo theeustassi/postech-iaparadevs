@@ -1,0 +1,117 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:23
+        Veículo: Van 002
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Motorista
+
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Van 002
+
+---
+
+### 1. Resumo da Missão
+
+Prezado(a) motorista,
+
+Sua missão hoje é realizar a entrega de materiais médicos essenciais para duas unidades de saúde. A rota foi otimizada para eficiência e segurança.
+
+**Detalhes da Rota:**
+*   **Veículo:** Van 002
+*   **Distância Total:** 13.35 km
+*   **Tempo Estimado:** 0.9 horas (aproximadamente 54 minutos)
+*   **Número de Entregas:** 2
+*   **Capacidade Utilizada:** 94.8% (carga máxima)
+
+**Prioridade:** Todas as entregas são de **CRITICAL** importância.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Por favor, complete os seguintes itens antes de iniciar sua rota:
+
+*   **Veículo:**
+    *   [ ] Verificação geral do veículo (pneus, freios, luzes, fluidos).
+    *   [ ] Limpeza e organização interna da Van 002.
+    *   [ ] Equipamentos de segurança (macaco, triângulo, extintor) em ordem.
+*   **Carga:**
+    *   [ ] Conferência da lista de carga com os materiais transportados.
+    *   [ ] Verificação da integridade das embalagens.
+    *   [ ] Assegurar que a carga está devidamente acomodada e segura para evitar movimentação durante o trajeto.
+*   **Documentação:**
+    *   [ ] Nota fiscal ou documento de transporte em mãos.
+    *   [ ] Mapa da rota ou GPS com o trajeto carregado.
+    *   [ ] Lista de contatos de emergência.
+*   **Equipamentos Pessoais:**
+    *   [ ] Uniforme completo e identificação.
+    *   [ ] Celular carregado com acesso à internet.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+Siga a ordem abaixo para garantir a eficiência da sua rota:
+
+**Entrega 1:**
+
+*   **Local:** UBS Saúde
+*   **Endereço:** Lat: -23.5735, Lon: -46.6028
+*   **Prioridade:** CRITICAL
+*   **Tempo Estimado de Serviço:** 15 minutos
+*   **Instruções Específicas:**
+    *   Ao chegar, procure o responsável pelo recebimento de materiais na área designada.
+    *   Apresente a documentação necessária para a liberação da carga.
+    *   Certifique-se de que a entrega seja confirmada e assinada no documento de transporte.
+
+**Entrega 2:**
+
+*   **Local:** UBS Vila Prudente
+*   **Endereço:** Lat: -23.588, Lon: -46.582
+*   **Prioridade:** CRITICAL
+*   **Tempo Estimado de Serviço:** 15 minutos
+*   **Instruções Específicas:**
+    *   Ao chegar, dirija-se à recepção ou ao setor de logística da unidade.
+    *   Confirme a identidade do recebedor e apresente a documentação de entrega.
+    *   Obtenha a assinatura de recebimento e, se aplicável, o carimbo da unidade.
+
+---
+
+### 4. Orientações de Segurança
+
+Sua segurança e a integridade da carga são prioridade máxima.
+
+*   **Dirija com Responsabilidade:** Respeite os limites de velocidade, a sinalização de trânsito e as leis de trânsito.
+*   **Atenção ao Tráfego:** Esteja sempre atento às condições do trânsito, especialmente em áreas urbanas.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a distância para o veículo à frente.
+*   **Estacionamento Seguro:** Ao realizar as entregas, estacione em locais seguros e permitidos, minimizando o tempo de exposição do veículo e da carga.
+*   **Carga:** Mantenha a carga segura e protegida durante todo o trajeto. Evite paradas desnecessárias.
+*   **Comunicação:** Mantenha-se em contato com a central em caso de qualquer imprevisto.
+*   **Saúde:** Evite dirigir se estiver se sentindo cansado ou indisposto.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, roubo, problema de saúde, etc.), entre em contato imediatamente com os seguintes números:
+
+*   **Central de Logística Hospitalar:**
+    *   Telefone: [Inserir Número da Central]
+    *   Ramal: [Inserir Ramal, se aplicável]
+*   **Segurança Hospitalar:**
+    *   Telefone: [Inserir Número de Segurança]
+*   **Serviços de Emergência (Polícia, Bombeiros, SAMU):**
+    *   Telefone: **190** (Polícia Militar)
+    *   Telefone: **193** (Corpo de Bombeiros)
+    *   Telefone: **192** (SAMU - Atendimento Móvel de Urgência)
+
+---
+
+Agradecemos seu profissionalismo e dedicação. Sua atuação é fundamental para o bom funcionamento dos serviços de saúde.
+
+Atenciosamente,
+
+**Departamento de Logística Hospitalar**

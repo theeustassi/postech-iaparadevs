@@ -1,0 +1,90 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:23
+        Veículo: Van 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Motorista Van 001
+
+**Prezado(a) motorista,**
+
+Você foi designado(a) para uma missão de entrega médica de alta importância. A precisão e a pontualidade são cruciais para garantir o bem-estar dos pacientes. Siga atentamente as instruções abaixo para o cumprimento eficiente e seguro desta rota.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Van 001
+*   **Distância Total Estimada:** 25.02 km
+*   **Tempo Total Estimado da Rota:** 1.4 horas
+*   **Número de Entregas:** 2
+*   **Capacidade Utilizada:** 98.3% (Veículo está quase totalmente carregado, manobre com cuidado)
+*   **Objetivo:** Entregar suprimentos médicos críticos para duas unidades de saúde, seguindo a ordem estabelecida.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar a rota, certifique-se de que os seguintes itens estão em ordem:
+
+*   [ ] **Veículo:** Van 001 devidamente inspecionado (pneus, freios, fluidos, luzes).
+*   [ ] **Carga:** Conferência completa dos itens a serem entregues com a lista de despacho. Certifique-se de que todos os materiais estão devidamente acondicionados e seguros.
+*   [ ] **Documentação:** Roteiro impresso ou digital, lista de despacho, documentos do veículo e sua identificação.
+*   [ ] **Equipamentos de Segurança:** Kit de primeiros socorros, extintor de incêndio, triângulo de sinalização.
+*   [ ] **Comunicação:** Celular carregado e com sinal.
+*   [ ] **Navegação:** GPS ou aplicativo de mapas configurado com o primeiro ponto de entrega.
+*   [ ] **Higiene:** Máscara e álcool em gel disponíveis para uso.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Partida:** [Inserir endereço de partida aqui, se aplicável]
+
+**Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Local:** Casa de Repouso Morumbi
+*   **Endereço:** Lat: -23.6145, Lon: -46.7125
+*   **Prioridade:** CRITICAL
+*   **Tempo Estimado de Serviço:** 25.0 minutos
+*   **Instruções Adicionais:** Ao chegar, informe o recepcionista sobre a entrega de suprimentos médicos urgentes. Siga as orientações internas para o local de descarga.
+
+**Entrega 2:**
+
+*   **Ordem:** 2
+*   **Nome do Local:** UBS Jabaquara
+*   **Endereço:** Lat: -23.614, Lon: -46.642
+*   **Prioridade:** CRITICAL
+*   **Tempo Estimado de Serviço:** 15.0 minutos
+*   **Instruções Adicionais:** Ao chegar, dirija-se à área de recebimento de materiais. Apresente os documentos de entrega e aguarde a conferência.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos. Respeite os limites de velocidade e a sinalização de trânsito.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
+*   **Manuseio da Carga:** Ao descarregar, certifique-se de que a carga está segura e que você está em uma posição estável. Evite movimentos bruscos.
+*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao se ausentar. Esteja atento ao seu entorno em todos os momentos.
+*   **Trânsito:** Utilize aplicativos de trânsito para monitorar congestionamentos e planejar desvios, se necessário. Informe a central sobre quaisquer atrasos significativos.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer imprevisto, acidente ou necessidade de assistência, entre em contato imediatamente com:
+
+*   **Coordenador de Logística:** [Nome do Coordenador] - Telefone: [Número de Telefone do Coordenador]
+*   **Emergência Médica (SAMU):** 192
+*   **Polícia Militar:** 190
+*   **Corpo de Bombeiros:** 193
+
+---
+
+**Agradecemos sua dedicação e profissionalismo em cumprir esta missão vital. Sua atenção aos detalhes garante que os suprimentos médicos cheguem a quem mais precisa.**
+
+**Atenciosamente,**
+
+**Equipe de Logística Hospitalar**

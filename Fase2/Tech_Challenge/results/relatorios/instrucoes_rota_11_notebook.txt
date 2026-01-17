@@ -1,0 +1,105 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:24
+        Veículo: Van 002
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções para Motorista de Entrega Médica - Rota 002
+
+**Assunto:** Rota de Entrega Médica - Van 002
+
+**Data:** [Inserir Data Atual]
+
+**Para:** Motorista Responsável pela Van 002
+
+Prezado(a) Motorista,
+
+Este documento contém as instruções detalhadas para a sua missão de entrega médica. Sua responsabilidade é garantir que os materiais sejam transportados com segurança e pontualidade, seguindo rigorosamente os procedimentos.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Van 002
+*   **Distância Total Estimada:** 10.69 km
+*   **Tempo Estimado de Percurso:** 0.6 horas (aproximadamente 36 minutos)
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 122.1% (Atenção: A capacidade utilizada excede 100%. Verifique se a carga está devidamente acomodada e segura, sem comprometer a dirigibilidade do veículo ou a integridade dos materiais. Se houver qualquer dúvida ou risco, entre em contato imediatamente com a supervisão.)
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, complete os seguintes itens:
+
+*   [ ] **Documentação do Veículo:** Verifique se o licenciamento, seguro e demais documentos da Van 002 estão em dia e a bordo.
+*   [ ] **Documentação da Carga:** Confirme se os documentos de transporte (notas fiscais, guias, etc.) correspondem à carga a ser transportada.
+*   [ ] **Inspeção do Veículo:**
+    *   [ ] Pneus (calibragem e estado de conservação)
+    *   [ ] Freios
+    *   [ ] Luzes (faróis, setas, freio)
+    *   [ ] Nível de óleo e água
+    *   [ ] Limpadores de para-brisa e nível do fluido
+    *   [ ] Cintos de segurança
+*   [ ] **Equipamentos de Segurança:**
+    *   [ ] Kit de primeiros socorros
+    *   [ ] Triângulo de sinalização
+    *   [ ] Extintor de incêndio (verificar validade)
+    *   [ ] Colete refletivo
+*   [ ] **Carga:**
+    *   [ ] Verifique se todos os itens estão devidamente embalados e identificados.
+    *   [ ] Confirme se a carga está bem acondicionada e segura dentro do veículo, evitando movimentação durante o trajeto.
+    *   [ ] **Atenção especial à capacidade utilizada (122.1%):** Certifique-se de que a carga não está sobrecarregando o veículo ou obstruindo a visão.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Local:** UBS Casa Verde
+*   **Endereço:** Lat: -23.508, Lon: -46.658
+*   **Prioridade:** HIGH
+*   **Tempo Estimado de Serviço:** 15.0 minutos
+*   **Instruções:**
+    *   Dirija-se ao endereço indicado (utilize o GPS com as coordenadas fornecidas).
+    *   Ao chegar, identifique-se como motorista da entrega médica.
+    *   Aguarde as instruções da equipe local para o descarregamento.
+    *   Certifique-se de que a entrega seja recebida pela pessoa autorizada.
+    *   Obtenha a assinatura de recebimento nos documentos de transporte.
+    *   Confirme se toda a carga destinada a este ponto foi entregue.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Mantenha uma distância segura dos outros veículos, respeite os limites de velocidade e a sinalização de trânsito.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
+*   **Carga Segura:** Mantenha a carga sempre segura e estável. Evite freadas bruscas ou manobras desnecessárias.
+*   **Comunicação:** Mantenha o celular carregado e com sinal. Em caso de qualquer imprevisto, informe imediatamente a supervisão.
+*   **Descanso:** Respeite os períodos de descanso. Não dirija se estiver se sentindo cansado ou sonolento.
+*   **Acesso aos Locais:** Ao chegar aos pontos de entrega, estacione o veículo em local seguro e permitido. Tenha cuidado ao manobrar em áreas de tráfego intenso ou com espaço limitado.
+*   **Segurança Pessoal:** Ao sair do veículo, mantenha-se atento ao seu redor. Evite exibir objetos de valor.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, roubo, problema mecânico grave, etc.), entre em contato imediatamente com:
+
+*   **Supervisão Logística:**
+    *   Nome: [Nome do Supervisor]
+    *   Telefone: [Número de Telefone do Supervisor]
+*   **Emergência Médica (SAMU):** 192
+*   **Polícia Militar:** 190
+*   **Bombeiros:** 193
+
+---
+
+Agradecemos sua dedicação e profissionalismo em garantir o sucesso desta importante missão.
+
+Atenciosamente,
+
+[Seu Nome/Nome do Departamento de Logística Hospitalar]

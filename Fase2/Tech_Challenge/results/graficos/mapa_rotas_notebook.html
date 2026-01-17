@@ -1,0 +1,2406 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3fe5c1645cc874bd21b81f174c2cf799 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+        <div style="position: fixed; 
+                    bottom: 50px; right: 50px; width: 220px; height: auto; 
+                    background-color: white; z-index:9999; font-size:14px;
+                    border:2px solid grey; border-radius: 5px; padding: 10px">
+        <p><b>Legenda</b></p>
+        <p><i class="fa fa-home" style="color:black"></i> Depósito/Hospital</p>
+        <p><i class="fa fa-medkit" style="color:red"></i> Prioridade CRÍTICA</p>
+        <p><i class="fa fa-medkit" style="color:orange"></i> Prioridade ALTA</p>
+        <p><i class="fa fa-medkit" style="color:blue"></i> Prioridade MÉDIA</p>
+        <p><i class="fa fa-medkit" style="color:green"></i> Prioridade BAIXA</p>
+        </div>
+        
+    
+            <div class="folium-map" id="map_3fe5c1645cc874bd21b81f174c2cf799" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3fe5c1645cc874bd21b81f174c2cf799 = L.map(
+                "map_3fe5c1645cc874bd21b81f174c2cf799",
+                {
+                    center: [-23.559029032258064, -46.648254838709676],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_218266c5b28b2322b97f476eda4ca210 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var poly_line_fb3fab2a4e4deac5d009eb88887146f2 = L.polyline(
+                [[-23.5505, -46.6333], [-23.55, -46.595], [-23.575, -46.615], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_2de0f8b20696dc3f67f90a4411556f3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efc8b5c89584026adffeeb8ccbc81460 = $(`<div id="html_efc8b5c89584026adffeeb8ccbc81460" style="width: 100.0%; height: 100.0%;">                 <b>Rota 1 - Van 001</b><br>                 Distância: 10.63 km<br>                 Entregas: 2<br>                 Tempo total: 1.0h<br>                 Custo: R$ 26.59<br>                 Capacidade usada: 64.0%                 </div>`)[0];
+                popup_2de0f8b20696dc3f67f90a4411556f3a.setContent(html_efc8b5c89584026adffeeb8ccbc81460);
+            
+        
+
+        poly_line_fb3fab2a4e4deac5d009eb88887146f2.bindPopup(popup_2de0f8b20696dc3f67f90a4411556f3a)
+        ;
+
+        
+    
+    
+            var marker_6859f48fa574ff69bb14766739e85682 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_d8f766060cad063cc371cad9337766e2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6859f48fa574ff69bb14766739e85682.setIcon(icon_d8f766060cad063cc371cad9337766e2);
+        
+    
+        var popup_6050827772e24c2435ad42286b088912 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5e0c67d8eaa949a798b547103975a47c = $(`<div id="html_5e0c67d8eaa949a798b547103975a47c" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_6050827772e24c2435ad42286b088912.setContent(html_5e0c67d8eaa949a798b547103975a47c);
+            
+        
+
+        marker_6859f48fa574ff69bb14766739e85682.bindPopup(popup_6050827772e24c2435ad42286b088912)
+        ;
+
+        
+    
+    
+            marker_6859f48fa574ff69bb14766739e85682.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d6e4c146e9ee5370d945d910c422875c = L.marker(
+                [-23.55, -46.595],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_eaff314eb615f1f000477cd2d1d019ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_d6e4c146e9ee5370d945d910c422875c.setIcon(icon_eaff314eb615f1f000477cd2d1d019ff);
+        
+    
+        var popup_a346b90432ec90d4e4294a46bbee3e85 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_681d8ab663028f90ae62657729fa99b5 = $(`<div id="html_681d8ab663028f90ae62657729fa99b5" style="width: 100.0%; height: 100.0%;">                     <b>UBS Mooca</b><br>                     Posição na rota: 1<br>                     Demanda: 22.400154932097685 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_a346b90432ec90d4e4294a46bbee3e85.setContent(html_681d8ab663028f90ae62657729fa99b5);
+            
+        
+
+        marker_d6e4c146e9ee5370d945d910c422875c.bindPopup(popup_a346b90432ec90d4e4294a46bbee3e85)
+        ;
+
+        
+    
+    
+            marker_d6e4c146e9ee5370d945d910c422875c.bindTooltip(
+                `<div>
+                     UBS Mooca
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e0fc0a33f5a28291bf503fab0bc1fb40 = L.marker(
+                [-23.575, -46.615],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_13817962c243720c61dae32efc10d735 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e0fc0a33f5a28291bf503fab0bc1fb40.setIcon(icon_13817962c243720c61dae32efc10d735);
+        
+    
+        var popup_a141edcda050e49b4be361d27131b058 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_20c59997f577b161350c3c99739fa02b = $(`<div id="html_20c59997f577b161350c3c99739fa02b" style="width: 100.0%; height: 100.0%;">                     <b>Atendimento Domiciliar Sra. Santos</b><br>                     Posição na rota: 2<br>                     Demanda: 9.575577601114597 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 25.0 min                     </div>`)[0];
+                popup_a141edcda050e49b4be361d27131b058.setContent(html_20c59997f577b161350c3c99739fa02b);
+            
+        
+
+        marker_e0fc0a33f5a28291bf503fab0bc1fb40.bindPopup(popup_a141edcda050e49b4be361d27131b058)
+        ;
+
+        
+    
+    
+            marker_e0fc0a33f5a28291bf503fab0bc1fb40.bindTooltip(
+                `<div>
+                     Atendimento Domiciliar Sra. Santos
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6e4da9ee829d705f528d4b43b3e64951 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_c2bb6c4f1c96c4f28684df1ca56a642f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6e4da9ee829d705f528d4b43b3e64951.setIcon(icon_c2bb6c4f1c96c4f28684df1ca56a642f);
+        
+    
+        var popup_d5f0c7e0365eaaf4bb1e562cb569edbc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6479abf561d7572b94eda7d491a0c7fb = $(`<div id="html_6479abf561d7572b94eda7d491a0c7fb" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_d5f0c7e0365eaaf4bb1e562cb569edbc.setContent(html_6479abf561d7572b94eda7d491a0c7fb);
+            
+        
+
+        marker_6e4da9ee829d705f528d4b43b3e64951.bindPopup(popup_d5f0c7e0365eaaf4bb1e562cb569edbc)
+        ;
+
+        
+    
+    
+            marker_6e4da9ee829d705f528d4b43b3e64951.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ae1d05c24ccdee0bd7ac389db7b25bee = L.polyline(
+                [[-23.5505, -46.6333], [-23.5735, -46.6028], [-23.588, -46.582], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_db5734a3425822407fc1aa96c3a3a853 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_004999cd56584ac0ad05ac7bb213e60a = $(`<div id="html_004999cd56584ac0ad05ac7bb213e60a" style="width: 100.0%; height: 100.0%;">                 <b>Rota 2 - Van 002</b><br>                 Distância: 13.35 km<br>                 Entregas: 2<br>                 Tempo total: 0.9h<br>                 Custo: R$ 33.38<br>                 Capacidade usada: 94.8%                 </div>`)[0];
+                popup_db5734a3425822407fc1aa96c3a3a853.setContent(html_004999cd56584ac0ad05ac7bb213e60a);
+            
+        
+
+        poly_line_ae1d05c24ccdee0bd7ac389db7b25bee.bindPopup(popup_db5734a3425822407fc1aa96c3a3a853)
+        ;
+
+        
+    
+    
+            var marker_291f91cc89d4740b94f6a66ee1b90610 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_501a6c3a32e3aed1aa0fe9cb063f9cd7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_291f91cc89d4740b94f6a66ee1b90610.setIcon(icon_501a6c3a32e3aed1aa0fe9cb063f9cd7);
+        
+    
+        var popup_60e094d51ed9096f19dc679320de4cf1 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5069a5f02d3f238ef158c5c711a7c6d8 = $(`<div id="html_5069a5f02d3f238ef158c5c711a7c6d8" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_60e094d51ed9096f19dc679320de4cf1.setContent(html_5069a5f02d3f238ef158c5c711a7c6d8);
+            
+        
+
+        marker_291f91cc89d4740b94f6a66ee1b90610.bindPopup(popup_60e094d51ed9096f19dc679320de4cf1)
+        ;
+
+        
+    
+    
+            marker_291f91cc89d4740b94f6a66ee1b90610.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b341926c19637d240116bf0af394853c = L.marker(
+                [-23.5735, -46.6028],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_ded143542e254df3aa874c72b2949eb4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b341926c19637d240116bf0af394853c.setIcon(icon_ded143542e254df3aa874c72b2949eb4);
+        
+    
+        var popup_9e78a1323961265e18a97bc942fba1e8 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6d1cadf4d16cd4af16a4949834880b3d = $(`<div id="html_6d1cadf4d16cd4af16a4949834880b3d" style="width: 100.0%; height: 100.0%;">                     <b>UBS Saúde</b><br>                     Posição na rota: 1<br>                     Demanda: 28.01477755986726 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_9e78a1323961265e18a97bc942fba1e8.setContent(html_6d1cadf4d16cd4af16a4949834880b3d);
+            
+        
+
+        marker_b341926c19637d240116bf0af394853c.bindPopup(popup_9e78a1323961265e18a97bc942fba1e8)
+        ;
+
+        
+    
+    
+            marker_b341926c19637d240116bf0af394853c.bindTooltip(
+                `<div>
+                     UBS Saúde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_34fc4f38c74ddd5191f595a90aef8f9a = L.marker(
+                [-23.588, -46.582],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_667eda95e142e576eace76e7cc8aea55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_34fc4f38c74ddd5191f595a90aef8f9a.setIcon(icon_667eda95e142e576eace76e7cc8aea55);
+        
+    
+        var popup_88caf11c28875b7028b7292e6613f1da = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_801abcfaa69be04a370e9abede3d1693 = $(`<div id="html_801abcfaa69be04a370e9abede3d1693" style="width: 100.0%; height: 100.0%;">                     <b>UBS Vila Prudente</b><br>                     Posição na rota: 2<br>                     Demanda: 19.36229250913799 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_88caf11c28875b7028b7292e6613f1da.setContent(html_801abcfaa69be04a370e9abede3d1693);
+            
+        
+
+        marker_34fc4f38c74ddd5191f595a90aef8f9a.bindPopup(popup_88caf11c28875b7028b7292e6613f1da)
+        ;
+
+        
+    
+    
+            marker_34fc4f38c74ddd5191f595a90aef8f9a.bindTooltip(
+                `<div>
+                     UBS Vila Prudente
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e58b38728e740d48ab3bd54204655bcb = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_46c2369cb6ebde6ebb8a7b9ea2c448c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e58b38728e740d48ab3bd54204655bcb.setIcon(icon_46c2369cb6ebde6ebb8a7b9ea2c448c4);
+        
+    
+        var popup_0cca6431f92d94dff79c67124fcb6071 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_805eba8c1dae01d6d5cf4b60bea50322 = $(`<div id="html_805eba8c1dae01d6d5cf4b60bea50322" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_0cca6431f92d94dff79c67124fcb6071.setContent(html_805eba8c1dae01d6d5cf4b60bea50322);
+            
+        
+
+        marker_e58b38728e740d48ab3bd54204655bcb.bindPopup(popup_0cca6431f92d94dff79c67124fcb6071)
+        ;
+
+        
+    
+    
+            marker_e58b38728e740d48ab3bd54204655bcb.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_a601508407fe48a12f1f2b1d5eec161f = L.polyline(
+                [[-23.5505, -46.6333], [-23.54, -46.575], [-23.5425, -46.7018], [-23.5988, -46.7158], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_4539ed5c243f4140a6132d29402f947a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63bfad3cb2bc043dc09637c5b0f88ada = $(`<div id="html_63bfad3cb2bc043dc09637c5b0f88ada" style="width: 100.0%; height: 100.0%;">                 <b>Rota 3 - Moto 001</b><br>                 Distância: 35.32 km<br>                 Entregas: 3<br>                 Tempo total: 2.0h<br>                 Custo: R$ 52.98<br>                 Capacidade usada: 229.1%                 </div>`)[0];
+                popup_4539ed5c243f4140a6132d29402f947a.setContent(html_63bfad3cb2bc043dc09637c5b0f88ada);
+            
+        
+
+        poly_line_a601508407fe48a12f1f2b1d5eec161f.bindPopup(popup_4539ed5c243f4140a6132d29402f947a)
+        ;
+
+        
+    
+    
+            var marker_4d0f28e2083768da6ea38365e2ed01b5 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_56bcf6db5f06b6af1a7497a6ff4d1d37 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4d0f28e2083768da6ea38365e2ed01b5.setIcon(icon_56bcf6db5f06b6af1a7497a6ff4d1d37);
+        
+    
+        var popup_5a04caf9000b4bca4398c08e7209e692 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a1a5411ce575fcd691350224ee1b3ef5 = $(`<div id="html_a1a5411ce575fcd691350224ee1b3ef5" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_5a04caf9000b4bca4398c08e7209e692.setContent(html_a1a5411ce575fcd691350224ee1b3ef5);
+            
+        
+
+        marker_4d0f28e2083768da6ea38365e2ed01b5.bindPopup(popup_5a04caf9000b4bca4398c08e7209e692)
+        ;
+
+        
+    
+    
+            marker_4d0f28e2083768da6ea38365e2ed01b5.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_006ad5a1a465678881bba24974b9f131 = L.marker(
+                [-23.54, -46.575],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_953daa0c3f2d898cd1a9cf058ac84d32 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_006ad5a1a465678881bba24974b9f131.setIcon(icon_953daa0c3f2d898cd1a9cf058ac84d32);
+        
+    
+        var popup_e7496cae7c66293b76af0160767f0752 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_98f0f1a9a6bdc5c0ec1eda41302a7bb3 = $(`<div id="html_98f0f1a9a6bdc5c0ec1eda41302a7bb3" style="width: 100.0%; height: 100.0%;">                     <b>UBS Tatuapé</b><br>                     Posição na rota: 1<br>                     Demanda: 24.22655584386355 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_e7496cae7c66293b76af0160767f0752.setContent(html_98f0f1a9a6bdc5c0ec1eda41302a7bb3);
+            
+        
+
+        marker_006ad5a1a465678881bba24974b9f131.bindPopup(popup_e7496cae7c66293b76af0160767f0752)
+        ;
+
+        
+    
+    
+            marker_006ad5a1a465678881bba24974b9f131.bindTooltip(
+                `<div>
+                     UBS Tatuapé
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1cbac71ed96f49527fb2af1f39bf89d5 = L.marker(
+                [-23.5425, -46.7018],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_b6aa95d7f30c5a5fca8daa884fd10268 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_1cbac71ed96f49527fb2af1f39bf89d5.setIcon(icon_b6aa95d7f30c5a5fca8daa884fd10268);
+        
+    
+        var popup_db7a51aca17e4c93d93387cb2812fb67 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_50c8c4f796042de6df250af31c8774f5 = $(`<div id="html_50c8c4f796042de6df250af31c8774f5" style="width: 100.0%; height: 100.0%;">                     <b>Atendimento Domiciliar Sra. Almeida</b><br>                     Posição na rota: 2<br>                     Demanda: 2.2735328571447733 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 30.0 min                     </div>`)[0];
+                popup_db7a51aca17e4c93d93387cb2812fb67.setContent(html_50c8c4f796042de6df250af31c8774f5);
+            
+        
+
+        marker_1cbac71ed96f49527fb2af1f39bf89d5.bindPopup(popup_db7a51aca17e4c93d93387cb2812fb67)
+        ;
+
+        
+    
+    
+            marker_1cbac71ed96f49527fb2af1f39bf89d5.bindTooltip(
+                `<div>
+                     Atendimento Domiciliar Sra. Almeida
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2de83a994d86fda7434bb9327628f252 = L.marker(
+                [-23.5988, -46.7158],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_bfbacfd8f946a0ece890780119aa9c1c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_2de83a994d86fda7434bb9327628f252.setIcon(icon_bfbacfd8f946a0ece890780119aa9c1c);
+        
+    
+        var popup_5f231fe81b2b4594ddc5646f3146292f = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_3f3091bd7cb34ef92db3f114e353603f = $(`<div id="html_3f3091bd7cb34ef92db3f114e353603f" style="width: 100.0%; height: 100.0%;">                     <b>Hospital Albert Einstein</b><br>                     Posição na rota: 3<br>                     Demanda: 19.31997995115027 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 30.0 min                     </div>`)[0];
+                popup_5f231fe81b2b4594ddc5646f3146292f.setContent(html_3f3091bd7cb34ef92db3f114e353603f);
+            
+        
+
+        marker_2de83a994d86fda7434bb9327628f252.bindPopup(popup_5f231fe81b2b4594ddc5646f3146292f)
+        ;
+
+        
+    
+    
+            marker_2de83a994d86fda7434bb9327628f252.bindTooltip(
+                `<div>
+                     Hospital Albert Einstein
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5b4a1cd51969668abf68589ed1e27fa7 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_9588602041c8681d9c33eb5cca13114f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_5b4a1cd51969668abf68589ed1e27fa7.setIcon(icon_9588602041c8681d9c33eb5cca13114f);
+        
+    
+        var popup_f9e6a812f1d70f980280cc601bc83ac3 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_5d48af5c3c512ed6e7871c0aa707debb = $(`<div id="html_5d48af5c3c512ed6e7871c0aa707debb" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_f9e6a812f1d70f980280cc601bc83ac3.setContent(html_5d48af5c3c512ed6e7871c0aa707debb);
+            
+        
+
+        marker_5b4a1cd51969668abf68589ed1e27fa7.bindPopup(popup_f9e6a812f1d70f980280cc601bc83ac3)
+        ;
+
+        
+    
+    
+            marker_5b4a1cd51969668abf68589ed1e27fa7.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c63dd0217d8fce98f11e4be1cebb2b00 = L.polyline(
+                [[-23.5505, -46.6333], [-23.6145, -46.7125], [-23.614, -46.642], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_2e1c83448a8dcc20a9182a6cc34ded00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f14b47ed2ddb126d4a643e034ace409e = $(`<div id="html_f14b47ed2ddb126d4a643e034ace409e" style="width: 100.0%; height: 100.0%;">                 <b>Rota 4 - Van 001</b><br>                 Distância: 25.02 km<br>                 Entregas: 2<br>                 Tempo total: 1.4h<br>                 Custo: R$ 62.54<br>                 Capacidade usada: 98.3%                 </div>`)[0];
+                popup_2e1c83448a8dcc20a9182a6cc34ded00.setContent(html_f14b47ed2ddb126d4a643e034ace409e);
+            
+        
+
+        poly_line_c63dd0217d8fce98f11e4be1cebb2b00.bindPopup(popup_2e1c83448a8dcc20a9182a6cc34ded00)
+        ;
+
+        
+    
+    
+            var marker_e0a676c11e50d43ef44ce3c0c4b9e23e = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_f52079c6c241de9e725dd8a074494182 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e0a676c11e50d43ef44ce3c0c4b9e23e.setIcon(icon_f52079c6c241de9e725dd8a074494182);
+        
+    
+        var popup_2a1f97c8a7f356f010c616b456e71cf2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5899ca0f9b642067ca1aa4822f8c57d = $(`<div id="html_d5899ca0f9b642067ca1aa4822f8c57d" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_2a1f97c8a7f356f010c616b456e71cf2.setContent(html_d5899ca0f9b642067ca1aa4822f8c57d);
+            
+        
+
+        marker_e0a676c11e50d43ef44ce3c0c4b9e23e.bindPopup(popup_2a1f97c8a7f356f010c616b456e71cf2)
+        ;
+
+        
+    
+    
+            marker_e0a676c11e50d43ef44ce3c0c4b9e23e.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b61d87d743331068c4a0a8a61905c780 = L.marker(
+                [-23.6145, -46.7125],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_260b93c0f39c9ff6e8abdc1b74655697 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_b61d87d743331068c4a0a8a61905c780.setIcon(icon_260b93c0f39c9ff6e8abdc1b74655697);
+        
+    
+        var popup_e205faaf4ccf9ccd606b56fd9af31199 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9690ac5a145d6ff39980c6cc7994e537 = $(`<div id="html_9690ac5a145d6ff39980c6cc7994e537" style="width: 100.0%; height: 100.0%;">                     <b>Casa de Repouso Morumbi</b><br>                     Posição na rota: 1<br>                     Demanda: 7.472710984388229 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 25.0 min                     </div>`)[0];
+                popup_e205faaf4ccf9ccd606b56fd9af31199.setContent(html_9690ac5a145d6ff39980c6cc7994e537);
+            
+        
+
+        marker_b61d87d743331068c4a0a8a61905c780.bindPopup(popup_e205faaf4ccf9ccd606b56fd9af31199)
+        ;
+
+        
+    
+    
+            marker_b61d87d743331068c4a0a8a61905c780.bindTooltip(
+                `<div>
+                     Casa de Repouso Morumbi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a139a8d5419301556d1cdb17c7d6c8d = L.marker(
+                [-23.614, -46.642],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_6fa195fcf4f12811d9e359de507188fb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3a139a8d5419301556d1cdb17c7d6c8d.setIcon(icon_6fa195fcf4f12811d9e359de507188fb);
+        
+    
+        var popup_2d4884a9f1f6d4662491bce2b38b7261 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2fd5baf1b71b9e2ef32fff4b28f15e03 = $(`<div id="html_2fd5baf1b71b9e2ef32fff4b28f15e03" style="width: 100.0%; height: 100.0%;">                     <b>UBS Jabaquara</b><br>                     Posição na rota: 2<br>                     Demanda: 41.67929098776325 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_2d4884a9f1f6d4662491bce2b38b7261.setContent(html_2fd5baf1b71b9e2ef32fff4b28f15e03);
+            
+        
+
+        marker_3a139a8d5419301556d1cdb17c7d6c8d.bindPopup(popup_2d4884a9f1f6d4662491bce2b38b7261)
+        ;
+
+        
+    
+    
+            marker_3a139a8d5419301556d1cdb17c7d6c8d.bindTooltip(
+                `<div>
+                     UBS Jabaquara
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_4a3b20e5e7eba6ee416476bea54d8938 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_4bb05abb63cac4ad7ef92bff691e7bc2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_4a3b20e5e7eba6ee416476bea54d8938.setIcon(icon_4bb05abb63cac4ad7ef92bff691e7bc2);
+        
+    
+        var popup_3e9263921d5eedf26056a91475f690ef = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f6dd610d2cbb5fbfc974f6ea275ff441 = $(`<div id="html_f6dd610d2cbb5fbfc974f6ea275ff441" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_3e9263921d5eedf26056a91475f690ef.setContent(html_f6dd610d2cbb5fbfc974f6ea275ff441);
+            
+        
+
+        marker_4a3b20e5e7eba6ee416476bea54d8938.bindPopup(popup_3e9263921d5eedf26056a91475f690ef)
+        ;
+
+        
+    
+    
+            marker_4a3b20e5e7eba6ee416476bea54d8938.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ed1a0d569c18d2b49ab55cada64da6c4 = L.polyline(
+                [[-23.5505, -46.6333], [-23.5988, -46.6422], [-23.5465, -46.6892], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "orange", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_32e9e3ddd137a52eb19f770fd5d742d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11d8abb9278c99481406179bb13ad134 = $(`<div id="html_11d8abb9278c99481406179bb13ad134" style="width: 100.0%; height: 100.0%;">                 <b>Rota 5 - Van 002</b><br>                 Distância: 18.66 km<br>                 Entregas: 2<br>                 Tempo total: 1.3h<br>                 Custo: R$ 46.66<br>                 Capacidade usada: 54.6%                 </div>`)[0];
+                popup_32e9e3ddd137a52eb19f770fd5d742d6.setContent(html_11d8abb9278c99481406179bb13ad134);
+            
+        
+
+        poly_line_ed1a0d569c18d2b49ab55cada64da6c4.bindPopup(popup_32e9e3ddd137a52eb19f770fd5d742d6)
+        ;
+
+        
+    
+    
+            var marker_12e40eb25d83785602174ccced32443f = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_f0906348491d05c303896bd3d4730f64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_12e40eb25d83785602174ccced32443f.setIcon(icon_f0906348491d05c303896bd3d4730f64);
+        
+    
+        var popup_2c839ea69ee11bdfed816ea4dc59faa7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ad10d2770f0b62a14614594462255d29 = $(`<div id="html_ad10d2770f0b62a14614594462255d29" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_2c839ea69ee11bdfed816ea4dc59faa7.setContent(html_ad10d2770f0b62a14614594462255d29);
+            
+        
+
+        marker_12e40eb25d83785602174ccced32443f.bindPopup(popup_2c839ea69ee11bdfed816ea4dc59faa7)
+        ;
+
+        
+    
+    
+            marker_12e40eb25d83785602174ccced32443f.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7e365b044258e820a808477edb2a9c2d = L.marker(
+                [-23.5988, -46.6422],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_393f466224b04422bb4250f90b499a01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_7e365b044258e820a808477edb2a9c2d.setIcon(icon_393f466224b04422bb4250f90b499a01);
+        
+    
+        var popup_c1ce504022f05771cd30b2a8d195bfe7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_462f28fc9362995154137b387561f6ad = $(`<div id="html_462f28fc9362995154137b387561f6ad" style="width: 100.0%; height: 100.0%;">                     <b>Hospital São Paulo</b><br>                     Posição na rota: 1<br>                     Demanda: 10.676494479662678 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 25.0 min                     </div>`)[0];
+                popup_c1ce504022f05771cd30b2a8d195bfe7.setContent(html_462f28fc9362995154137b387561f6ad);
+            
+        
+
+        marker_7e365b044258e820a808477edb2a9c2d.bindPopup(popup_c1ce504022f05771cd30b2a8d195bfe7)
+        ;
+
+        
+    
+    
+            marker_7e365b044258e820a808477edb2a9c2d.bindTooltip(
+                `<div>
+                     Hospital São Paulo
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd2e98a3e0a67a361f52348a09486469 = L.marker(
+                [-23.5465, -46.6892],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_8c58cf38bd2969ededfebc9e60fbe8e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_bd2e98a3e0a67a361f52348a09486469.setIcon(icon_8c58cf38bd2969ededfebc9e60fbe8e4);
+        
+    
+        var popup_3a503a2a0c2df9c02b787415203c72ec = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f6cb7eaa05862740845e904d38dd4dbe = $(`<div id="html_f6cb7eaa05862740845e904d38dd4dbe" style="width: 100.0%; height: 100.0%;">                     <b>Clínica Vila Madalena</b><br>                     Posição na rota: 2<br>                     Demanda: 16.602959505833375 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 20.0 min                     </div>`)[0];
+                popup_3a503a2a0c2df9c02b787415203c72ec.setContent(html_f6cb7eaa05862740845e904d38dd4dbe);
+            
+        
+
+        marker_bd2e98a3e0a67a361f52348a09486469.bindPopup(popup_3a503a2a0c2df9c02b787415203c72ec)
+        ;
+
+        
+    
+    
+            marker_bd2e98a3e0a67a361f52348a09486469.bindTooltip(
+                `<div>
+                     Clínica Vila Madalena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd90466526b279777bc81ad5e056b1fe = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_08aa78fd0a2b1b109956a5adf5e2b6a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_bd90466526b279777bc81ad5e056b1fe.setIcon(icon_08aa78fd0a2b1b109956a5adf5e2b6a1);
+        
+    
+        var popup_cb7bae1c524d7a90b2dd1152441e725e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_84af0ec34d8aad4224a8628087ac24c2 = $(`<div id="html_84af0ec34d8aad4224a8628087ac24c2" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_cb7bae1c524d7a90b2dd1152441e725e.setContent(html_84af0ec34d8aad4224a8628087ac24c2);
+            
+        
+
+        marker_bd90466526b279777bc81ad5e056b1fe.bindPopup(popup_cb7bae1c524d7a90b2dd1152441e725e)
+        ;
+
+        
+    
+    
+            marker_bd90466526b279777bc81ad5e056b1fe.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_ac63c54dc6089c4be8254e470069ba6c = L.polyline(
+                [[-23.5505, -46.6333], [-23.532, -46.678], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "darkred", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkred", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_29ae9d04aa50227584154d97b0b31f39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98acd79630e2480becf4886a2a55eb82 = $(`<div id="html_98acd79630e2480becf4886a2a55eb82" style="width: 100.0%; height: 100.0%;">                 <b>Rota 6 - Moto 001</b><br>                 Distância: 9.98 km<br>                 Entregas: 1<br>                 Tempo total: 0.7h<br>                 Custo: R$ 14.97<br>                 Capacidade usada: 223.6%                 </div>`)[0];
+                popup_29ae9d04aa50227584154d97b0b31f39.setContent(html_98acd79630e2480becf4886a2a55eb82);
+            
+        
+
+        poly_line_ac63c54dc6089c4be8254e470069ba6c.bindPopup(popup_29ae9d04aa50227584154d97b0b31f39)
+        ;
+
+        
+    
+    
+            var marker_b2463bfcfa01654113eb911f6f2f8daa = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_74686352250b9720cc63f35877dc3654 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b2463bfcfa01654113eb911f6f2f8daa.setIcon(icon_74686352250b9720cc63f35877dc3654);
+        
+    
+        var popup_34a73aac02609d935ffb9d960aa04da9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_14e740b11a2742070de084a648192dbf = $(`<div id="html_14e740b11a2742070de084a648192dbf" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_34a73aac02609d935ffb9d960aa04da9.setContent(html_14e740b11a2742070de084a648192dbf);
+            
+        
+
+        marker_b2463bfcfa01654113eb911f6f2f8daa.bindPopup(popup_34a73aac02609d935ffb9d960aa04da9)
+        ;
+
+        
+    
+    
+            marker_b2463bfcfa01654113eb911f6f2f8daa.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1138f70d69e3c90eda6d9158499888f = L.marker(
+                [-23.532, -46.678],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_90d8874c3f890df3e9778b2511bf6446 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_e1138f70d69e3c90eda6d9158499888f.setIcon(icon_90d8874c3f890df3e9778b2511bf6446);
+        
+    
+        var popup_d69532fca024e34257573baa6629fcc9 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1708ab7e0a92c75574eab18310b7b928 = $(`<div id="html_1708ab7e0a92c75574eab18310b7b928" style="width: 100.0%; height: 100.0%;">                     <b>Atendimento Domiciliar Sra. Costa</b><br>                     Posição na rota: 1<br>                     Demanda: 44.72156736228808 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 30.0 min                     </div>`)[0];
+                popup_d69532fca024e34257573baa6629fcc9.setContent(html_1708ab7e0a92c75574eab18310b7b928);
+            
+        
+
+        marker_e1138f70d69e3c90eda6d9158499888f.bindPopup(popup_d69532fca024e34257573baa6629fcc9)
+        ;
+
+        
+    
+    
+            marker_e1138f70d69e3c90eda6d9158499888f.bindTooltip(
+                `<div>
+                     Atendimento Domiciliar Sra. Costa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_124b1b488b3c72734dbfc4c1f1a46b60 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_93344287ecb9e0340a098220882770fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_124b1b488b3c72734dbfc4c1f1a46b60.setIcon(icon_93344287ecb9e0340a098220882770fe);
+        
+    
+        var popup_88c9879fc089ac915a365f6793164033 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ce03b8e1357d148306f7df3c3668ce14 = $(`<div id="html_ce03b8e1357d148306f7df3c3668ce14" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_88c9879fc089ac915a365f6793164033.setContent(html_ce03b8e1357d148306f7df3c3668ce14);
+            
+        
+
+        marker_124b1b488b3c72734dbfc4c1f1a46b60.bindPopup(popup_88c9879fc089ac915a365f6793164033)
+        ;
+
+        
+    
+    
+            marker_124b1b488b3c72734dbfc4c1f1a46b60.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_210a43d1312f8f7df7a8edbd87549333 = L.polyline(
+                [[-23.5505, -46.6333], [-23.497, -46.694], [-23.515, -46.625], [-23.545, -46.6588], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "lightblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_d61a8ee7fa494daf270fe142430f8c26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85a3d0397a85928c392886918342a3b8 = $(`<div id="html_85a3d0397a85928c392886918342a3b8" style="width: 100.0%; height: 100.0%;">                 <b>Rota 7 - Van 001</b><br>                 Distância: 23.32 km<br>                 Entregas: 3<br>                 Tempo total: 1.5h<br>                 Custo: R$ 58.31<br>                 Capacidade usada: 69.1%                 </div>`)[0];
+                popup_d61a8ee7fa494daf270fe142430f8c26.setContent(html_85a3d0397a85928c392886918342a3b8);
+            
+        
+
+        poly_line_210a43d1312f8f7df7a8edbd87549333.bindPopup(popup_d61a8ee7fa494daf270fe142430f8c26)
+        ;
+
+        
+    
+    
+            var marker_e07278a85176b95c22c763616f10026c = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_a8b9ea9cc62469679069353aff2c38c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e07278a85176b95c22c763616f10026c.setIcon(icon_a8b9ea9cc62469679069353aff2c38c7);
+        
+    
+        var popup_1ead262ca617bea729402caaf235f36b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_d5d2a695b2ab355f4b32bf64b6cd1a23 = $(`<div id="html_d5d2a695b2ab355f4b32bf64b6cd1a23" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_1ead262ca617bea729402caaf235f36b.setContent(html_d5d2a695b2ab355f4b32bf64b6cd1a23);
+            
+        
+
+        marker_e07278a85176b95c22c763616f10026c.bindPopup(popup_1ead262ca617bea729402caaf235f36b)
+        ;
+
+        
+    
+    
+            marker_e07278a85176b95c22c763616f10026c.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a545e204346884efc9a5486088c197c5 = L.marker(
+                [-23.497, -46.694],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_996e5133ba080e75b99cad9df1940d6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a545e204346884efc9a5486088c197c5.setIcon(icon_996e5133ba080e75b99cad9df1940d6d);
+        
+    
+        var popup_7ab295a0ba9b923f0b08d9b6eabfc386 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b736c0ccc36437020216ef9b5a5e30ee = $(`<div id="html_b736c0ccc36437020216ef9b5a5e30ee" style="width: 100.0%; height: 100.0%;">                     <b>UBS Freguesia do Ó</b><br>                     Posição na rota: 1<br>                     Demanda: 13.129114912342072 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_7ab295a0ba9b923f0b08d9b6eabfc386.setContent(html_b736c0ccc36437020216ef9b5a5e30ee);
+            
+        
+
+        marker_a545e204346884efc9a5486088c197c5.bindPopup(popup_7ab295a0ba9b923f0b08d9b6eabfc386)
+        ;
+
+        
+    
+    
+            marker_a545e204346884efc9a5486088c197c5.bindTooltip(
+                `<div>
+                     UBS Freguesia do Ó
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c201bc8bbce37ae685d526d6235382c8 = L.marker(
+                [-23.515, -46.625],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_5dd039f6fe6a341ffee7b7badb18bdf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_c201bc8bbce37ae685d526d6235382c8.setIcon(icon_5dd039f6fe6a341ffee7b7badb18bdf7);
+        
+    
+        var popup_d882250418d2314bd37810dbce79dd21 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_9aaad0bd6ac3b99c9802c42de63c6c00 = $(`<div id="html_9aaad0bd6ac3b99c9802c42de63c6c00" style="width: 100.0%; height: 100.0%;">                     <b>UBS Santana</b><br>                     Posição na rota: 2<br>                     Demanda: 15.017460965701261 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_d882250418d2314bd37810dbce79dd21.setContent(html_9aaad0bd6ac3b99c9802c42de63c6c00);
+            
+        
+
+        marker_c201bc8bbce37ae685d526d6235382c8.bindPopup(popup_d882250418d2314bd37810dbce79dd21)
+        ;
+
+        
+    
+    
+            marker_c201bc8bbce37ae685d526d6235382c8.bindTooltip(
+                `<div>
+                     UBS Santana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_72cb84a9df105e63d296ec3d1c2cc670 = L.marker(
+                [-23.545, -46.6588],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_eef92ff9e8089a30f2b188de2315f051 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_72cb84a9df105e63d296ec3d1c2cc670.setIcon(icon_eef92ff9e8089a30f2b188de2315f051);
+        
+    
+        var popup_bc380bceaa26138b35bd3a53c638d17d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0116d55e3ee23730c86fe4af91bfd2fe = $(`<div id="html_0116d55e3ee23730c86fe4af91bfd2fe" style="width: 100.0%; height: 100.0%;">                     <b>Clínica Higienópolis</b><br>                     Posição na rota: 3<br>                     Demanda: 6.410346269563729 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 20.0 min                     </div>`)[0];
+                popup_bc380bceaa26138b35bd3a53c638d17d.setContent(html_0116d55e3ee23730c86fe4af91bfd2fe);
+            
+        
+
+        marker_72cb84a9df105e63d296ec3d1c2cc670.bindPopup(popup_bc380bceaa26138b35bd3a53c638d17d)
+        ;
+
+        
+    
+    
+            marker_72cb84a9df105e63d296ec3d1c2cc670.bindTooltip(
+                `<div>
+                     Clínica Higienópolis
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_affa37a7e05739d927432cc18d1a26b8 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_f3b4cbaa57a750c87c1835113207fc02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_affa37a7e05739d927432cc18d1a26b8.setIcon(icon_f3b4cbaa57a750c87c1835113207fc02);
+        
+    
+        var popup_15fcb38d4e42bf9b0c1637ba12a55dfc = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_402dafe10d2a716f94aae5b0bcaec54e = $(`<div id="html_402dafe10d2a716f94aae5b0bcaec54e" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_15fcb38d4e42bf9b0c1637ba12a55dfc.setContent(html_402dafe10d2a716f94aae5b0bcaec54e);
+            
+        
+
+        marker_affa37a7e05739d927432cc18d1a26b8.bindPopup(popup_15fcb38d4e42bf9b0c1637ba12a55dfc)
+        ;
+
+        
+    
+    
+            marker_affa37a7e05739d927432cc18d1a26b8.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_c85be6bf7594a6df07b3855a8da86bd4 = L.polyline(
+                [[-23.5505, -46.6333], [-23.5545, -46.6605], [-23.565, -46.645], [-23.5887, -46.6772], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "darkgreen", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_1916567bc422291362bbeaf98c8fe31b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_442f3afc9430cfa40550f331c18fe08c = $(`<div id="html_442f3afc9430cfa40550f331c18fe08c" style="width: 100.0%; height: 100.0%;">                 <b>Rota 8 - Van 002</b><br>                 Distância: 15.12 km<br>                 Entregas: 3<br>                 Tempo total: 1.5h<br>                 Custo: R$ 37.81<br>                 Capacidade usada: 99.8%                 </div>`)[0];
+                popup_1916567bc422291362bbeaf98c8fe31b.setContent(html_442f3afc9430cfa40550f331c18fe08c);
+            
+        
+
+        poly_line_c85be6bf7594a6df07b3855a8da86bd4.bindPopup(popup_1916567bc422291362bbeaf98c8fe31b)
+        ;
+
+        
+    
+    
+            var marker_2a5399112a0ed7e6262615065d3d3244 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_2a86f46844517db1aff0c277162e98ac = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_2a5399112a0ed7e6262615065d3d3244.setIcon(icon_2a86f46844517db1aff0c277162e98ac);
+        
+    
+        var popup_6497930ab444ae9f84e572baf8572bdd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6a503b74d14c4a5dfcf02ace44183799 = $(`<div id="html_6a503b74d14c4a5dfcf02ace44183799" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_6497930ab444ae9f84e572baf8572bdd.setContent(html_6a503b74d14c4a5dfcf02ace44183799);
+            
+        
+
+        marker_2a5399112a0ed7e6262615065d3d3244.bindPopup(popup_6497930ab444ae9f84e572baf8572bdd)
+        ;
+
+        
+    
+    
+            marker_2a5399112a0ed7e6262615065d3d3244.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3a309afae6f34e4bad650071cd6925c9 = L.marker(
+                [-23.5545, -46.6605],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_db5abfb8d2056876b973ec231d4ff5e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_3a309afae6f34e4bad650071cd6925c9.setIcon(icon_db5abfb8d2056876b973ec231d4ff5e4);
+        
+    
+        var popup_eccc6460dbd0e24b9147b2251962ce72 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_344f7ad58ba12ebc3080329caa3be4fb = $(`<div id="html_344f7ad58ba12ebc3080329caa3be4fb" style="width: 100.0%; height: 100.0%;">                     <b>UBS Consolação</b><br>                     Posição na rota: 1<br>                     Demanda: 17.794708692311264 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 20.0 min                     </div>`)[0];
+                popup_eccc6460dbd0e24b9147b2251962ce72.setContent(html_344f7ad58ba12ebc3080329caa3be4fb);
+            
+        
+
+        marker_3a309afae6f34e4bad650071cd6925c9.bindPopup(popup_eccc6460dbd0e24b9147b2251962ce72)
+        ;
+
+        
+    
+    
+            marker_3a309afae6f34e4bad650071cd6925c9.bindTooltip(
+                `<div>
+                     UBS Consolação
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75361851f6216875c856970c2fb1bb82 = L.marker(
+                [-23.565, -46.645],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_f466b1ce2bfcd69683a989ee19e6e282 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_75361851f6216875c856970c2fb1bb82.setIcon(icon_f466b1ce2bfcd69683a989ee19e6e282);
+        
+    
+        var popup_170ad73ab2f1e99d10f0e537c5ae7489 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_174925fb323553b5a60b121122b67360 = $(`<div id="html_174925fb323553b5a60b121122b67360" style="width: 100.0%; height: 100.0%;">                     <b>Atendimento Domiciliar Sr. Silva</b><br>                     Posição na rota: 2<br>                     Demanda: 23.93061002026463 kg<br>                     Prioridade: CRITICAL<br>                     Tempo de serviço: 30.0 min                     </div>`)[0];
+                popup_170ad73ab2f1e99d10f0e537c5ae7489.setContent(html_174925fb323553b5a60b121122b67360);
+            
+        
+
+        marker_75361851f6216875c856970c2fb1bb82.bindPopup(popup_170ad73ab2f1e99d10f0e537c5ae7489)
+        ;
+
+        
+    
+    
+            marker_75361851f6216875c856970c2fb1bb82.bindTooltip(
+                `<div>
+                     Atendimento Domiciliar Sr. Silva
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3fbf9ecd41fd3d65e8462db6521299e = L.marker(
+                [-23.5887, -46.6772],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_136d1f1c44ef1c461565c81fa44f1830 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a3fbf9ecd41fd3d65e8462db6521299e.setIcon(icon_136d1f1c44ef1c461565c81fa44f1830);
+        
+    
+        var popup_5bd43396af9b63d146042eb7dcbde4e2 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_02ef68a5c3a04566869622da7bb1cb27 = $(`<div id="html_02ef68a5c3a04566869622da7bb1cb27" style="width: 100.0%; height: 100.0%;">                     <b>UBS Itaim Bibi</b><br>                     Posição na rota: 3<br>                     Demanda: 8.183279795729373 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_5bd43396af9b63d146042eb7dcbde4e2.setContent(html_02ef68a5c3a04566869622da7bb1cb27);
+            
+        
+
+        marker_a3fbf9ecd41fd3d65e8462db6521299e.bindPopup(popup_5bd43396af9b63d146042eb7dcbde4e2)
+        ;
+
+        
+    
+    
+            marker_a3fbf9ecd41fd3d65e8462db6521299e.bindTooltip(
+                `<div>
+                     UBS Itaim Bibi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e986e2d1a46f1a2c8009a892d56c3134 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_4d3b1606dac5fbc53b82d454c412ed9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_e986e2d1a46f1a2c8009a892d56c3134.setIcon(icon_4d3b1606dac5fbc53b82d454c412ed9b);
+        
+    
+        var popup_1cc479ccd6d9b2352d89160dbbcef05b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_494a30df6dff6c3771a5dbc1de35d6bd = $(`<div id="html_494a30df6dff6c3771a5dbc1de35d6bd" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_1cc479ccd6d9b2352d89160dbbcef05b.setContent(html_494a30df6dff6c3771a5dbc1de35d6bd);
+            
+        
+
+        marker_e986e2d1a46f1a2c8009a892d56c3134.bindPopup(popup_1cc479ccd6d9b2352d89160dbbcef05b)
+        ;
+
+        
+    
+    
+            marker_e986e2d1a46f1a2c8009a892d56c3134.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_e4ac7c4fbe34c673da1e51c4c0da3572 = L.polyline(
+                [[-23.5505, -46.6333], [-23.564, -46.682], [-23.545, -46.655], [-23.5558, -46.6028], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "cadetblue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "cadetblue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_165d154a33a8195f7be4ff081ba01ef7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1055f46be58b582536daddfdd330b141 = $(`<div id="html_1055f46be58b582536daddfdd330b141" style="width: 100.0%; height: 100.0%;">                 <b>Rota 9 - Moto 001</b><br>                 Distância: 17.24 km<br>                 Entregas: 3<br>                 Tempo total: 1.6h<br>                 Custo: R$ 25.87<br>                 Capacidade usada: 247.6%                 </div>`)[0];
+                popup_165d154a33a8195f7be4ff081ba01ef7.setContent(html_1055f46be58b582536daddfdd330b141);
+            
+        
+
+        poly_line_e4ac7c4fbe34c673da1e51c4c0da3572.bindPopup(popup_165d154a33a8195f7be4ff081ba01ef7)
+        ;
+
+        
+    
+    
+            var marker_864d70dad4e0491e8c1ba7ddeb419622 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_45beb3ede4fa4e2d5dfcaa8637112a68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_864d70dad4e0491e8c1ba7ddeb419622.setIcon(icon_45beb3ede4fa4e2d5dfcaa8637112a68);
+        
+    
+        var popup_5ab19eac95e3e934b8ec720e5e3e2c5d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e74574b3f81a4ac446ed795f49b90ca1 = $(`<div id="html_e74574b3f81a4ac446ed795f49b90ca1" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_5ab19eac95e3e934b8ec720e5e3e2c5d.setContent(html_e74574b3f81a4ac446ed795f49b90ca1);
+            
+        
+
+        marker_864d70dad4e0491e8c1ba7ddeb419622.bindPopup(popup_5ab19eac95e3e934b8ec720e5e3e2c5d)
+        ;
+
+        
+    
+    
+            marker_864d70dad4e0491e8c1ba7ddeb419622.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7f2dfb929227d1f4f1735f229b40cc79 = L.marker(
+                [-23.564, -46.682],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_18973df91554bb6bfe2e7479ad5aa2bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7f2dfb929227d1f4f1735f229b40cc79.setIcon(icon_18973df91554bb6bfe2e7479ad5aa2bd);
+        
+    
+        var popup_429db304d9e7a00b29dc1ff8c6d8c82d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b497679d8e314f4831148d54d4564971 = $(`<div id="html_b497679d8e314f4831148d54d4564971" style="width: 100.0%; height: 100.0%;">                     <b>UBS Pinheiros</b><br>                     Posição na rota: 1<br>                     Demanda: 12.869782029655711 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_429db304d9e7a00b29dc1ff8c6d8c82d.setContent(html_b497679d8e314f4831148d54d4564971);
+            
+        
+
+        marker_7f2dfb929227d1f4f1735f229b40cc79.bindPopup(popup_429db304d9e7a00b29dc1ff8c6d8c82d)
+        ;
+
+        
+    
+    
+            marker_7f2dfb929227d1f4f1735f229b40cc79.bindTooltip(
+                `<div>
+                     UBS Pinheiros
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a3e94f3413d6cb0bf376a4299a908035 = L.marker(
+                [-23.545, -46.655],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_bd2866a784cbf4d5c82f94590b54f3e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a3e94f3413d6cb0bf376a4299a908035.setIcon(icon_bd2866a784cbf4d5c82f94590b54f3e4);
+        
+    
+        var popup_cc4575bcc3e87efa44013ce2e7fb3837 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_27250d43c61e309652212a8f0dadd46f = $(`<div id="html_27250d43c61e309652212a8f0dadd46f" style="width: 100.0%; height: 100.0%;">                     <b>Atendimento Domiciliar Sr. Oliveira</b><br>                     Posição na rota: 2<br>                     Demanda: 21.863816221669207 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 30.0 min                     </div>`)[0];
+                popup_cc4575bcc3e87efa44013ce2e7fb3837.setContent(html_27250d43c61e309652212a8f0dadd46f);
+            
+        
+
+        marker_a3e94f3413d6cb0bf376a4299a908035.bindPopup(popup_cc4575bcc3e87efa44013ce2e7fb3837)
+        ;
+
+        
+    
+    
+            marker_a3e94f3413d6cb0bf376a4299a908035.bindTooltip(
+                `<div>
+                     Atendimento Domiciliar Sr. Oliveira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_86c406df6c7166238edbc68482814ed7 = L.marker(
+                [-23.5558, -46.6028],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_89c3b1dcd22e71a406e8f4ac071431ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_86c406df6c7166238edbc68482814ed7.setIcon(icon_89c3b1dcd22e71a406e8f4ac071431ed);
+        
+    
+        var popup_53893f1f105a44f80504e7b96337564d = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_97558bb76f8cff6fa47aa26c968712ea = $(`<div id="html_97558bb76f8cff6fa47aa26c968712ea" style="width: 100.0%; height: 100.0%;">                     <b>Atendimento Domiciliar Sr. Pereira</b><br>                     Posição na rota: 3<br>                     Demanda: 14.781190434510656 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 30.0 min                     </div>`)[0];
+                popup_53893f1f105a44f80504e7b96337564d.setContent(html_97558bb76f8cff6fa47aa26c968712ea);
+            
+        
+
+        marker_86c406df6c7166238edbc68482814ed7.bindPopup(popup_53893f1f105a44f80504e7b96337564d)
+        ;
+
+        
+    
+    
+            marker_86c406df6c7166238edbc68482814ed7.bindTooltip(
+                `<div>
+                     Atendimento Domiciliar Sr. Pereira
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c379f6bc421316aebd4ef625b2d1665c = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_28f0f450fdfd2c4b64ece8c594afdc11 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c379f6bc421316aebd4ef625b2d1665c.setIcon(icon_28f0f450fdfd2c4b64ece8c594afdc11);
+        
+    
+        var popup_1de7585c0be8e83ccdf1931ea8722061 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_feeefce11b984d1016f337f026088c86 = $(`<div id="html_feeefce11b984d1016f337f026088c86" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_1de7585c0be8e83ccdf1931ea8722061.setContent(html_feeefce11b984d1016f337f026088c86);
+            
+        
+
+        marker_c379f6bc421316aebd4ef625b2d1665c.bindPopup(popup_1de7585c0be8e83ccdf1931ea8722061)
+        ;
+
+        
+    
+    
+            marker_c379f6bc421316aebd4ef625b2d1665c.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_81e9d9477fc295e987bb572d1d06d7b9 = L.polyline(
+                [[-23.5505, -46.6333], [-23.5658, -46.6185], [-23.592, -46.61], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "pink", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_9fb8703b0bab340e289937928a149190 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9fe409b8e952979685e37412712000d = $(`<div id="html_e9fe409b8e952979685e37412712000d" style="width: 100.0%; height: 100.0%;">                 <b>Rota 10 - Van 001</b><br>                 Distância: 10.48 km<br>                 Entregas: 2<br>                 Tempo total: 0.8h<br>                 Custo: R$ 26.21<br>                 Capacidade usada: 26.9%                 </div>`)[0];
+                popup_9fb8703b0bab340e289937928a149190.setContent(html_e9fe409b8e952979685e37412712000d);
+            
+        
+
+        poly_line_81e9d9477fc295e987bb572d1d06d7b9.bindPopup(popup_9fb8703b0bab340e289937928a149190)
+        ;
+
+        
+    
+    
+            var marker_b533d10fb772d62e00979aecaaf67b0d = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_cae9cae80d1f76e70ca5a8b1ef98648b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b533d10fb772d62e00979aecaaf67b0d.setIcon(icon_cae9cae80d1f76e70ca5a8b1ef98648b);
+        
+    
+        var popup_5a5d5b9dd296eb8e6b45ad0af388f25a = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e90d20d39b4e97694265e0575ea4e6ec = $(`<div id="html_e90d20d39b4e97694265e0575ea4e6ec" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_5a5d5b9dd296eb8e6b45ad0af388f25a.setContent(html_e90d20d39b4e97694265e0575ea4e6ec);
+            
+        
+
+        marker_b533d10fb772d62e00979aecaaf67b0d.bindPopup(popup_5a5d5b9dd296eb8e6b45ad0af388f25a)
+        ;
+
+        
+    
+    
+            marker_b533d10fb772d62e00979aecaaf67b0d.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_527d81b2004df0fb2a98a9b4675128b2 = L.marker(
+                [-23.5658, -46.6185],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_aada297489ba325046422e4bc277c879 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_527d81b2004df0fb2a98a9b4675128b2.setIcon(icon_aada297489ba325046422e4bc277c879);
+        
+    
+        var popup_a07c3a392924db66f2adf7a8f0db4f1c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_85beafe23b55680c3d40daf492c98018 = $(`<div id="html_85beafe23b55680c3d40daf492c98018" style="width: 100.0%; height: 100.0%;">                     <b>UBS Cambuci</b><br>                     Posição na rota: 1<br>                     Demanda: 7.089586864834036 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_a07c3a392924db66f2adf7a8f0db4f1c.setContent(html_85beafe23b55680c3d40daf492c98018);
+            
+        
+
+        marker_527d81b2004df0fb2a98a9b4675128b2.bindPopup(popup_a07c3a392924db66f2adf7a8f0db4f1c)
+        ;
+
+        
+    
+    
+            marker_527d81b2004df0fb2a98a9b4675128b2.bindTooltip(
+                `<div>
+                     UBS Cambuci
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a86ac9be63ef3449501e01b906e0835d = L.marker(
+                [-23.592, -46.61],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_b3a4588d5b66a7ebb7e209b403b641d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a86ac9be63ef3449501e01b906e0835d.setIcon(icon_b3a4588d5b66a7ebb7e209b403b641d3);
+        
+    
+        var popup_9952aee38f98b6de656da7277724070b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2611c5dad56275c50f22bc177444b8af = $(`<div id="html_2611c5dad56275c50f22bc177444b8af" style="width: 100.0%; height: 100.0%;">                     <b>UBS Ipiranga</b><br>                     Posição na rota: 2<br>                     Demanda: 6.382024894213841 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_9952aee38f98b6de656da7277724070b.setContent(html_2611c5dad56275c50f22bc177444b8af);
+            
+        
+
+        marker_a86ac9be63ef3449501e01b906e0835d.bindPopup(popup_9952aee38f98b6de656da7277724070b)
+        ;
+
+        
+    
+    
+            marker_a86ac9be63ef3449501e01b906e0835d.bindTooltip(
+                `<div>
+                     UBS Ipiranga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3ffa082e9d7f4127d04a2b307bd077e9 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_acb4a9e9f28afa1d41125d67cd3e1d48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_3ffa082e9d7f4127d04a2b307bd077e9.setIcon(icon_acb4a9e9f28afa1d41125d67cd3e1d48);
+        
+    
+        var popup_e7a386c976ff13a10384e4202c0f37aa = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_a07b1ab56c6f95faebac8df853b03b14 = $(`<div id="html_a07b1ab56c6f95faebac8df853b03b14" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_e7a386c976ff13a10384e4202c0f37aa.setContent(html_a07b1ab56c6f95faebac8df853b03b14);
+            
+        
+
+        marker_3ffa082e9d7f4127d04a2b307bd077e9.bindPopup(popup_e7a386c976ff13a10384e4202c0f37aa)
+        ;
+
+        
+    
+    
+            marker_3ffa082e9d7f4127d04a2b307bd077e9.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_84af8c3c0c67330e8d02ee10ee312bdd = L.polyline(
+                [[-23.5505, -46.6333], [-23.508, -46.658], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_9e131a3cf2d65521a46ad3893a06a1d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_509833dddee8b5334ad5cb6739858940 = $(`<div id="html_509833dddee8b5334ad5cb6739858940" style="width: 100.0%; height: 100.0%;">                 <b>Rota 11 - Van 002</b><br>                 Distância: 10.69 km<br>                 Entregas: 1<br>                 Tempo total: 0.6h<br>                 Custo: R$ 26.73<br>                 Capacidade usada: 122.1%                 </div>`)[0];
+                popup_9e131a3cf2d65521a46ad3893a06a1d5.setContent(html_509833dddee8b5334ad5cb6739858940);
+            
+        
+
+        poly_line_84af8c3c0c67330e8d02ee10ee312bdd.bindPopup(popup_9e131a3cf2d65521a46ad3893a06a1d5)
+        ;
+
+        
+    
+    
+            var marker_0dc413699137053c91da18c9d8585fda = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_8fbd08fb66d31c4d854256174ec77033 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_0dc413699137053c91da18c9d8585fda.setIcon(icon_8fbd08fb66d31c4d854256174ec77033);
+        
+    
+        var popup_6a9ccbfb896db48b2a5106a0f995102b = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_0fcf5be2731983122ffc658952044d79 = $(`<div id="html_0fcf5be2731983122ffc658952044d79" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_6a9ccbfb896db48b2a5106a0f995102b.setContent(html_0fcf5be2731983122ffc658952044d79);
+            
+        
+
+        marker_0dc413699137053c91da18c9d8585fda.bindPopup(popup_6a9ccbfb896db48b2a5106a0f995102b)
+        ;
+
+        
+    
+    
+            marker_0dc413699137053c91da18c9d8585fda.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79d4cec9d2acfea78793db99f23d2fe7 = L.marker(
+                [-23.508, -46.658],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_ad08046116ed22cb828e0f5b199e793e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_79d4cec9d2acfea78793db99f23d2fe7.setIcon(icon_ad08046116ed22cb828e0f5b199e793e);
+        
+    
+        var popup_1951f46f405300566dbc87a624226d2e = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_b8944707b6acd8b8f14f0fd0432d05a1 = $(`<div id="html_b8944707b6acd8b8f14f0fd0432d05a1" style="width: 100.0%; height: 100.0%;">                     <b>UBS Casa Verde</b><br>                     Posição na rota: 1<br>                     Demanda: 61.02651168738482 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_1951f46f405300566dbc87a624226d2e.setContent(html_b8944707b6acd8b8f14f0fd0432d05a1);
+            
+        
+
+        marker_79d4cec9d2acfea78793db99f23d2fe7.bindPopup(popup_1951f46f405300566dbc87a624226d2e)
+        ;
+
+        
+    
+    
+            marker_79d4cec9d2acfea78793db99f23d2fe7.bindTooltip(
+                `<div>
+                     UBS Casa Verde
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7bdd79b16b8f0816056dd70ed03223cf = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_aea29ace51d2487612b6596c67cfe88d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7bdd79b16b8f0816056dd70ed03223cf.setIcon(icon_aea29ace51d2487612b6596c67cfe88d);
+        
+    
+        var popup_e2b0b811b9af5d487bb5e90ec18ead38 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_38d50067f2a7cb044bd51bde85b25973 = $(`<div id="html_38d50067f2a7cb044bd51bde85b25973" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_e2b0b811b9af5d487bb5e90ec18ead38.setContent(html_38d50067f2a7cb044bd51bde85b25973);
+            
+        
+
+        marker_7bdd79b16b8f0816056dd70ed03223cf.bindPopup(popup_e2b0b811b9af5d487bb5e90ec18ead38)
+        ;
+
+        
+    
+    
+            marker_7bdd79b16b8f0816056dd70ed03223cf.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_acf09b2b0893e63f8015ebcee5a7e55e = L.polyline(
+                [[-23.5505, -46.6333], [-23.5382, -46.6745], [-23.528, -46.705], [-23.569, -46.723], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "blue", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_8ad2705adf1f7a2f545c05f1a342cc8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc88e8fbc0d3e240e2ec7205a4fd91ea = $(`<div id="html_dc88e8fbc0d3e240e2ec7205a4fd91ea" style="width: 100.0%; height: 100.0%;">                 <b>Rota 12 - Moto 001</b><br>                 Distância: 21.97 km<br>                 Entregas: 3<br>                 Tempo total: 1.4h<br>                 Custo: R$ 32.96<br>                 Capacidade usada: 197.7%                 </div>`)[0];
+                popup_8ad2705adf1f7a2f545c05f1a342cc8d.setContent(html_dc88e8fbc0d3e240e2ec7205a4fd91ea);
+            
+        
+
+        poly_line_acf09b2b0893e63f8015ebcee5a7e55e.bindPopup(popup_8ad2705adf1f7a2f545c05f1a342cc8d)
+        ;
+
+        
+    
+    
+            var marker_6b279951bd57c45ce5e375b4416fe938 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_6fa7876ec8752ac93625627f66c3db0a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6b279951bd57c45ce5e375b4416fe938.setIcon(icon_6fa7876ec8752ac93625627f66c3db0a);
+        
+    
+        var popup_6d014cb11c95d1585750e210e97ef2c7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_4725349deb6cd1153e93f2dbf362b19e = $(`<div id="html_4725349deb6cd1153e93f2dbf362b19e" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_6d014cb11c95d1585750e210e97ef2c7.setContent(html_4725349deb6cd1153e93f2dbf362b19e);
+            
+        
+
+        marker_6b279951bd57c45ce5e375b4416fe938.bindPopup(popup_6d014cb11c95d1585750e210e97ef2c7)
+        ;
+
+        
+    
+    
+            marker_6b279951bd57c45ce5e375b4416fe938.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_76a56f038afab43f9153437a802ad62a = L.marker(
+                [-23.5382, -46.6745],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_ab66dd8c8c8e59f73e074e15abe9279f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_76a56f038afab43f9153437a802ad62a.setIcon(icon_ab66dd8c8c8e59f73e074e15abe9279f);
+        
+    
+        var popup_913b0c3b8cc94e611bc833e50df556d5 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f8d09872dba8522f34c68bec2776a35e = $(`<div id="html_f8d09872dba8522f34c68bec2776a35e" style="width: 100.0%; height: 100.0%;">                     <b>Clínica Perdizes</b><br>                     Posição na rota: 1<br>                     Demanda: 8.960909055194524 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 20.0 min                     </div>`)[0];
+                popup_913b0c3b8cc94e611bc833e50df556d5.setContent(html_f8d09872dba8522f34c68bec2776a35e);
+            
+        
+
+        marker_76a56f038afab43f9153437a802ad62a.bindPopup(popup_913b0c3b8cc94e611bc833e50df556d5)
+        ;
+
+        
+    
+    
+            marker_76a56f038afab43f9153437a802ad62a.bindTooltip(
+                `<div>
+                     Clínica Perdizes
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_07fe04cd560f8c28f9a995bb55f4fd69 = L.marker(
+                [-23.528, -46.705],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_5974900bf4e38a6ff8f4b677952031b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_07fe04cd560f8c28f9a995bb55f4fd69.setIcon(icon_5974900bf4e38a6ff8f4b677952031b3);
+        
+    
+        var popup_e0bf0abdb22080015ffbc16fe63ac14c = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_ced50c3c0faea2b5d89c6f1fd3ade95a = $(`<div id="html_ced50c3c0faea2b5d89c6f1fd3ade95a" style="width: 100.0%; height: 100.0%;">                     <b>UBS Lapa</b><br>                     Posição na rota: 2<br>                     Demanda: 14.303145191419226 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_e0bf0abdb22080015ffbc16fe63ac14c.setContent(html_ced50c3c0faea2b5d89c6f1fd3ade95a);
+            
+        
+
+        marker_07fe04cd560f8c28f9a995bb55f4fd69.bindPopup(popup_e0bf0abdb22080015ffbc16fe63ac14c)
+        ;
+
+        
+    
+    
+            marker_07fe04cd560f8c28f9a995bb55f4fd69.bindTooltip(
+                `<div>
+                     UBS Lapa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a32002f4856856cfcfc0bc23d334af09 = L.marker(
+                [-23.569, -46.723],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_8678bdecfeb6ebd2c010c98e399019ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a32002f4856856cfcfc0bc23d334af09.setIcon(icon_8678bdecfeb6ebd2c010c98e399019ca);
+        
+    
+        var popup_833865d5b8d0652a1dbbb8b2eb37b6f7 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_6afd22835f72868742c3509302e2c685 = $(`<div id="html_6afd22835f72868742c3509302e2c685" style="width: 100.0%; height: 100.0%;">                     <b>Clínica Butantã</b><br>                     Posição na rota: 3<br>                     Demanda: 16.271408226204294 kg<br>                     Prioridade: HIGH<br>                     Tempo de serviço: 20.0 min                     </div>`)[0];
+                popup_833865d5b8d0652a1dbbb8b2eb37b6f7.setContent(html_6afd22835f72868742c3509302e2c685);
+            
+        
+
+        marker_a32002f4856856cfcfc0bc23d334af09.bindPopup(popup_833865d5b8d0652a1dbbb8b2eb37b6f7)
+        ;
+
+        
+    
+    
+            marker_a32002f4856856cfcfc0bc23d334af09.bindTooltip(
+                `<div>
+                     Clínica Butantã
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6ffe650cf239d3c45e9199c5cc30eecf = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_a79229814ea4a875b515bef75f998ae6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_6ffe650cf239d3c45e9199c5cc30eecf.setIcon(icon_a79229814ea4a875b515bef75f998ae6);
+        
+    
+        var popup_740f1632a3793db037ffe99e576b62ff = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_f3a73e226e5d95f3077e3dd087908bc7 = $(`<div id="html_f3a73e226e5d95f3077e3dd087908bc7" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_740f1632a3793db037ffe99e576b62ff.setContent(html_f3a73e226e5d95f3077e3dd087908bc7);
+            
+        
+
+        marker_6ffe650cf239d3c45e9199c5cc30eecf.bindPopup(popup_740f1632a3793db037ffe99e576b62ff)
+        ;
+
+        
+    
+    
+            marker_6ffe650cf239d3c45e9199c5cc30eecf.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_75ac019e89f249ddc00a9c434070d5ce = L.polyline(
+                [[-23.5505, -46.6333], [-23.5598, -46.642], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "green", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_df2f7f55660ebc9ab9e748643672f452 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9e7d26a485836179b5cdc26866bc2120 = $(`<div id="html_9e7d26a485836179b5cdc26866bc2120" style="width: 100.0%; height: 100.0%;">                 <b>Rota 13 - Van 001</b><br>                 Distância: 2.72 km<br>                 Entregas: 1<br>                 Tempo total: 0.3h<br>                 Custo: R$ 6.80<br>                 Capacidade usada: 99.8%                 </div>`)[0];
+                popup_df2f7f55660ebc9ab9e748643672f452.setContent(html_9e7d26a485836179b5cdc26866bc2120);
+            
+        
+
+        poly_line_75ac019e89f249ddc00a9c434070d5ce.bindPopup(popup_df2f7f55660ebc9ab9e748643672f452)
+        ;
+
+        
+    
+    
+            var marker_112f181c7a2530d0af188de57e0dd39e = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_9609108810afd91ed92c1990fff02e69 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_112f181c7a2530d0af188de57e0dd39e.setIcon(icon_9609108810afd91ed92c1990fff02e69);
+        
+    
+        var popup_af790033f4c418d61433b36886ceff94 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_e718c93ff8e1161ed654c6f80f87df21 = $(`<div id="html_e718c93ff8e1161ed654c6f80f87df21" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_af790033f4c418d61433b36886ceff94.setContent(html_e718c93ff8e1161ed654c6f80f87df21);
+            
+        
+
+        marker_112f181c7a2530d0af188de57e0dd39e.bindPopup(popup_af790033f4c418d61433b36886ceff94)
+        ;
+
+        
+    
+    
+            marker_112f181c7a2530d0af188de57e0dd39e.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b19cdc08ec99cb9ab1edc71d778b9551 = L.marker(
+                [-23.5598, -46.642],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_db913696d9c541bd1b758e59ab2a25d4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b19cdc08ec99cb9ab1edc71d778b9551.setIcon(icon_db913696d9c541bd1b758e59ab2a25d4);
+        
+    
+        var popup_9aac19013bd9234c4879b1c532814030 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_de6a29efeb727cd9fb898336e4062e70 = $(`<div id="html_de6a29efeb727cd9fb898336e4062e70" style="width: 100.0%; height: 100.0%;">                     <b>Centro de Saúde Bela Vista</b><br>                     Posição na rota: 1<br>                     Demanda: 49.90154438933244 kg<br>                     Prioridade: MEDIUM<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_9aac19013bd9234c4879b1c532814030.setContent(html_de6a29efeb727cd9fb898336e4062e70);
+            
+        
+
+        marker_b19cdc08ec99cb9ab1edc71d778b9551.bindPopup(popup_9aac19013bd9234c4879b1c532814030)
+        ;
+
+        
+    
+    
+            marker_b19cdc08ec99cb9ab1edc71d778b9551.bindTooltip(
+                `<div>
+                     Centro de Saúde Bela Vista
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8d21b00e17cfc4906ba4fd1010a9aadb = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_65fd80f11f866e01c1ec30cc4f504737 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_8d21b00e17cfc4906ba4fd1010a9aadb.setIcon(icon_65fd80f11f866e01c1ec30cc4f504737);
+        
+    
+        var popup_cba14bc2c12b66e29b5951bca64956bd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_2ea9629d05ae0cb0d9c08817931b8715 = $(`<div id="html_2ea9629d05ae0cb0d9c08817931b8715" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_cba14bc2c12b66e29b5951bca64956bd.setContent(html_2ea9629d05ae0cb0d9c08817931b8715);
+            
+        
+
+        marker_8d21b00e17cfc4906ba4fd1010a9aadb.bindPopup(popup_cba14bc2c12b66e29b5951bca64956bd)
+        ;
+
+        
+    
+    
+            marker_8d21b00e17cfc4906ba4fd1010a9aadb.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var poly_line_4e1d27ed5b6ba5af468b4dc7aff4b02e = L.polyline(
+                [[-23.5505, -46.6333], [-23.588, -46.638], [-23.527, -46.542], [-23.5505, -46.6333]],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "purple", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.7, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+        var popup_716e01967c851b364e23d4d3754f683e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7717d6d18c5c6c287727970e9ef5d441 = $(`<div id="html_7717d6d18c5c6c287727970e9ef5d441" style="width: 100.0%; height: 100.0%;">                 <b>Rota 14 - Van 002</b><br>                 Distância: 25.72 km<br>                 Entregas: 2<br>                 Tempo total: 1.3h<br>                 Custo: R$ 64.31<br>                 Capacidade usada: 54.2%                 </div>`)[0];
+                popup_716e01967c851b364e23d4d3754f683e.setContent(html_7717d6d18c5c6c287727970e9ef5d441);
+            
+        
+
+        poly_line_4e1d27ed5b6ba5af468b4dc7aff4b02e.bindPopup(popup_716e01967c851b364e23d4d3754f683e)
+        ;
+
+        
+    
+    
+            var marker_44e9f0ca4190b054f981cce1945166f0 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_46d54501abd09b11b92ca3c5f3b8aa57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_44e9f0ca4190b054f981cce1945166f0.setIcon(icon_46d54501abd09b11b92ca3c5f3b8aa57);
+        
+    
+        var popup_6df9cb9aca099a3d7c585d88a201d1dd = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_208f675b8e4f93b70734e9a8b6df9eda = $(`<div id="html_208f675b8e4f93b70734e9a8b6df9eda" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_6df9cb9aca099a3d7c585d88a201d1dd.setContent(html_208f675b8e4f93b70734e9a8b6df9eda);
+            
+        
+
+        marker_44e9f0ca4190b054f981cce1945166f0.bindPopup(popup_6df9cb9aca099a3d7c585d88a201d1dd)
+        ;
+
+        
+    
+    
+            marker_44e9f0ca4190b054f981cce1945166f0.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_710f355bc9cd6cfa4de7790c725067c8 = L.marker(
+                [-23.588, -46.638],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_63648744fbf21269724302e96b56e46e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_710f355bc9cd6cfa4de7790c725067c8.setIcon(icon_63648744fbf21269724302e96b56e46e);
+        
+    
+        var popup_3a5a605c88957f3939d1e8bc2d356a66 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_733117954be34dfa39d9744874c4f2a9 = $(`<div id="html_733117954be34dfa39d9744874c4f2a9" style="width: 100.0%; height: 100.0%;">                     <b>UBS Vila Mariana</b><br>                     Posição na rota: 1<br>                     Demanda: 17.373817842971384 kg<br>                     Prioridade: MEDIUM<br>                     Tempo de serviço: 20.0 min                     </div>`)[0];
+                popup_3a5a605c88957f3939d1e8bc2d356a66.setContent(html_733117954be34dfa39d9744874c4f2a9);
+            
+        
+
+        marker_710f355bc9cd6cfa4de7790c725067c8.bindPopup(popup_3a5a605c88957f3939d1e8bc2d356a66)
+        ;
+
+        
+    
+    
+            marker_710f355bc9cd6cfa4de7790c725067c8.bindTooltip(
+                `<div>
+                     UBS Vila Mariana
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aab505c5de5023297ffc1b216a2d802a = L.marker(
+                [-23.527, -46.542],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_76a1654753b26642669daa809758da14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "medkit", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aab505c5de5023297ffc1b216a2d802a.setIcon(icon_76a1654753b26642669daa809758da14);
+        
+    
+        var popup_7a03b1f1556fb1c810cce2e1ac80ad94 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_da5c3c3a1c4b4e427119edd3d208b891 = $(`<div id="html_da5c3c3a1c4b4e427119edd3d208b891" style="width: 100.0%; height: 100.0%;">                     <b>UBS Penha</b><br>                     Posição na rota: 2<br>                     Demanda: 9.704727707062352 kg<br>                     Prioridade: MEDIUM<br>                     Tempo de serviço: 15.0 min                     </div>`)[0];
+                popup_7a03b1f1556fb1c810cce2e1ac80ad94.setContent(html_da5c3c3a1c4b4e427119edd3d208b891);
+            
+        
+
+        marker_aab505c5de5023297ffc1b216a2d802a.bindPopup(popup_7a03b1f1556fb1c810cce2e1ac80ad94)
+        ;
+
+        
+    
+    
+            marker_aab505c5de5023297ffc1b216a2d802a.bindTooltip(
+                `<div>
+                     UBS Penha
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6c65fc75896467614b81dfd7c645fa9 = L.marker(
+                [-23.5505, -46.6333],
+                {}
+            ).addTo(map_3fe5c1645cc874bd21b81f174c2cf799);
+        
+    
+            var icon_e6516fa26af8a6e17b0099004a24d8dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "home", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_c6c65fc75896467614b81dfd7c645fa9.setIcon(icon_e6516fa26af8a6e17b0099004a24d8dc);
+        
+    
+        var popup_caaa8bd601f1f551d1b97e1a9287c224 = L.popup({"maxWidth": 250});
+
+        
+            
+                var html_1aa92b52534b2a553e90436118afefd4 = $(`<div id="html_1aa92b52534b2a553e90436118afefd4" style="width: 100.0%; height: 100.0%;"><b>Hospital Central (Depósito)</b><br>DEPÓSITO</div>`)[0];
+                popup_caaa8bd601f1f551d1b97e1a9287c224.setContent(html_1aa92b52534b2a553e90436118afefd4);
+            
+        
+
+        marker_c6c65fc75896467614b81dfd7c645fa9.bindPopup(popup_caaa8bd601f1f551d1b97e1a9287c224)
+        ;
+
+        
+    
+    
+            marker_c6c65fc75896467614b81dfd7c645fa9.bindTooltip(
+                `<div>
+                     Hospital Central (Depósito)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

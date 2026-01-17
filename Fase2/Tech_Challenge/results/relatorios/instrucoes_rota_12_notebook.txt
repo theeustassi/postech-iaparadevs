@@ -1,0 +1,120 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:24
+        Veículo: Moto 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Moto 001
+
+**Data:** [Inserir Data Atual]
+**Motorista:** [Nome do Motorista]
+
+---
+
+### 1. Resumo da Missão
+
+Prezado(a) motorista,
+
+Sua missão é realizar a entrega de materiais médicos urgentes para três estabelecimentos de saúde. A rota foi otimizada para garantir a eficiência e a segurança das entregas.
+
+*   **Veículo:** Moto 001
+*   **Distância Total Estimada:** 21.97 km
+*   **Tempo Estimado Total:** 1.4 horas
+*   **Número de Entregas:** 3
+*   **Capacidade Utilizada:** 197.7% (ATENÇÃO: Este valor indica que a carga é volumosa ou pesada. Certifique-se de que a moto está devidamente equipada e que a carga está segura e distribuída de forma equilibrada para evitar acidentes.)
+
+**Prioridade Geral:** Alta. Todas as entregas são consideradas de alta prioridade.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+
+*   [ ] **Documentação do Veículo:** Documento do veículo (CRLV) e sua CNH válidos e em posse.
+*   [ ] **Equipamentos de Segurança:**
+    *   Capacete com viseira em bom estado.
+    *   Luvas de proteção.
+    *   Jaqueta e calça de material resistente.
+    *   Calçados fechados e resistentes.
+    *   Protetores de joelho e cotovelo (recomendado).
+*   [ ] **Condições da Moto:**
+    *   Pneus calibrados e em bom estado.
+    *   Freios funcionando perfeitamente.
+    *   Faróis e lanternas funcionando.
+    *   Nível de óleo e combustível adequados.
+    *   Carga devidamente acondicionada e segura (verificar estabilidade e amarração).
+*   [ ] **Materiais de Entrega:** Confirmar que todos os volumes a serem entregues estão a bordo e identificados corretamente.
+*   [ ] **Equipamentos de Comunicação:** Celular carregado e com sinal.
+*   [ ] **Navegação:** GPS ou aplicativo de mapas configurado com a rota.
+*   [ ] **Hidratação e Alimentação:** Levar água e um lanche rápido para manter a energia.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+A rota foi planejada na seguinte ordem para otimizar seu tempo:
+
+**Ponto de Partida:** [Inserir Endereço de Partida - Ex: Central de Logística Hospitalar]
+
+**Entrega 1:**
+
+*   **Ordem:** 1
+*   **Estabelecimento:** Clínica Perdizes
+*   **Endereço:** Lat: -23.5382, Lon: -46.6745
+*   **Demanda Estimada:** 8.96 (unidades/peso - verificar descrição do material)
+*   **Prioridade:** HIGH
+*   **Tempo de Serviço Estimado:** 20 minutos
+*   **Instruções:** Ao chegar, procure o responsável pela recepção ou almoxarifado. Apresente o comprovante de entrega para assinatura.
+
+**Entrega 2:**
+
+*   **Ordem:** 2
+*   **Estabelecimento:** UBS Lapa
+*   **Endereço:** Lat: -23.528, Lon: -46.705
+*   **Demanda Estimada:** 14.30 (unidades/peso - verificar descrição do material)
+*   **Prioridade:** HIGH
+*   **Tempo de Serviço Estimado:** 15 minutos
+*   **Instruções:** Ao chegar, informe que se trata de uma entrega urgente para a unidade de saúde. Siga as instruções do pessoal local para a descarga e assinatura do comprovante.
+
+**Entrega 3:**
+
+*   **Ordem:** 3
+*   **Estabelecimento:** Clínica Butantã
+*   **Endereço:** Lat: -23.569, Lon: -46.723
+*   **Demanda Estimada:** 16.27 (unidades/peso - verificar descrição do material)
+*   **Prioridade:** HIGH
+*   **Tempo de Serviço Estimado:** 20 minutos
+*   **Instruções:** Ao chegar, dirija-se à área de recebimento indicada. Confirme os dados da entrega com o recebedor e obtenha a assinatura no comprovante.
+
+**Ponto de Retorno:** [Inserir Endereço de Retorno - Ex: Central de Logística Hospitalar]
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Condução Defensiva:** Mantenha sempre uma distância segura dos outros veículos. Antecipe as ações dos motoristas, ciclistas e pedestres.
+*   **Condições de Tráfego:** Esteja atento às condições do trânsito, especialmente em horários de pico. Adapte sua velocidade e rota, se necessário, para evitar atrasos e riscos.
+*   **Condições Climáticas:** Em caso de chuva, neblina ou outras condições adversas, reduza a velocidade, aumente a distância de segurança e redobre a atenção. Se as condições forem perigosas demais, entre em contato para avaliar a continuidade da rota.
+*   **Manuseio da Carga:** Devido à alta capacidade utilizada, certifique-se de que a carga está firmemente presa e não interfere na sua visibilidade ou equilíbrio. Evite manobras bruscas.
+*   **Estacionamento:** Ao chegar aos locais de entrega, procure estacionar em locais seguros e permitidos, sem obstruir o tráfego ou o acesso de emergência.
+*   **Comunicação:** Mantenha-se em contato com a central em caso de imprevistos, atrasos significativos ou dificuldades.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo ou qualquer situação que comprometa a segurança ou a entrega), entre em contato IMEDIATAMENTE com:
+
+*   **Coordenador de Logística:**
+    *   Nome: [Nome do Coordenador]
+    *   Telefone: [Número de Telefone do Coordenador]
+*   **Emergência Médica / SAMU:**
+    *   Telefone: **192**
+*   **Polícia Militar:**
+    *   Telefone: **190**
+
+**Lembre-se:** Sua segurança e a integridade das entregas são prioridade máxima. Siga estas instruções com atenção e profissionalismo.
+
+Agradecemos seu empenho e dedicação!

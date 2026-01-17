@@ -1,0 +1,110 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:24
+        Veículo: Van 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções para Motorista de Entrega Médica - Van 001
+
+**Data:** [Inserir Data]
+**Hora de Início Prevista:** [Inserir Hora de Início Prevista]
+
+Prezado(a) Motorista,
+
+Este documento contém as instruções detalhadas para a sua missão de entrega médica. A precisão e o profissionalismo na execução destas tarefas são cruciais para garantir a continuidade do atendimento aos pacientes.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Van 001
+*   **Distância Total Prevista:** 2.72 km
+*   **Tempo Estimado de Rota:** 0.3 horas (aproximadamente 18 minutos)
+*   **Número de Entregas:** 1
+*   **Carga:** 99.8% de capacidade utilizada. A carga é composta por [Descrever brevemente o tipo de material, se aplicável, ex: medicamentos, suprimentos cirúrgicos]. Manuseie com o máximo cuidado.
+*   **Objetivo:** Realizar a entrega de material médico para o Centro de Saúde Bela Vista.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar a rota, por favor, verifique os seguintes itens:
+
+*   [ ] **Documentação do Veículo:** Certifique-se de que o documento do veículo (CRLV) e sua habilitação estão válidos e em seu poder.
+*   [ ] **Condições da Van 001:**
+    *   Pneus calibrados e em bom estado.
+    *   Níveis de óleo, água e fluido de freio adequados.
+    *   Luzes (faróis, setas, freio) funcionando corretamente.
+    *   Freios em perfeito estado de funcionamento.
+    *   Limpeza interna e externa da van.
+*   [ ] **Carga:**
+    *   Verifique se a carga está devidamente acondicionada e segura para o transporte.
+    *   Confirme se a carga corresponde à documentação de embarque.
+    *   Certifique-se de que os itens sensíveis (se houver) estão protegidos contra variações de temperatura e impacto.
+*   [ ] **Equipamentos de Segurança:**
+    *   Kit de primeiros socorros completo e acessível.
+    *   Extintor de incêndio válido e em local de fácil acesso.
+    *   Triângulo de sinalização.
+    *   Colete refletivo.
+*   [ ] **Comunicação:**
+    *   Telefone celular carregado e com sinal.
+    *   Aplicativo de navegação (GPS) configurado com a rota.
+*   [ ] **Rastreamento:** Confirme se o sistema de rastreamento do veículo está ativo e funcionando.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+A rota é composta por uma única parada.
+
+**Ponto de Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Local:** Centro de Saúde Bela Vista
+*   **Endereço:** Lat: -23.5598, Lon: -46.642
+*   **Prioridade:** MÉDIA
+*   **Tempo de Serviço Estimado:** 15 minutos (tempo para descarregar e obter confirmação)
+
+**Instruções para o Ponto de Entrega 1:**
+
+1.  **Navegação:** Utilize o GPS para chegar ao Centro de Saúde Bela Vista.
+2.  **Chegada:** Ao chegar, procure o local designado para recebimento de entregas. Se necessário, informe-se com o pessoal da recepção.
+3.  **Descarregamento:** Descarregue a carga com cuidado, garantindo que todos os itens sejam manuseados de forma segura.
+4.  **Confirmação:** Obtenha a assinatura do recebedor responsável no comprovante de entrega. Certifique-se de que o nome e a função do recebedor estejam legíveis.
+5.  **Registro:** Registre a conclusão da entrega no sistema [Nome do Sistema/Aplicativo de Rastreamento/Registro].
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Dirija sempre de forma defensiva, respeitando os limites de velocidade e as leis de trânsito. Antecipe as ações de outros motoristas e pedestres.
+*   **Manuseio da Carga:** Ao manusear os materiais médicos, utilize técnicas adequadas para evitar quedas, impactos ou danos. Em caso de dúvida sobre o manuseio de algum item específico, consulte o responsável pela carga ou o supervisor.
+*   **Segurança Pessoal:** Mantenha as portas do veículo trancadas ao sair para realizar a entrega. Evite deixar objetos de valor à vista dentro da van.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva, neblina ou outras condições adversas, reduza a velocidade e aumente a distância de segurança.
+*   **Fadiga:** Se sentir sinais de fadiga, procure um local seguro para descansar antes de continuar a rota. Sua segurança e a integridade da carga são prioridade.
+*   **Documentação:** Mantenha sempre a documentação de transporte (nota fiscal, comprovante de entrega) em ordem.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência, acidente, ou necessidade de suporte, entre em contato imediatamente com:
+
+*   **Supervisor de Logística:**
+    *   Nome: [Nome do Supervisor]
+    *   Telefone: [Número de Telefone do Supervisor]
+*   **Central de Monitoramento/Segurança:**
+    *   Telefone: [Número de Telefone da Central]
+*   **Serviços de Emergência:**
+    *   Polícia Militar: 190
+    *   Corpo de Bombeiros: 193
+    *   SAMU (Atendimento Móvel de Urgência): 192
+
+---
+
+Agradecemos seu compromisso e dedicação. Sua atuação é fundamental para o bom funcionamento da logística hospitalar.
+
+Atenciosamente,
+
+[Seu Nome/Nome do Departamento de Logística Hospitalar]

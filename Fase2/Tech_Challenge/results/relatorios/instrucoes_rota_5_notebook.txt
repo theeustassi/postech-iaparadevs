@@ -1,0 +1,112 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:23
+        Veículo: Van 002
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Motorista
+
+**Para:** Motorista da Van 002
+**Data:** [Inserir Data Atual]
+**Assunto:** Instruções de Rota para Entregas Médicas Urgentes
+
+Prezado(a) Motorista,
+
+Este documento contém as instruções detalhadas para a sua missão de entrega médica de hoje. Sua pontualidade e cuidado são essenciais para garantir que os suprimentos cheguem aos seus destinos com segurança e eficiência.
+
+---
+
+### 1. Resumo da Missão
+
+*   **Veículo:** Van 002
+*   **Distância Total Estimada:** 18.66 km
+*   **Tempo Estimado da Rota:** 1.3 horas
+*   **Número de Entregas:** 2 (Ambas com prioridade CRITICAL)
+*   **Capacidade Utilizada:** 54.6% (Verifique se a carga está bem acomodada e segura)
+
+Sua rota envolve duas entregas críticas. A ordem de entrega foi otimizada para garantir a máxima eficiência e pontualidade.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua jornada, por favor, complete os seguintes itens:
+
+*   [ ] **Verificação do Veículo:**
+    *   Pressão dos pneus.
+    *   Nível de óleo e água.
+    *   Combustível suficiente para toda a rota e imprevistos.
+    *   Funcionamento de luzes (faróis, setas, freios).
+    *   Limpeza interna e externa da van, especialmente o compartimento de carga.
+*   [ ] **Documentação:**
+    *   Carteira de Habilitação válida.
+    *   Documento do veículo (CRLV).
+    *   Comprovante de seguro do veículo.
+    *   Lista de entregas e informações de contato dos locais de destino.
+*   [ ] **Carga:**
+    *   Confirmação de que todos os itens da carga estão presentes e corretamente identificados.
+    *   Verificação de que os materiais médicos estão devidamente acondicionados e protegidos contra danos e variações de temperatura (se aplicável).
+    *   Segurança da carga para evitar movimentação durante o trajeto.
+*   [ ] **Equipamentos:**
+    *   Telefone celular carregado com acesso à internet.
+    *   GPS ou aplicativo de navegação atualizado.
+    *   Kit de primeiros socorros para o veículo.
+    *   Luvas descartáveis e máscara (para manuseio e segurança).
+*   [ ] **Comunicação:**
+    *   Confirmação de que você possui os números de contato de emergência e da central de logística.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Partida:** [Inserir endereço do ponto de partida, se aplicável, ou "Central de Logística"]
+
+**1. Entrega 1:**
+    *   **Nome do Local:** Hospital São Paulo
+    *   **Endereço:** Lat: -23.5988, Lon: -46.6422
+    *   **Prioridade:** CRITICAL
+    *   **Tempo Estimado de Serviço:** 25.0 minutos
+    *   **Instruções Adicionais:** Ao chegar, dirija-se à área de recebimento de suprimentos. Apresente suas credenciais e a documentação da entrega. Aguarde a confirmação do recebimento.
+
+**2. Entrega 2:**
+    *   **Nome do Local:** Clínica Vila Madalena
+    *   **Endereço:** Lat: -23.5465, Lon: -46.6892
+    *   **Prioridade:** CRITICAL
+    *   **Tempo Estimado de Serviço:** 20.0 minutos
+    *   **Instruções Adicionais:** Ao chegar, procure a recepção ou o setor responsável pelo recebimento de materiais médicos. Siga os procedimentos locais para a entrega.
+
+**Direções de Navegação:**
+Utilize seu dispositivo de navegação para seguir a rota otimizada. A rota foi calculada para minimizar o tempo de viagem e o tráfego.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Condução Defensiva:** Dirija com atenção redobrada, respeitando todos os limites de velocidade e sinalizações de trânsito. Mantenha distância segura dos outros veículos.
+*   **Condições Climáticas:** Adapte sua condução às condições climáticas. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
+*   **Manuseio de Carga:** Ao descarregar, certifique-se de que a área esteja segura e livre de obstáculos. Mantenha a postura correta ao levantar peso para evitar lesões.
+*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao sair, mesmo por curtos períodos. Evite estacionar em locais ermos ou mal iluminados.
+*   **Comunicação em Trânsito:** Se precisar fazer uma parada não planejada ou se encontrar dificuldades, comunique-se imediatamente com a central de logística.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência (acidente, problema mecânico grave, roubo, ou qualquer situação que coloque em risco a carga ou sua segurança), entre em contato imediatamente com:
+
+*   **Central de Logística:**
+    *   **Telefone:** [Inserir Número de Telefone da Central de Logística]
+    *   **Contato de Emergência:** [Inserir Número de Telefone Alternativo ou Supervisor]
+
+*   **Serviços de Emergência:**
+    *   **Polícia Militar:** 190
+    *   **SAMU (Serviço de Atendimento Móvel de Urgência):** 192
+    *   **Bombeiros:** 193
+
+Agradecemos sua dedicação e profissionalismo. Sua responsabilidade é fundamental para o bom funcionamento da nossa operação logística médica.
+
+Atenciosamente,
+
+[Seu Nome/Departamento]
+Logística Hospitalar e Otimização de Rotas

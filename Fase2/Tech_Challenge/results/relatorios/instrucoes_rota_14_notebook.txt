@@ -1,0 +1,120 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:24
+        Veículo: Van 002
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções para Motorista de Entrega Médica - Rota UBS Vila Mariana e UBS Penha
+
+**Data:** [Inserir Data]
+**Motorista:** [Nome do Motorista]
+**Veículo:** Van 002
+
+---
+
+### 1. Resumo da Missão
+
+Prezado(a) motorista,
+
+Sua missão é realizar a entrega de materiais médicos essenciais para duas Unidades Básicas de Saúde (UBS) em São Paulo. A rota foi otimizada para garantir eficiência e segurança.
+
+*   **Veículo:** Van 002
+*   **Distância Total:** 25.72 km
+*   **Tempo Estimado:** 1.3 horas
+*   **Número de Entregas:** 2
+*   **Capacidade Utilizada:** 54.2% (Verifique se a carga está bem acomodada e segura)
+
+**Prioridade Geral:** Média. É fundamental cumprir os horários estimados, mas a segurança e a integridade dos materiais são primordiais.
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, complete os seguintes itens:
+
+*   [ ] **Veículo:**
+    *   Verificar níveis de óleo, água e combustível.
+    *   Checar a pressão dos pneus e o estado geral dos mesmos.
+    *   Confirmar o funcionamento de luzes, setas, freios e buzina.
+    *   Certificar-se de que os equipamentos de segurança (triângulo, extintor) estão em ordem e acessíveis.
+    *   Verificar se o sistema de refrigeração (se aplicável) está funcionando corretamente.
+*   [ ] **Carga:**
+    *   Confirmar que todos os itens a serem entregues estão presentes e devidamente etiquetados.
+    *   Verificar se os materiais estão acondicionados de forma segura para evitar danos durante o transporte.
+    *   Confirmar a ausência de vazamentos ou danos nas embalagens.
+*   [ ] **Documentação:**
+    *   Portar a documentação do veículo (CRLV) e sua CNH.
+    *   Levar a lista de entregas e os comprovantes de recebimento.
+*   [ ] **Equipamentos:**
+    *   Ter um telefone celular carregado e com acesso à internet.
+    *   Disponibilizar um carregador para o celular.
+    *   Portar álcool em gel e máscaras de proteção.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Partida:** [Inserir Endereço de Partida - Ex: Central de Distribuição Logística]
+
+**Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome:** UBS Vila Mariana
+*   **Endereço:** Lat: -23.588, Lon: -46.638
+*   **Demanda:** 17.37 kg (aproximadamente)
+*   **Prioridade:** Média
+*   **Tempo Estimado de Serviço:** 20 minutos
+*   **Instruções Adicionais:**
+    *   Ao chegar, apresente-se na recepção e informe que se trata de uma entrega de materiais médicos da [Nome da Instituição].
+    *   Aguarde a conferência dos materiais pela equipe da UBS.
+    *   Obtenha a assinatura no comprovante de entrega.
+
+**Entrega 2:**
+
+*   **Ordem:** 2
+*   **Nome:** UBS Penha
+*   **Endereço:** Lat: -23.527, Lon: -46.542
+*   **Demanda:** 9.70 kg (aproximadamente)
+*   **Prioridade:** Média
+*   **Tempo Estimado de Serviço:** 15 minutos
+*   **Instruções Adicionais:**
+    *   Ao chegar, apresente-se na recepção e informe que se trata de uma entrega de materiais médicos da [Nome da Instituição].
+    *   Aguarde a conferência dos materiais pela equipe da UBS.
+    *   Obtenha a assinatura no comprovante de entrega.
+
+---
+
+### 4. Orientações de Segurança
+
+*   **Direção Defensiva:** Mantenha sempre uma distância segura dos outros veículos, respeite os limites de velocidade e as leis de trânsito.
+*   **Condições Climáticas:** Adapte sua condução às condições do tempo. Em caso de chuva forte, neblina ou outras condições adversas, reduza a velocidade e aumente a atenção.
+*   **Acesso às UBS:** Ao chegar às UBS, estacione o veículo em local seguro e apropriado para carga e descarga, sem obstruir o tráfego.
+*   **Manuseio de Materiais:** Manuseie os materiais com cuidado, evitando quedas ou impactos.
+*   **Segurança Pessoal:** Mantenha as portas do veículo travadas ao sair para realizar a entrega. Esteja atento ao seu entorno.
+*   **Não Aceite:** Não aceite pagamentos ou qualquer tipo de gratificação. Sua função é estritamente a entrega dos materiais.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer imprevisto, acidente ou necessidade de suporte, entre em contato imediatamente:
+
+*   **Coordenador de Logística:**
+    *   Nome: [Nome do Coordenador]
+    *   Telefone: [Número de Telefone do Coordenador]
+*   **Central de Atendimento:**
+    *   Telefone: [Número da Central de Atendimento]
+*   **Serviços de Emergência:**
+    *   Polícia: 190
+    *   Ambulância: 192
+    *   Bombeiros: 193
+
+---
+
+Agradecemos seu profissionalismo e dedicação em garantir que esses materiais cheguem a quem mais precisa.
+
+Atenciosamente,
+
+**[Nome do Departamento Responsável]**
+**[Nome da Instituição]**

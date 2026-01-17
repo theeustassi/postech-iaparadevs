@@ -25,8 +25,6 @@ dist/
 Thumbs.db
 
 # Project specific
-results/graficos/*
-results/relatorios/*
 results/modelos/*
 *.pkl
 *.h5

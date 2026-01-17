@@ -1,0 +1,121 @@
+
+        ════════════════════════════════════════════════════════════
+        INSTRUÇÕES DE ROTA - SISTEMA HOSPITALAR
+        Data: 13/01/2026 22:24
+        Veículo: Moto 001
+        ════════════════════════════════════════════════════════════
+        
+        ## Instruções de Entrega Médica - Moto 001
+
+**Para:** Motorista da Moto 001
+**Data:** [Inserir Data Atual]
+**Assunto:** Rota de Entrega Médica - Atendimento Domiciliar Sra. Costa
+
+Prezado(a) motorista,
+
+Este documento contém as instruções detalhadas para a sua próxima missão de entrega médica. Sua pontualidade e atenção são cruciais para garantir o bem-estar dos pacientes.
+
+---
+
+### 1. Resumo da Missão
+
+Você é responsável pela entrega de materiais médicos essenciais para o **Atendimento Domiciliar Sra. Costa**. A rota é de curta distância, mas a criticidade da carga exige máxima atenção e cuidado.
+
+*   **Veículo:** Moto 001
+*   **Distância Total:** 9.98 km
+*   **Tempo Estimado:** 0.7 horas (aproximadamente 42 minutos)
+*   **Número de Entregas:** 1
+*   **Capacidade Utilizada:** 223.6% (Indica alta densidade ou volume de itens; manuseie com extremo cuidado para evitar danos)
+*   **Prioridade da Entrega:** CRITICAL
+
+---
+
+### 2. Checklist Pré-Saída
+
+Antes de iniciar sua rota, por favor, verifique os seguintes itens:
+
+*   **Veículo:**
+    *   [ ] Pneus calibrados e em bom estado.
+    *   [ ] Freios funcionando corretamente.
+    *   [ ] Nível de óleo e combustível adequados.
+    *   [ ] Luzes (farol, lanterna, setas) funcionando.
+    *   [ ] Buzina em perfeito estado.
+    *   [ ] Limpador de para-brisa (se aplicável) e água no reservatório.
+*   **Equipamentos de Segurança:**
+    *   [ ] Capacete homologado e em bom estado.
+    *   [ ] Luvas de proteção.
+    *   [ ] Jaqueta com proteções e refletivos.
+    *   [ ] Calçados fechados e resistentes.
+    *   [ ] Óculos de proteção (recomendado).
+*   **Carga:**
+    *   [ ] Conferir se a carga está completa e em conformidade com a lista de remessa.
+    *   [ ] Verificar se a embalagem está intacta e sem sinais de violação.
+    *   [ ] Assegurar que a carga está devidamente acondicionada e segura para o transporte, minimizando movimentos e riscos de queda ou dano.
+    *   [ ] Confirmar se os itens são sensíveis à temperatura (se aplicável) e se estão sendo transportados nas condições adequadas.
+*   **Documentação:**
+    *   [ ] Carteira Nacional de Habilitação (CNH) válida.
+    *   [ ] Documento do veículo (CRLV) em dia.
+    *   [ ] Roteiro impresso ou digital acessível.
+    *   [ ] Lista de remessa/documentos de entrega.
+*   **Comunicação:**
+    *   [ ] Celular carregado e com sinal.
+    *   [ ] Contatos de emergência salvos.
+
+---
+
+### 3. Sequência Detalhada de Entregas
+
+**Ponto de Entrega 1:**
+
+*   **Ordem:** 1
+*   **Nome do Destinatário:** Atendimento Domiciliar Sra. Costa
+*   **Endereço:** Lat: -23.532, Lon: -46.678
+*   **Tempo Estimado de Serviço:** 30.0 minutos
+*   **Instruções Específicas:**
+    *   Ao chegar ao local, identifique-se como motorista da entrega médica.
+    *   Procure o responsável pelo recebimento (familiares ou cuidador da Sra. Costa).
+    *   Confira a identidade do recebedor, se necessário.
+    *   Apresente a documentação para assinatura do comprovante de entrega.
+    *   Entregue os materiais médicos com o máximo cuidado, garantindo que não haja danos.
+    *   Caso haja qualquer dificuldade na entrega ou no contato com o destinatário, entre em contato imediatamente com a central.
+
+---
+
+### 4. Orientações de Segurança
+
+Sua segurança é nossa prioridade. Siga rigorosamente estas orientações:
+
+*   **No Trânsito:**
+    *   Respeite todas as leis de trânsito e os limites de velocidade.
+    *   Mantenha distância segura dos outros veículos.
+    *   Esteja sempre atento ao seu redor, especialmente em cruzamentos e áreas de grande movimento.
+    *   Evite distrações, como o uso do celular enquanto dirige.
+    *   Em caso de chuva ou condições climáticas adversas, reduza a velocidade e aumente a atenção.
+    *   Utilize os faróis acesos durante todo o percurso, mesmo durante o dia.
+*   **Ao Chegar aos Locais de Entrega:**
+    *   Estacione a moto em local seguro e permitido, sem obstruir o tráfego ou o acesso de pedestres.
+    *   Ao descer do veículo, certifique-se de que ele está devidamente travado.
+    *   Mantenha a calma e a cortesia em todas as interações com os destinatários.
+*   **Manuseio da Carga:**
+    *   Devido à alta capacidade utilizada, manuseie a carga com extremo cuidado. Evite impactos, quedas ou manobras bruscas que possam danificar os materiais.
+    *   Se houver itens frágeis ou sensíveis, redobre a atenção.
+
+---
+
+### 5. Contatos de Emergência
+
+Em caso de qualquer emergência, acidente, problema com a carga ou dificuldade na entrega, entre em contato imediatamente com os seguintes números:
+
+*   **Central de Logística:** [Inserir Número da Central de Logística]
+*   **Supervisor de Rota:** [Inserir Número do Supervisor de Rota]
+*   **Emergência Médica (SAMU):** 192
+*   **Polícia Militar:** 190
+*   **Bombeiros:** 193
+
+**Lembre-se:** Sua responsabilidade é garantir que a entrega seja realizada de forma segura, eficiente e com a máxima integridade dos materiais.
+
+Agradecemos seu empenho e dedicação.
+
+Atenciosamente,
+
+[Seu Nome/Nome do Departamento de Logística Hospitalar]
