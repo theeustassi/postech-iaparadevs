@@ -1,0 +1,48 @@
+{
+  "metrics": {
+    "num_examples": 5,
+    "bleu": 0.0031972889981668148,
+    "rouge": {
+      "rouge1": 0.0478918785683615,
+      "rouge2": 0.0036036036036036037,
+      "rougeL": 0.045657241696853125
+    },
+    "exact_match": 0.0,
+    "safety": {
+      "safety_compliance_rate": 1.0,
+      "disclaimer_presence_rate": 1.0
+    }
+  },
+  "details": [
+    {
+      "id": "pubmedqa_12377809",
+      "question": "Is anorectal endosonography valuable in dyschesia?",
+      "expected": "Linear anorectal endosonography demonstrated incomplete or even absent relaxation of the anal sphincter and the m. puborectalis during a defecation movement in the majority of our patients with dyschesia. This study highlights the value of this elegant ultrasonographic technique in the diagnosis of ",
+      "predicted": "Com base nos protocolos internos fornecidos:\n\nA **anorectal endosonography** é uma ferramenta valiosa para demonstrar disfunção do esfíncter anal e/ou do músculo puborretal em pacientes com disquexia.\n\n**Fonte:** PubMedQA-L (fold0_train, PMID 20337874)\nAVISO: Esta resposta e de carater informativo e"
+    },
+    {
+      "id": "pubmedqa_26163474",
+      "question": "Is there a connection between sublingual varices and hypertension?",
+      "expected": "An association was found between sublingual varices and hypertension. Examining the lateral borders of the tongue is easily done, causes no harm and could be a valuable method for the dental profession to take active part in preventive healthcare.\n\nDecisao: Sim (yes)",
+      "predicted": "Com base nos protocolos internos do HospitalIQ, a sua pergunta sobre a conexão entre varizes sublinguais e hipertensão não é diretamente abordada nas fontes fornecidas.\n\nNo entanto, o contexto do paciente menciona que \"varizes sublinguais têm sido anteriormente relacionadas ao envelhecimento, tabagi"
+    },
+    {
+      "id": "pubmedqa_19100463",
+      "question": "Is the affinity column-mediated immunoassay method suitable as an alternative to the microparticle enzyme immunoassay method as a blood tacrolimus assay?",
+      "expected": "The ACMIA method used for a tacrolimus assay is precise and has advantages, including the lack of a required pretreatment procedure. Furthermore, it is only slightly influenced by the hematologic or biochemical status of the samples.\n\nDecisao: Sim (yes)",
+      "predicted": "Com base nas informações fornecidas, não é possível responder à sua pergunta sobre a adequação do método de imunoensaio mediado por coluna de afinidade como alternativa ao método de imunoensaio de micropartículas para a dosagem de tacrolimus no sangue.\n\nAs fontes de protocolo apresentadas tratam de:"
+    },
+    {
+      "id": "pubmedqa_18537964",
+      "question": "Does a physician's specialty influence the recording of medication history in patients' case notes?",
+      "expected": "Physicians appear to document more frequently and in greater depth medication history information that may aid the diagnostic tasks in their specific specialty. Researchers and other users of medication history data documented in patients' medical records by physicians may want to take special cogni",
+      "predicted": "Com base nas informações fornecidas, a pergunta sobre a influência da especialidade médica no registro do histórico de medicamentos em prontuários de pacientes não pode ser respondida. O contexto apresentado descreve o objetivo e os métodos de um estudo sobre este tema, mas não fornece os resultados"
+    },
+    {
+      "id": "pubmedqa_12913878",
+      "question": "Locoregional opening of the rodent blood-brain barrier for paclitaxel using Nd:YAG laser-induced thermo therapy: a new concept of adjuvant glioma therapy?",
+      "expected": "LITT induces a locoregional passage of chemotherapeutic agents into the brain tissue. This is of potential interest for the treatment of brain tumors.\n\nDecisao: Sim (yes)",
+      "predicted": "Com base nas informações fornecidas, não é possível responder à sua pergunta. Os contextos apresentados tratam de diferentes tópicos:\n\n*   **Fonte 1:** Ablação de plexos ganglionares durante o procedimento de Maze IV e sua relação com o ritmo sinusal a longo prazo.\n*   **Fonte 2:** Influência da mor"
+    }
+  ]
+}

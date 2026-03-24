@@ -1,0 +1,171 @@
+PROTOCOLOS CLINICOS INTERNOS - HOSPITALIQ
+Versao 2.0 | Vigencia: 2025-2026
+DOCUMENTO SINTETICO PARA FINS DE DEMONSTRACAO DO SISTEMA DE IA
+
+===============================================================
+PROTOCOLO 01 - TRIAGEM E CLASSIFICACAO DE RISCO (Manchester)
+===============================================================
+
+1. OBJETIVO
+Classificar os pacientes atendidos na emergencia por nivel de gravidade, priorizando os casos mais urgentes.
+
+2. NIVEIS DE PRIORIDADE
+- Vermelho (Emergencia): atendimento imediato. Ex.: parada cardiorrespiratoria, trauma grave, AVC com deficit neurologico focal agudo, choque.
+- Laranja (Muito Urgente): atendimento em ate 10 minutos. Ex.: dor toracica intensa, dispneia grave, confusao mental aguda, hipoglicemia grave.
+- Amarelo (Urgente): atendimento em ate 60 minutos. Ex.: febre alta, dor abdominal moderada, fratura sem comprometimento neurovascular.
+- Verde (Pouco Urgente): atendimento em ate 120 minutos. Ex.: dor leve, tosse cronica, queixas inespecificas sem risco imediato.
+- Azul (Nao Urgente): atendimento em ate 240 minutos. Ex.: solicitacoes administrativas, resultados de exames, queixas cronicas estaveis.
+
+3. CRITERIOS DE RECLASSIFICACAO
+O paciente pode ser reclassificado a qualquer momento se houver deterioracao clinica. A equipe de enfermagem e responsavel pela monitorizacao continua e pelo acionamento medico imediato quando necessario.
+
+4. EXAMES INICIAIS NA TRIAGEM
+- Sinais vitais completos: PA, FC, FR, temperatura, SpO2, Glasgow.
+- Glicemia capilar em todo paciente com alteracao de consciencia ou DM conhecido.
+- ECG em pacientes com queixa cardiovascular ou > 40 anos com dor toracica.
+
+===============================================================
+PROTOCOLO 02 - MANEJO DE PACIENTES COM SEPSE
+===============================================================
+
+1. DEFINICAO
+Sepse e definida como disfuncao organica ameacadora a vida causada por resposta desregulada do hospedeiro a uma infeccao. Diagnosticada por SOFA >= 2 associada a suspeita infecciosa.
+
+2. RECONHECIMENTO PRECOCE
+Alertas clinicos para suspeita de sepse:
+- Febre (T > 38.3 C) ou hipotermia (T < 36 C)
+- Frequencia cardiaca > 90 bpm
+- Frequencia respiratoria > 20 irpm
+- Alteracao do estado mental
+- Hipotensao (PAS < 90 mmHg ou queda de > 40 mmHg do basal)
+- Sinais de hipoperfusao: lactato > 2 mmol/L, oliguria, livedo
+
+3. BUNDLE DE 1 HORA (SEPSIS-3)
+Todas as acoes devem ser iniciadas em ate 1 hora do reconhecimento:
+a) Mensurar lactato arterial ou venoso
+b) Coletar 2 pares de hemoculturas de sitios diferentes antes de antibioticos
+c) Iniciar antibioticos de amplo espectro
+d) Iniciar reposicao volêmica com 30 mL/kg de cristaloide isotonico (NaCl 0,9% ou Ringer Lactato) se hipotensao ou lactato >= 4 mmol/L
+e) Iniciar vasopressor (noradrenalina) se hipotensao persiste apos volemia, com alvo PAM >= 65 mmHg
+
+4. ANTIBIOTICOTERAPIA EMPIRICA
+- Foco nao identificado: piperacilina-tazobactam ou cefepima + metronidazol
+- Suspeita respiratoria: ceftriaxona + azitromicina (comunitaria) ou piperacilina-tazobactam (hospitalar)
+- Suspeita urinaria: ceftriaxona ou ciprofloxacino (ajustar apos cultura)
+- Suspeita abdominal: piperacilina-tazobactam + metronidazol
+Cobertura para MRSA (vancomicina) se: uso previo de antibioticos, internacao recente, cateteres vasculares.
+
+5. MONITORIZACAO
+- Lactato de controle em 2 horas apos inicio do tratamento
+- Debito urinario: alvo > 0,5 mL/kg/h
+- Pressao arterial: alvo PAM >= 65 mmHg
+- Saturacao venosa central de O2 (ScvO2): alvo >= 70%
+
+===============================================================
+PROTOCOLO 03 - INSULINOTERAPIA EM PACIENTES INTERNADOS
+===============================================================
+
+1. METAS GLICEMICAS
+- Pacientes em UTI: glicemia 140-180 mg/dL (NICE-SUGAR)
+- Pacientes em enfermaria: glicemia 100-180 mg/dL (pre-prandial)
+- Evitar hipoglicemia (glicemia < 70 mg/dL): ajustar doses prontamente
+- Hipoglicemia grave (< 54 mg/dL): tratar imediatamente conforme protocolo
+
+2. ESQUEMA BASICO-BOLUS
+- Calcular necessidade diaria: 0,3-0,5 U/kg/dia total
+- 50% como insulina basal (NPH 2x/dia ou glargina 1x/dia)
+- 50% como insulina de acoes rapida/ultrarapida nas refeicoes
+- Escala de correcao conforme glicemia capilar (ver tabela de correcao anexa)
+
+3. SITUACOES ESPECIAIS
+- Dieta zero (NPO): manter 50-75% da dose basal, suspender insulinas prandiais
+- Corticoterapia: glicemia tende a elevar-se na tarde/noite; ajuste preferencial da NPH noturna
+- CAD: protocolo especifico (insulina regular EV continua + reposicao de potassio)
+- Hiperosmolar: reidratacao agressiva apos correcao da hiperosmolaridade
+
+4. MONITORIZACAO
+- Glicemia capilar antes das refeicoes e ao deitar em pacientes estaveis
+- Glicemia capilar a cada 1-2 horas em pacientes instáveis ou em insulina EV continua
+- Checar potassio antes de iniciar insulina EV continua (manter K >= 3,5 mEq/L)
+
+===============================================================
+PROTOCOLO 04 - PROFILAXIA DE TROMBOEMBOLISMO VENOSO (TEV)
+===============================================================
+
+1. AVALIACAO DE RISCO
+Escala de Padua (pacientes clinicos):
+- Pontos altos (>= 4): alto risco, indicado quimioprofilaxia
+- Pontos baixos (< 4): baixo risco, medidas mecanicas suficientes
+
+Escala de Caprini (pacientes cirurgicos) - para avaliacao especifica por nivel de risco.
+
+2. PROFILAXIA MECANICA
+- Meias de compressao gradual (MCG) para todos os pacientes internados sem contraindicacao
+- Compressao pneumatica intermitente (CPI) nos membros inferiores, especialmente no perioperatorio
+- Deambulacao precoce sempre que possivel
+
+3. QUIMIOPROFILAXIA
+- Enoxaparina 40 mg SC 1x/dia (ClCr >= 30 mL/min)
+- Enoxaparina 20 mg SC 1x/dia (ClCr 15-29 mL/min)
+- Heparina nao fracionada 5000 UI SC 3x/dia (ClCr < 15 ou contraindicacao a HBPM)
+- Contraindicacoes: sangramento ativo, trombocitopenia (< 50.000), trauma recente de SNC
+
+4. DURACAO
+- Pacientes clinicos: ate alta hospitalar ou mobilizacao plena
+- Cirurgia abdominal oncologica: estender por 28 dias apos a alta
+- Artroplastia de quadril/joelho: conforme protocolo de ortopedia
+
+===============================================================
+PROTOCOLO 05 - CONTROLE DE INFECCAO E HIGIENE DAS MAOS
+===============================================================
+
+1. OS CINCO MOMENTOS DA HIGIENE DAS MAOS (OMS)
+a) Antes de tocar o paciente
+b) Antes de procedimento assetico
+c) Apos risco de exposicao a fluidos corporais
+d) Apos tocar o paciente
+e) Apos tocar as areas ao redor do paciente
+
+2. PRECAUCOES PADRAO
+- Higienizacao das maos em todos os momentos acima
+- Uso de EPIs adequados para manipulacao de fluidos corporais
+- Descarte correto de materiais perfurocortantes
+- Limpeza e desinfeccao de superficies e equipamentos
+
+3. PRECAUCOES BASEADAS NA TRANSMISSAO
+- Contato: luvas e avental para pacientes com MRSA, VRE, Clostridium difficile
+- Goticulae: mascara cirurgica para influenza, meningite meningococica
+- Aerea: mascaras N95/PFF2 para tuberculose, sarampo, varicela; quarto com pressao negativa
+
+4. ISOLAMENTO PROTETOR
+Indicado para pacientes imunossuprimidos graves (neutropenia febril, transplantados).
+- Quarto individual ou com pacientes de mesmo patogeno
+- Mascaras N95 para todos que entram no quarto
+- Restricao de visitas
+
+===============================================================
+PROTOCOLO 06 - PRESCRICAO DE ALTA E ORIENTACOES AO PACIENTE
+===============================================================
+
+1. CHECKLIST DE ALTA HOSPITALAR
+- Condicoes clinicas estaveis e criterios de alta atingidos
+- Prescricao de medicamentos completa e legivel (via, dose, frequencia, duracao)
+- Orientacoes escritas ao paciente sobre o diagnostico e atencao necessaria
+- Encaminhamento ambulatorial agendado (preferencialmente em < 7 dias para doencas cronicas)
+- Contato de emergencia fornecido ao paciente
+- Medicamentos dispensados ou receituario entregue
+
+2. CONCILIACAO MEDICAMENTOSA
+- Comparar medicamentos em uso antes da internacao com a prescricao de alta
+- Identificar e resolver discrepancias nao intencionais
+- Orientar o paciente sobre mudancas no esquema terapeutico
+- Especial atencao a anticoagulantes, insulinas, imunossupressores e medicamentos de janela terapeutica estreita
+
+3. SINAIS DE ALARME PARA RETORNO
+Orientar o paciente a retornar imediatamente ao servico de urgencia se apresentar:
+- Febre alta (> 38.5 C) persistente
+- Dificuldade respiratoria progressiva
+- Dor no peito
+- Alteracao de consciencia ou comportamento
+- Sangramento
+- Sintomas sugestivos de reacao alergica grave

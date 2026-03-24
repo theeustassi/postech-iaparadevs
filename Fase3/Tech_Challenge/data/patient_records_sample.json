@@ -1,0 +1,107 @@
+[
+  {
+    "patient_id": "PAC-2024-001",
+    "name": "[ANONIMIZADO]",
+    "age": 67,
+    "sex": "M",
+    "chief_complaint": "dor no peito com irradiacao para o braco esquerdo ha 2 horas",
+    "vital_signs": {
+      "systolic_bp": 148,
+      "diastolic_bp": 92,
+      "heart_rate": 98,
+      "respiratory_rate": 18,
+      "temperature": 36.8,
+      "spo2": 96
+    },
+    "comorbidities": ["hipertensao arterial sistemica", "diabetes mellitus tipo 2", "dislipidemia"],
+    "current_medications": ["metformina 850mg 2x/dia", "enalapril 10mg 1x/dia", "sinvastatina 40mg 1x/dia"],
+    "allergies": ["penicilina"],
+    "pending_exams": ["ECG", "troponina", "hemograma", "coagulograma"],
+    "last_visit": "2024-03-10",
+    "notes": "Paciente com historico de DAC. Ultima coronariografia em 2022 com lesao em DA media tratada com stent."
+  },
+  {
+    "patient_id": "PAC-2024-002",
+    "name": "[ANONIMIZADO]",
+    "age": 45,
+    "sex": "F",
+    "chief_complaint": "febre alta (39.5 graus) ha 3 dias, tosse produtiva e falta de ar ao esforco",
+    "vital_signs": {
+      "systolic_bp": 118,
+      "diastolic_bp": 76,
+      "heart_rate": 108,
+      "respiratory_rate": 24,
+      "temperature": 39.2,
+      "spo2": 93
+    },
+    "comorbidities": ["asma moderada persistente"],
+    "current_medications": ["budesonida/formoterol 160/4.5mcg inalatorio 2x/dia", "salbutamol inalatorio SOS"],
+    "allergies": [],
+    "pending_exams": ["radiografia de torax", "hemograma", "PCR", "hemocultura"],
+    "last_visit": "2024-01-15",
+    "notes": "Paciente com historico de internacoes por exacerbacao de asma. Ultima internacao ha 8 meses."
+  },
+  {
+    "patient_id": "PAC-2024-003",
+    "name": "[ANONIMIZADO]",
+    "age": 72,
+    "sex": "F",
+    "chief_complaint": "fraqueza no lado direito do corpo e dificuldade para falar, inicio ha 1 hora",
+    "vital_signs": {
+      "systolic_bp": 182,
+      "diastolic_bp": 104,
+      "heart_rate": 88,
+      "respiratory_rate": 16,
+      "temperature": 36.5,
+      "spo2": 98
+    },
+    "comorbidities": ["hipertensao arterial", "fibrilacao atrial cronica", "hipotireoidismo"],
+    "current_medications": ["rivaroxabana 20mg 1x/dia", "atenolol 50mg 1x/dia", "levotiroxina 75mcg 1x/dia"],
+    "allergies": ["dipirona"],
+    "pending_exams": ["TC de cranio sem contraste", "ECG", "glicemia capilar", "coagulograma"],
+    "last_visit": "2024-02-20",
+    "notes": "Paciente em uso de anticoagulante. NIHSS de entrada: a avaliar. Ultima dose de rivaroxabana: ontem a noite."
+  },
+  {
+    "patient_id": "PAC-2024-004",
+    "name": "[ANONIMIZADO]",
+    "age": 28,
+    "sex": "M",
+    "chief_complaint": "dor abdominal em fossa iliaca direita, piora ha 12 horas, nausea e um episodio de vomito",
+    "vital_signs": {
+      "systolic_bp": 124,
+      "diastolic_bp": 80,
+      "heart_rate": 94,
+      "respiratory_rate": 16,
+      "temperature": 37.9,
+      "spo2": 99
+    },
+    "comorbidities": [],
+    "current_medications": [],
+    "allergies": [],
+    "pending_exams": ["hemograma com diferencial", "PCR", "ultrassom abdominal", "urina I"],
+    "last_visit": null,
+    "notes": "Sinal de Blumberg positivo em FID. Sinal de Psoas positivo. Escores de Alvarado: a calcular."
+  },
+  {
+    "patient_id": "PAC-2024-005",
+    "name": "[ANONIMIZADO]",
+    "age": 55,
+    "sex": "M",
+    "chief_complaint": "confusao mental progressiva ha 2 dias, febre, rigidez de nuca",
+    "vital_signs": {
+      "systolic_bp": 102,
+      "diastolic_bp": 68,
+      "heart_rate": 116,
+      "respiratory_rate": 22,
+      "temperature": 39.8,
+      "spo2": 95
+    },
+    "comorbidities": ["diabetes mellitus tipo 2", "etilismo cronico"],
+    "current_medications": ["metformina 500mg 2x/dia"],
+    "allergies": [],
+    "pending_exams": ["hemograma", "PCR", "hemocultura", "TC de cranio", "liquor", "lactato"],
+    "last_visit": "2023-11-05",
+    "notes": "Kernig e Brudzinski positivos. Glasgow 12. Suspeita de meningite bacteriana. Aguardando TC antes de punção lombar."
+  }
+]

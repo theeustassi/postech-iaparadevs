@@ -1,0 +1,1 @@
+{"event": "query", "timestamp": "2026-03-24T00:07:48.325047Z", "patient_id_masked": "PA********01", "query_hash": "ea353105872df052", "response_length_chars": 47, "severity": "LOW", "sources": ["Protocolo HospitalIA v2.0 - Hipertensao"], "metadata": {}}
