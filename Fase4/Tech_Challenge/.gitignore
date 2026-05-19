@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dados sensiveis (nunca versionar dados reais de pacientes)
+data/amostras_video/*.mp4
+data/amostras_video/*.avi
+data/amostras_video/*.mov
+data/amostras_audio/*.wav
+data/amostras_audio/*.mp3
+
+# Modelos baixados (grandes demais para git)
+results/modelos/*
+*.pt
+*.pth
+*.onnx
+
+# Relatorios gerados (contem dados mesmo que anonimizados)
+results/relatorios/*.json
+
+# Logs de auditoria
+results/logs/
+
+# Graficos gerados
+results/graficos/*.png
+results/graficos/*.pdf
+
+# Ambiente
+.env
